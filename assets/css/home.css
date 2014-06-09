@@ -1,0 +1,63 @@
+body {
+  background: url(../img/home/diagonalbg.jpg) repeat;
+}
+
+.main-wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/**************/
+/* SECTION 1  */
+/**************/
+
+  .section1 {
+    margin-top: 170px;
+    /*border: 1px solid #000;*/
+  }
+  .eye {
+    float: left;
+  }
+  .text-wrap {
+    float: left;
+    margin-left: 6%;
+  }
+  .everything {
+    font-size: 65pt;
+    font-family: 'brandon_grotesquethin';
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .about {
+    text-transform: uppercase;
+    font-size: 55pt;
+    font-family: 'brandon_grotesquethin'; 
+    margin: 0;
+    line-height: 35px;
+  }
+  .color {
+    text-transform: uppercase;
+    color: #233d69;
+    font-size: 124pt;
+    font-family: 'brandon_grotesqueblack';
+    margin: 0;
+    letter-spacing: -10px;
+    line-height: 176px;
+  }
+  .learned {
+    text-transform: uppercase;
+    font-size: 23.92pt;
+    font-family: 'brandon_grotesquethin';
+    line-height: 0px;
+    margin: 0 0 4.25em;
+  }   
+  .down-arrows {
+    width: 14%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+/**************/
+/* SECTION 2  */
+/**************/

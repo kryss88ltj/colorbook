@@ -1,0 +1,77 @@
+/******************/
+/*   Bottom Nav   */
+/******************/
+
+#scroll-nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+  
+  #scroll-nav ul {
+    float: left;
+    padding: 0;
+  }
+
+  #scroll-nav ul li {
+    list-style-type: none;
+    border-left: 1px solid #fff;
+  }
+
+  #scroll-nav ul li h5 {
+    text-transform: uppercase;
+    font-family: "brandon_grotesquethin";
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 89%;
+    padding-left: 5%;
+    margin: .75em 0;
+    letter-spacing: .08em;
+    line-height: 24px;
+  }
+
+  .top-title-line {
+    margin: 3.3125em auto 0;
+    display: table;
+  }
+  
+  .bottom-title-line {
+    margin: .625em auto 0;
+    display: table;
+  }
+
+  #scroll-nav h4 {
+    font-size: 24px;
+    color: #fff;
+    font-family: "brandon_grotesquemedium";
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .icon {
+    margin: 0 auto;
+    display: table;
+  }
+
+  .nav {
+    float: left;
+    width: 177px;
+    height: 540px;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+  }
+
+  .nav:hover {
+    width: 220px;
+  }
+
+  .mauve-nav {background: #b41e8e;}
+  .magenta-nav {background: #ec008c;}
+  .crimson-nav {background: #ea1378;}
+  .scarlet-nav {background: #ed145b;}
+  .poster-red-nav {background: #ea1b3b;}
+ 
