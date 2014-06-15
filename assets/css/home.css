@@ -5,6 +5,8 @@ body {
 .main-wrap {
   margin: 0 auto;
   width: 960px;
+  border: 1px solid #000;
+  overflow: hidden;
 }
 
 /**************/
@@ -61,3 +63,73 @@ body {
 /**************/
 /* SECTION 2  */
 /**************/
+
+.section2 {
+  margin-top: 100px;
+  margin-bottom: 223px;
+}
+
+
+.sylvia-title, .bourges-title {
+  float: right;
+  font-family: 'brandon_grotesquebold';
+  font-size: 41px;
+  margin-right: 70px;
+}
+
+.sylvia-img, .bourges-img {
+  float: right;
+  margin-top: -12px;
+}
+
+.sylvia-text, .bourges-text {
+  float: right;
+  font-size: 18px;
+  font-family: 'brandon_grotesque_regularRg';
+  width: 43%;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  word-spacing: 1.473px;
+  text-align: justify;
+  margin: -12px 70px 0 95px;
+}
+
+.bourges-text {
+  font-size: 22px;
+  line-height: 1.7;
+  word-spacing: -3px;
+}
+
+.bold {
+  font-family: 'brandon_grotesqueblack';
+  letter-spacing: 1.1px;
+
+}
+
+.y {
+  margin-right: 6px;
+}
+
+.g {
+  margin-left: -4px;
+}
+
+.n {
+  margin-right: 1px;
+}
+
+/**************/
+/* SECTION 3  */
+/**************/
+
+.color-text {
+  width: 31.25%;
+}
+
+.primary, .secondary, .tertiary {
+  font-size: 18px;
+  font-family: 'brandon_grotesque_regularRg';
+}
+
+
+

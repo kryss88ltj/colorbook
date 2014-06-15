@@ -2,15 +2,20 @@
 /* Background */
 /**************/
 
- body {background: #f0d2e8;}
+  body {background: #f0d2e8;}
 
+  .main-section {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  } 
+  
 /***********************/
 /*   Side Navigation   */
 /***********************/
 
 .left-nav, .right-nav {
-  height: 90vh;
-  opacity: 0;
+  height: 93%;
   width: 15%;
   border: 1px solid #fff;
   font-size: 24px;
@@ -20,6 +25,7 @@
   text-align: center;
   -webkit-transition: all .2s ease-in-out;
   padding-top: 5%;
+  margin: 0;
 }
 
 .left-nav h5, .right-nav  h5 {
@@ -38,28 +44,26 @@
 .left-nav:hover {
   position: absolute;
   left: 0;
-  height: 90vh;
-  opacity: 1;
-  background: #ec008c;
+  /*height: 90vh;*/
 }
 
 .right-nav:hover {
-  opacity: 1;
-  height: 90vh;
+  /*height: 90vh;*/
   right: 0;
-  background: #ed145b;
 }
 
 .left-nav {
   position: absolute;
-  left: -5%;
+  left: -14.5%;
   z-index: 1000;
+  background: #ec008c;
 }
 
 .right-nav {
   position: absolute;
-  right: -5%;
+  right: -14.5%;
   z-index: 1000;
+  background: #ec008c;
 }
 
 
@@ -203,7 +207,7 @@
 
 .down-arrow {
   position: absolute;
-  bottom: 2px;
+  bottom: 6px;
   left: 300px;
   width: 0; 
   height: 0;
