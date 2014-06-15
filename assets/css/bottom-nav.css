@@ -59,14 +59,14 @@
     float: left;
     width: 177px;
     height: 540px;
-    -webkit-transition: width .3s ease-in-out;
+  /*  -webkit-transition: width .3s ease-in-out;
     -moz-transition: width .3s ease-in-out;
     -o-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;*/
   }
 
   .nav:hover {
-    width: 220px;
+    /*width: 220px;*/
   }
 
   .mauve-nav {background: #b41e8e;}

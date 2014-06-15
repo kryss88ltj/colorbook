@@ -3,11 +3,13 @@
   <nav id="scroll-nav">
     <ul>
        <li class="mauve-nav nav"><a href="mauve.php">
+        <div class="nav-link-wrapper">
          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
          <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND.</h5>
          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
          <h4>mauve</h4>
          <img class="icon" src="assets/img/nav/mauve-icon.png" alt="mauve icon">
+        </div>
        </a></li>
        <li class="magenta-nav nav"><a href="magenta.php">
          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
