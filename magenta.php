@@ -3,6 +3,28 @@
 
 <?php include("header.php"); ?>
 
+<!-- Side Menu Left -->
+<nav class="left-nav">
+  <a href="mauve.php">
+    <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+    <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND.</h5>
+    <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+    <h4>mauve</h4>
+    <img class="icon" src="assets/img/nav/mauve-icon.png" alt="mauve icon">
+  </a>
+</nav>
+
+<!-- Side Menu Right -->
+<nav class="right-nav">
+  <a href="crimson.php">
+    <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+      <h5>GIVE IN TO YOUR VIOLENT IMPULSES.</h5>
+      <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+      <h4>crimson</h4>
+      <img class="icon" src="assets/img/nav/crimson-icon.png" alt="crimson icon">
+  </a>
+</nav>
+
  <!-- Color Title --> 
   <h1 class="title">magenta</h1>
 
@@ -15,6 +37,7 @@
 
   <!-- Percentage Bar --> 
   <section class="percentageBar">
+    <div class="top-border"></div>
     <div class="ninety">90%</div>
     <div class="eighty">80%</div>
     <div class="seventy">70%</div>
@@ -28,10 +51,11 @@
   </section> 
 
   <!-- Description Bar --> 
-  <section class="desc-bar">
+  <section class="desc-bar collapsed">
     <img src="assets/img/line.png" alt="lines" class="line1">
     <p class="desc-text">Magenta was originally called fuschine. Beautiful color, terrible name.</p>
     <img src="assets/img/line.png" alt="lines" class="line2">
+    <div class="down-arrow"></div>
   </section>
 
   
@@ -77,9 +101,9 @@
 
       <!-- Info Icons - Far Right Col -->
       <div class="right-col">
-        <div class="a"></div>
-        <div class="b"></div>
-        <div class="c"></div>
+        <div class="a">255</div>
+        <div class="b">0</div>
+        <div class="c">255</div>
       </div> 
     </section>
   </section> <!-- end icon section --> 

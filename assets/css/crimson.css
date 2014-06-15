@@ -2,14 +2,15 @@
 /* Background */
 /**************/
 
- body {background: #fde9f2;}
+ body {background: #fee9ea; margin-top: 0; padding-top: 0; overflow-x:hidden;}
+
 
 /***********************/
 /*   Side Navigation   */
 /***********************/
 
 .left-nav, .right-nav {
-  height: 90vh;
+  height: 100vh;
   opacity: 0;
   width: 15%;
   border: 1px solid #fff;
@@ -38,14 +39,14 @@
 .left-nav:hover {
   position: absolute;
   left: 0;
-  height: 90vh;
+  height: 100vh;
   opacity: 1;
   background: #ec008c;
 }
 
 .right-nav:hover {
   opacity: 1;
-  height: 90vh;
+  height: 100vh;
   right: 0;
   background: #ed145b;
 }
@@ -62,7 +63,6 @@
   z-index: 1000;
 }
 
-
 /***********************/
 /* Title and Bourges # */
 /***********************/
@@ -71,7 +71,7 @@
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #ec008c;
+    color: #ed0677;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
@@ -80,7 +80,7 @@
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #ec008c;
+    color: #ed0677;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -136,32 +136,32 @@
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #ec008c;
+    background: #ed0677;
   }
-  
-  .ninety {background: #ee3d96;}
-  .eighty {background: #ef5ba1;}
-  .seventy {background: #f173ac;}
-  .sixty {background: #f173ac;}
-  .fifty {background: #f49abf;}
-  .forty {background: #f6adcd;}
-  .thirty {background: #f8c1d6;}
-  .twenty {background: #fad5e5;}
-  .ten {background: #fde9f1;}
-  .five {background: #fef3f7;}
+
+  .ninety {background: #ee3e82;}
+  .eighty {background: #f05a8d;}
+  .seventy {background: #f17299;}
+  .sixty {background: #f386a5;}
+  .fifty {background: #f599b1;}
+  .forty {background: #f7acbf;}
+  .thirty {background: #f9c0cd;}
+  .twenty {background: #fbd4dc;}
+  .ten {background: #fde8eb;}
+  .five {background: #fef2f4;}
 
 /***********************/
 /*   Description Bar   */
 /***********************/
 
-   .desc-bar {
+  .desc-bar {
     position: relative;
     float: left;
     margin: 10px 0 0 0;
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/magenta/magenta-bg.png);
+    background: url(../img/crimson/crimson-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -177,10 +177,8 @@
   }
 
   .desc-text {
-    /*float: left;*/
     margin: 0 auto;
     margin-top: 0.625em;
-    /*display: block;*/
     font-family: 'brandon_grotesquethin';
     font-size: 30pt;
     color: #fff;
@@ -206,7 +204,7 @@
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #fde9f2;
+  border-top: 18px solid #fee9ea;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -230,20 +228,20 @@
 
   /***** Top ******/
   .icons {
-    background: #fdedf5;
+    background: #feede9;
     width: 17.4%;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #b41e8e;
+    color: #ea1378;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
+    text-align: center;
   }
 
   .top-icons {
     margin: 20px auto 25px;
     display: table;
-    text-align: center; 
   }
 
   .top-icon1,
@@ -254,13 +252,14 @@
   .icon-text {
     margin: 0px 5px 10px 5px !important;
     display: inline-block;
-    width: 40%;
+    margin: 0;
+    /*width: 40%;*/
   }
 
-  .left-text1 {margin-left: 8px !important; position: relative; top: -18px; left: -3px;}
-  /*.right-text1 {margin-left: 27px !important;}*/
-  .left-text2 {margin-left: -13px !important; position: relative; top: -18px; left: 17px;}
-  .right-text2 {margin-left: 22px !important; text-align: center;}
+  .left-text1 {margin-left: -2px !important; position: relative; top: -18px;}
+  .right-text1 {margin-left: 15px !important; width: 31%;}
+  .left-text2 {margin-left: -9px !important; width: 34%;}
+  .right-text2 {margin-left: 19px !important; width: 27%;}
 
   /***** Bottom ******/
 
@@ -290,8 +289,9 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #f37021;
+    background: #faa61a;
   }
+  
 
   /**** CMYK Colors ****/
 
@@ -314,7 +314,7 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #00a651;
+    background: #00a76d;
   }
 
   .bottom-right-sq {
@@ -361,11 +361,11 @@
   .main-text {
     float: left;
     width: 55%;
-    color: #b41e8e;
+    color: #ea1378;
     font-size: 20px;
     font-family: 'brandon_grotesquelight';
     line-height: 2.2;
-    margin-top: 6px;
+    margin-top: 26px;
   }
 
 /******************************/
@@ -374,9 +374,8 @@
 
 .right-infographic {
   float: left;
-  background: #707070;
+  background: #8c0f37;
   width: 21%;
-  height: 439px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
@@ -395,30 +394,16 @@
 .right-infographic p {
   margin: 0px 0 10px 17%;
   width: 65%;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.right-infographic p.top-para {
-  margin: 0 -4px 0 49px;
-}
-
-.right-infographic p.bottom-para {
-  margin: 29px 0 0 49px;
 }
 
 .right-infographic img {
   margin: 10px 0 10px 0%;
 }
-  
-  .right-infographic img.top-line {
-    margin: 45px 0 25px;
-  }
 
-  .right-infographic img.bottom-line {
-    margin-top: 45px;
-  }
-
+.right-infographic img.bottom-img {
+  margin: 30px auto 40px;
+  display: table;
+}

@@ -4,6 +4,64 @@
 
  body {background: #f0d2e8;}
 
+/***********************/
+/*   Side Navigation   */
+/***********************/
+
+.left-nav, .right-nav {
+  height: 90vh;
+  opacity: 0;
+  width: 15%;
+  border: 1px solid #fff;
+  font-size: 24px;
+  color: #fff;
+  font-family: "brandon_grotesquemedium";
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: all .2s ease-in-out;
+  padding-top: 5%;
+}
+
+.left-nav h5, .right-nav  h5 {
+  text-transform: uppercase;
+  font-family: "brandon_grotesquethin";
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  width: 89%;
+  padding-left: 5%;
+  margin: .75em 0;
+  letter-spacing: .08em;
+  line-height: 24px;
+}
+
+.left-nav:hover {
+  position: absolute;
+  left: 0;
+  height: 90vh;
+  opacity: 1;
+  background: #ec008c;
+}
+
+.right-nav:hover {
+  opacity: 1;
+  height: 90vh;
+  right: 0;
+  background: #ed145b;
+}
+
+.left-nav {
+  position: absolute;
+  left: -5%;
+  z-index: 1000;
+}
+
+.right-nav {
+  position: absolute;
+  right: -5%;
+  z-index: 1000;
+}
+
 
 /***********************/
 /* Title and Bourges # */
@@ -75,6 +133,12 @@
     height: 2.5em;
   }
 
+  .top-border {
+    width: 100% !important;
+    height: 6px;
+    background: #b41e8e;
+  }
+
   .ninety {background: #b82994;}
   .eighty {background: #bc359a;}
   .seventy {background: #c34ba5;}
@@ -85,6 +149,7 @@
   .twenty {background: #e8bbdd;}
   .ten {background: #f0d2e8;}
   .five {background: #f7e8f3;}
+
 
 /***********************/
 /*   Description Bar   */
@@ -98,6 +163,18 @@
     height: 6.875em;
     text-align: center;
     background: url(../img/mauve/topbarbgs/mauve-bg.png);
+    display: block;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  }
+  
+  .desc-bar.collapsed {
+    height: 24px;
+    overflow-y: hidden;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   }
 
   .desc-text {
@@ -124,6 +201,30 @@
     left: 28.25%
   }
 
+.down-arrow {
+  position: absolute;
+  bottom: 2px;
+  left: 300px;
+  width: 0; 
+  height: 0;
+  border-top: 18px solid #f0d2e8;
+  border-left: 16px solid transparent; 
+  border-right: 16px solid transparent; 
+}
+
+  .arrow {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+  }
+
+  .arrow-position {
+    bottom: -1px;
+  }
+
 /***********************/
 /*     Icon Section    */
 /***********************/
@@ -143,6 +244,7 @@
   .top-icons {
     margin: 20px auto 25px;
     display: table;
+    text-align: center; 
   }
 
   .top-icon1,
@@ -157,10 +259,10 @@
     /*width: 40%;*/
   }
 
-  .left-text1 {margin-left: 8px !important;}
-  .right-text1 {margin-left: 27px !important;}
+  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
+  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
   .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 25px !important;}
+  .right-text2 {margin-left: 19px !important;}
 
   /***** Bottom ******/
 
@@ -190,7 +292,7 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #f37021;
+    background: #ed1c24;
   }
   
 
@@ -215,11 +317,11 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #cec522;
+    background: #50b848;
   }
 
   .bottom-right-sq {
-    background: #00abbd;
+    background: #00aeef;
   }
 
   .right-col {
@@ -236,6 +338,11 @@
 
   /**** Primary Colors ****/
 
+  .a, .b, .c {
+    line-height: 1.8;
+    font-size: 0.8em;
+    font-family: 'brandon_grotesquebold';
+  }
   .a {
     background: #ff0000;
     margin-bottom: 6.5px;
@@ -260,6 +367,7 @@
     font-size: 20px;
     font-family: 'brandon_grotesquelight';
     line-height: 2.2;
+    margin-top: 7px;
   }
 
 /******************************/
