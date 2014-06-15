@@ -5,7 +5,7 @@ body {
 .main-wrap {
   margin: 0 auto;
   width: 960px;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   overflow: hidden;
 }
 

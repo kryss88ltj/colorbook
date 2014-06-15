@@ -7,6 +7,9 @@
 <!-- Main Section - Includes all but bottom nav slider -->
 <section class="main-section clearfix">
 
+  <!-- Return Home -->
+  <a href="index.php"><img class="home" src="assets/img/home/eye.gif" alt="home"></a>
+
   <!-- Side Menu Left -->
   <nav class="left-nav">
     <a href="magenta.php">

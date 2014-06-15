@@ -8,6 +8,7 @@ $(document).ready(function() {
     $( ".desc-bar" ).toggleClass("collapsed");
     $( ".down-arrow ").toggleClass("arrow");
     $( ".down-arrow ").toggleClass("arrow-position");
+    $( ".line1, .line2").toggle();
   });
 
 });
