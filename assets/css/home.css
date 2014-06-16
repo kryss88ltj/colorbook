@@ -280,3 +280,14 @@ body {
 #scrollsections-menuitem-3 {height: 20px; width: 20px; position: fixed; top: 65px; right: 10px; background: url(../img/home/circle-outline.png); color: transparent;}
 #scrollsections-menuitem-4 {height: 20px; width: 20px; position: fixed; top: 85px; right: 10px; background: url(../img/home/circle-outline.png); color: transparent;}
   
+#scrollsections-menuitem-0:hover,
+#scrollsections-menuitem-1:hover,
+#scrollsections-menuitem-2:hover,
+#scrollsections-menuitem-3:hover,
+#scrollsections-menuitem-4:hover {
+  background: url(../img/home/circle-outline2.png);
+}
+
+
+
+
