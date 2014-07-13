@@ -59,32 +59,24 @@ $(document).ready(function() {
     }
   });
 
-// $( ".right-nav" ).hover(function() {
-//   $( ".left-nav" ).animate({
-//     "width": "0%"
-//   }, 200, function() {
-//     $( ".left-nav" ).animate({
-//       "width": "15%"
-//     }, 200);
-//   });
-// });
+//hover functionality for slide nav on sides
 
 $( ".right-nav" ).hover(
   function() {
-    $( ".right-nav" ).animate( {"width": "15%"} );
-    $( ".left-nav" ).animate( {"width": "0%"} );
+    $( ".right-nav" ).animate( {"width": "15%"}, 200 );
+    $( ".left-nav" ).animate( {"width": "0%"}, 200 );
   }, function() {
-    $( ".left-nav" ).animate( { "width": "7.5%" } );
-    $( ".right-nav" ).animate( { "width": "7.5%" } );
+    $( ".left-nav" ).animate( { "width": "7.5%" }, 200 );
+    $( ".right-nav" ).animate( { "width": "7.5%" }, 200 );
   }
 );
 
 $( ".left-nav" ).hover(
   function() {
-    $( ".right-nav" ).animate( {"width": "0%"} );
     $( ".left-nav" ).animate( {"width": "15%"} );
+    $( ".right-nav" ).animate( {"width": "0%"} );
   }, function() {
-    $( ".right-nav" ).animate( { "width": "7.5%" } );
+    $( ".left-nav" ).animate( { "width": "7.5%" } );
     $( ".right-nav" ).animate( {"width": "7.5%"} );
   }
 );
