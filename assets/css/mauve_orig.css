@@ -18,19 +18,18 @@
 
 .left-nav, .right-nav {
   /*height: 93%;*/
-  width: 7.5%;
+  width: 15%;
   border: 1px solid #fff;
   font-size: 24px;
   color: #fff;
   font-family: "brandon_grotesquemedium";
   text-transform: uppercase;
   text-align: center;
+  -webkit-transition: all .2s ease-in-out;
   padding-top: 5%;
   margin: 0;
+  float: left;
   overflow: hidden;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
 }
 
   .left-nav h5, .right-nav  h5 {
@@ -44,33 +43,36 @@
     margin: .75em 0;
     letter-spacing: .08em;
     line-height: 24px;
-    display: none;
   }
 
-/*.left-nav:hover {
-  width: 15%;
+.left-nav:hover {
+  /*position: relative;
+  left: 0;*/
+  /*height: 90vh;*/
+  width: 20%;
 }
 
 .left-nav:hover + .right-nav {
-  width: 0;
+  width: 0%;
 }
 
 .right-nav:hover {
-    width: 15%;
+  /*height: 90vh;*/
+  /*right: 0;*/
 }
 
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
-
 .left-nav {
+  /*position: relative;
+  left: -14.5%;*/
+  z-index: 1000;
   background: #ec008c;
-  float: left;
 }
 
 .right-nav {
+  /*position: relative;
+  right: -14.5%;*/
+  z-index: 1000;
   background: #ec008c;
-  float: right;
 }
 
 /***********************/
@@ -79,7 +81,7 @@
 
 .main-middle-section {
   float: left;
-  width: 84.68%;
+  width: auto;
 }
 
 /***********************/

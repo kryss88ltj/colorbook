@@ -74,4 +74,27 @@
   .crimson-nav {background: #ea1378;}
   .scarlet-nav {background: #ed145b;}
   .poster-red-nav {background: #ea1b3b;}
+
+  .creators {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #a9a3a1;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'brandon_grotesquelight';
+  }
+
+  .creators p {
+    display: inline;
+    margin: 0 5px;
+  }
  
+  .creators:first-child {
+    float: left;  
+  }
+
+  .created {
+    float: right;
+
+  }

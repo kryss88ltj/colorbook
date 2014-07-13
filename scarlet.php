@@ -33,7 +33,7 @@
     <img src="assets/img/line.png" alt="lines" class="line1">
     <p class="desc-text">&#34;Scarlet&#34; was first dubbed in 11th Century England.</p>
     <img src="assets/img/line.png" alt="lines" class="line2">
-    <img src="assets/img/mauve/mauve-arrow-up.png" alt="arrow" class="down-arrow arrow">
+    <div class="down-arrow"></div>
   </section>
 
   
@@ -80,15 +80,15 @@
 
       <!-- Info Icons - Far Right Col -->
       <div class="right-col">
-        <div class="a"></div>
-        <div class="b"></div>
-        <div class="c"></div>
+        <div class="a">255</div>
+        <div class="b">0</div>
+        <div class="c">128</div>
       </div> 
     </section>
   </section> <!-- end icon section --> 
 
   <section class="main-text">
-Scarlet is a naughty, naughty color. It's the hue of the Hef's iconic smoking jacket and favored by pimps who want to be like him. But like Hugh Hefner, scarlet is surprisingly believable despite it's risqué reputation. Scarlet isn't as chatty as magenta and not nearly as gregarious as gold. Scarlet is a fantastic color to make a small room feel more open. It naturally feels very long and wide, even when it is the same size as another color swatch.</p>
+Scarlet is a naughty, naughty color. It's the hue of the Hef's iconic smoking jacket and favored by pimps who want to be like him. But like Hugh Hefner, scarlet is surprisingly believable despite it's risqu&#233; reputation. Scarlet isn't as chatty as magenta and not nearly as gregarious as gold. Scarlet is a fantastic color to make a small room feel more open. It naturally feels very long and wide, even when it is the same size as another color swatch.</p>
   </section>
 
   <section class="right-infographic">

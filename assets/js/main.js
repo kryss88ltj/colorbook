@@ -59,6 +59,35 @@ $(document).ready(function() {
     }
   });
 
+// $( ".right-nav" ).hover(function() {
+//   $( ".left-nav" ).animate({
+//     "width": "0%"
+//   }, 200, function() {
+//     $( ".left-nav" ).animate({
+//       "width": "15%"
+//     }, 200);
+//   });
+// });
 
-});
+$( ".right-nav" ).hover(
+  function() {
+    $( ".right-nav" ).animate( {"width": "15%"} );
+    $( ".left-nav" ).animate( {"width": "0%"} );
+  }, function() {
+    $( ".left-nav" ).animate( { "width": "7.5%" } );
+    $( ".right-nav" ).animate( { "width": "7.5%" } );
+  }
+);
+
+$( ".left-nav" ).hover(
+  function() {
+    $( ".right-nav" ).animate( {"width": "0%"} );
+    $( ".left-nav" ).animate( {"width": "15%"} );
+  }, function() {
+    $( ".right-nav" ).animate( { "width": "7.5%" } );
+    $( ".right-nav" ).animate( {"width": "7.5%"} );
+  }
+);
+    
+}); // end global 
 

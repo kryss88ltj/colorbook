@@ -75,6 +75,10 @@
          <img class="icon" src="assets/img/nav/poster-red-icon.png" alt="poster red icon">
        </li>
      </ul> 
+     <div class="creators">
+      <p>SITE DESIGNED BY DAN ROSENBERG AND WENDY GREENBERG</p>
+      <p class="created">CREATED WINTER 2014</p>
+     </div> 
   </nav>
 
   <!-- Scrolling Nav Script --> 
