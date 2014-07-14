@@ -21,16 +21,6 @@
     </a>
   </nav>
 
-  <!-- Side Menu Right -->
-  <nav class="right-nav">
-    <a href="magenta.php">
-      <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-      <h5>REGINA GEORGE IN COLOR FORM</h5>
-      <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-      <h4>magenta</h4>
-      <img class="icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
-    </a>
-  </nav>
 
   <section class="main-middle-section">
    <!-- Color Title --> 
@@ -129,6 +119,17 @@
       <img class="glasses" src="assets/img/mauve/glasses.png" alt="">
     </section> 
   </section> <!-- end main middle section -->
+
+  <!-- Side Menu Right -->
+  <nav class="right-nav clearfix">
+    <a href="magenta.php">
+      <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+      <h5>REGINA GEORGE IN COLOR FORM</h5>
+      <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+      <h4>magenta</h4>
+      <img class="icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
+    </a>
+  </nav>
 
 </section> <!-- end entire main section --> 
 

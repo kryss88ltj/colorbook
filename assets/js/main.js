@@ -1,6 +1,24 @@
 $(document).ready(function() {  
   console.log("main js working");
 
+// make all columns in main section equal 
+
+  $(function() {
+    function unifyHeights() {
+        var maxHeight = 0;
+        $('.main-section').children('.left-nav, .right-nav, .main-middle-section').each(function() {
+            var height = $(this).outerHeight();
+            // alert(height);
+            if ( height > maxHeight ) {
+                maxHeight = height;
+            }
+        });
+        $('.left-nav, .right-nav, .main-middle-section').css('height', maxHeight);
+    }
+    unifyHeights();
+  });
+
+
   // down arrow title description functionality 
 
   $( ".down-arrow" ).click(function() {
@@ -65,38 +83,29 @@ $(document).ready(function() {
     function() {
       $( ".right-nav" ).animate( {"width": "15%"}, 200 );
       $( ".left-nav" ).animate( {"width": "0%"}, 200 );
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle();
+        
+
     }, function() {
-      $( ".left-nav" ).animate( { "width": "7.5%" }, 200 );
-      $( ".right-nav" ).animate( { "width": "7.5%" }, 200 );
+      $( ".left-nav" ).animate( { "width": "7.5%" }, 300 );
+      $( ".right-nav" ).animate( { "width": "7.5%" }, 300 );
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle(10);
+       
     }
   );
 
   $( ".left-nav" ).hover(
     function() {
-      $( ".left-nav" ).animate( {"width": "15%"} );
-      $( ".right-nav" ).animate( {"width": "0%"} );
+      $( ".left-nav" ).filter(':not(:animated)').animate( {"width": "15%"}, 200 );
+      $( ".right-nav" ).filter(':not(:animated)').animate( {"width": "0%"}, 200 );
+      $( ".left-nav h4, .left-nav h5, .left-nav img" ).fadeToggle();
     }, function() {
-      $( ".left-nav" ).animate( { "width": "7.5%" } );
-      $( ".right-nav" ).animate( {"width": "7.5%"} );
+      $( ".left-nav" ).filter(':not(:animated)').animate( { "width": "7.5%" }, 300 );
+      $( ".right-nav" ).filter(':not(:animated)').animate( {"width": "7.5%"}, 300 );
+      $( ".left-nav h4, .left-nav h5, .left-nav img" ).fadeToggle(10);
     }
   );
     
-// make all columns in main section equal 
-
-  $(function() {
-    function unifyHeights() {
-        var maxHeight = 0;
-        $('.main-section').children('.left-nav, .right-nav, .main-middle-section').each(function() {
-            var height = $(this).outerHeight();
-            // alert(height);
-            if ( height > maxHeight ) {
-                maxHeight = height;
-            }
-        });
-        $('.left-nav, .right-nav, .main-middle-section').css('height', maxHeight);
-    }
-    unifyHeights();
-  });
 
 
 }); // end global 

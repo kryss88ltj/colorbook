@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #f0d2e8;}
+  body {background: #f0d2e8; overflow-x: hidden;}
 
   .main-section {
     padding: 0;
@@ -41,8 +41,18 @@
     letter-spacing: .08em;
     line-height: 24px;
     display: none;
+    overflow: hidden;
   }
 
+  .left-nav img, 
+  .right-nav img, 
+  .left-nav h4, 
+  .right-nav h4,
+  .left-nav h5,
+  .right-nav h5 {
+    display: none;
+    -webkit-transition: all .2 linear .9;
+  }
 /*.left-nav:hover {
   width: 15%;
 }
@@ -65,8 +75,8 @@
 }
 
 .right-nav {
-  background: #ec008c;
-  float: right;
+  background: #ea1378;
+  float: left;
 }
 
 /***********************/
@@ -265,6 +275,10 @@
     text-align: center; 
   }
 
+    .top-icons img {
+      width: 40%;
+    }
+
   .top-icon1,
   .top-icon3 {
     margin-right: 7px;
@@ -287,7 +301,7 @@
   .bottom-icons {
     margin: 0 0 0 10px;
     text-align: center;
-    line-height: 0;
+    line-height: 1.7;
     color: #fff;
     font-family: 'brandon_grotesqueblack';
     font-size: 30px;
@@ -303,8 +317,8 @@
   .bottom-left-sq,
   .bottom-right-sq {
     float: left;
-    height: 65px;
-    width: 66px;
+    height: 57px;
+    width: 57px;
     border-radius: 5px;
   }
 
@@ -323,8 +337,8 @@
 
   .upper-right-sq {
     margin: 0 0 7px;
-    font-size: 19px;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.813;
 
   }
 
@@ -348,8 +362,8 @@
   }  
 
   .right-col * {
-    height: 42px;
-    width: 42px;
+    height: 36.6px;
+    width: 36.6px;
     border-radius: 5px;
     margin-bottom: 4.5px;
   }
@@ -357,8 +371,8 @@
   /**** Primary Colors ****/
 
   .a, .b, .c {
-    line-height: 1.8;
-    font-size: 0.8em;
+    line-height: 1.9;
+    font-size: 0.7em;
     font-family: 'brandon_grotesquebold';
   }
 
@@ -425,5 +439,6 @@
 }
 
 .right-infographic img.glasses {
-  margin: 30px 0 40px;
+  margin: 19px 0 27px;
+  width: 54%;
 }
