@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #f0d2e8; overflow-x: hidden;}
+  body {background: #f0d2e8; overflow: hidden;}
 
   .main-section {
     padding: 0;
