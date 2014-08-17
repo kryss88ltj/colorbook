@@ -32,6 +32,10 @@
   overflow: hidden;
 }
 
+.left-nav a, .right-nav a {
+  display: block;
+}
+
   .left-nav h5, .right-nav  h5 {
     text-transform: uppercase;
     font-family: "brandon_grotesquethin";

@@ -82,7 +82,7 @@ $(document).ready(function() {
   $( ".right-nav" ).hover(
     function() {
       // $( ".main-section" ).css('overflow', 'hidden');
-      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'hidden');
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'visible');
       $( ".right-nav" ).animate( {"width": "14.8%"}, 200 );
       $( ".left-nav" ).animate( {"width": "0.19%"}, 200 );
       $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle();
@@ -90,7 +90,7 @@ $(document).ready(function() {
 
     }, function() {
       // $( ".main-section" ).css('overflow', 'hidden');
-      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'hidden');
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'visible');
       $( ".left-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');;
       $( ".right-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');
       
@@ -118,6 +118,30 @@ $(document).ready(function() {
     }
   );
     
+  // console.log($( "#scroll-nav").scrollTop()); 
+
+  $(window).scroll(function(){
+    var top = $(this).scrollTop();
+    // var navTop = $("#scroll-nav").scrollTop(668);
+    console.log(top);
+    // console.log(navTop);
+
+    if(top > 150){
+    console.log("past 250");
+   
+      var body = $("body");
+      body.animate({scrollTop: 668}, 1000, 'swing', function() {
+        $(window).scroll(function() {
+          console.log("i'm scrolling");
+          $(window).animate({scrollTop: 0}, 1000, 'swing', function() {
+          });
+        });
+      });
+  
+    }
+  });
+
+
 
 
 }); // end global 

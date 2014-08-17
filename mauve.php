@@ -17,7 +17,7 @@
       <h5>REGINA GEORGE IN COLOR FORM</h5>
       <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h4>magenta</h4>
-      <img class="icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
+      <img class="left-nav-icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
     </a>
   </nav>
 
@@ -122,13 +122,13 @@
 
   <!-- Side Menu Right -->
   <nav class="right-nav">
-    <a href="magenta.php">
+    <!-- <a href="magenta.php"> -->
       <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h5>REGINA GEORGE IN COLOR FORM</h5>
       <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h4>magenta</h4>
-      <img class="icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
-    </a>
+      <!-- <img class="right-nav-icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon"> -->
+    <!-- </a> -->
   </nav>
 
 </section> <!-- end entire main section --> 
