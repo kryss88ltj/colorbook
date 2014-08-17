@@ -5,7 +5,7 @@
 
 
 <!-- Main Section - Includes all but bottom nav slider -->
-<section class="main-section clearfix">
+<section class="main-section">
 
   <!-- Return Home -->
   <a href="index.php"><img class="home" src="assets/img/home/eye.gif" alt="home"></a>
@@ -121,7 +121,7 @@
   </section> <!-- end main middle section -->
 
   <!-- Side Menu Right -->
-  <nav class="right-nav clearfix">
+  <nav class="right-nav">
     <a href="magenta.php">
       <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h5>REGINA GEORGE IN COLOR FORM</h5>
@@ -132,5 +132,9 @@
   </nav>
 
 </section> <!-- end entire main section --> 
+
+<section class="page-break">
+  <img src="assets/img/mauve/arrows-transparent.png">
+</section>
 
 <?php include("footer.php"); ?>

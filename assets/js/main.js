@@ -81,14 +81,21 @@ $(document).ready(function() {
 
   $( ".right-nav" ).hover(
     function() {
-      $( ".right-nav" ).animate( {"width": "15%"}, 200 );
-      $( ".left-nav" ).animate( {"width": "0%"}, 200 );
+      // $( ".main-section" ).css('overflow', 'hidden');
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'hidden');
+      $( ".right-nav" ).animate( {"width": "14.8%"}, 200 );
+      $( ".left-nav" ).animate( {"width": "0.19%"}, 200 );
       $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle();
         
 
     }, function() {
-      $( ".left-nav" ).animate( { "width": "7.5%" }, 300 );
-      $( ".right-nav" ).animate( { "width": "7.5%" }, 300 );
+      // $( ".main-section" ).css('overflow', 'hidden');
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'hidden');
+      $( ".left-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');;
+      $( ".right-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');
+      
+      // $( ".main-middle-section" ).css('overflow', 'hidden');
+      // $( "#scroll-nav").css('overflow', 'hidden');
       $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle(10);
        
     }
@@ -96,12 +103,17 @@ $(document).ready(function() {
 
   $( ".left-nav" ).hover(
     function() {
-      $( ".left-nav" ).filter(':not(:animated)').animate( {"width": "15%"}, 200 );
-      $( ".right-nav" ).filter(':not(:animated)').animate( {"width": "0%"}, 200 );
+      // $( ".main-section" ).css('overflow', 'hidden');
+      $( ".left-nav" ).filter(':not(:animated)').animate( {"width": "14.8%"}, 200 );
+      $( ".right-nav" ).filter(':not(:animated)').animate( {"width": "0.19%"}, 200 );
       $( ".left-nav h4, .left-nav h5, .left-nav img" ).fadeToggle();
     }, function() {
+      // $( ".main-section" ).css('overflow', 'hidden');
       $( ".left-nav" ).filter(':not(:animated)').animate( { "width": "7.5%" }, 300 );
       $( ".right-nav" ).filter(':not(:animated)').animate( {"width": "7.5%"}, 300 );
+      
+      // $( ".main-middle-section" ).css('overflow', 'hidden');
+      // $( "#scroll-nav").css('overflow', 'hidden');
       $( ".left-nav h4, .left-nav h5, .left-nav img" ).fadeToggle(10);
     }
   );

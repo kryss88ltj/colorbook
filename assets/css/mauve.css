@@ -7,9 +7,11 @@
   .main-section {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
     float: left;
+    height: 645px;
   } 
   
 /***********************/
@@ -36,13 +38,12 @@
     font-size: 14px;
     color: #fff;
     text-align: center;
-    width: 89%;
-    padding-left: 5%;
-    margin: .75em 0;
+    width: 150px;
+    /*padding-left: 5%;*/
+    margin: .75em auto 0em;
     letter-spacing: .08em;
     line-height: 24px;
-    display: none;
-    overflow: hidden;
+
   }
 
   .left-nav img, 
@@ -53,6 +54,7 @@
   .right-nav h5 {
     display: none;
     -webkit-transition: all .2 linear .9;
+    overflow: visible;
   }
 /*.left-nav:hover {
   width: 15%;
@@ -77,7 +79,7 @@
 
 .right-nav {
   background: #ea1378;
-  float: left;
+  float: right;
 }
 
 /***********************/
@@ -417,14 +419,14 @@
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 27px;
+  font-size: 25px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
   margin: 20px 10px 0px;
 }
   .right-infographic h1 span {
-    font-size: 35px;
+    font-size: 30px;
   }
 
 .right-infographic p {
@@ -440,6 +442,37 @@
 }
 
 .right-infographic img.glasses {
-  margin: 19px 0 27px;
+  margin: 6px 0 27px;
   width: 54%;
 }
+
+/***********************/
+/*  Bottom Page Break  */
+/***********************/
+
+.page-break {
+  border-bottom: 2px solid #b41e8e;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+  .page-break img {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    width: 10%;
+    background-color: #f0d2e8;
+  }
+
+
+
+
+
+
+
+
+
+
+
