@@ -118,26 +118,26 @@ $(document).ready(function() {
     }
   );
     
-  // console.log($( "#scroll-nav").scrollTop()); 
-
+  var upFlag = true;
   $(window).scroll(function(){
     var top = $(this).scrollTop();
     // var navTop = $("#scroll-nav").scrollTop(668);
     console.log(top);
     // console.log(navTop);
 
-    if(top > 150){
+    if(top > 150 && upFlag){
     console.log("past 250");
    
       var body = $("body");
       body.animate({scrollTop: 668}, 1000, 'swing', function() {
+        upFlag = false;
         $(window).scroll(function() {
-          console.log("i'm scrolling");
+          
           $(window).animate({scrollTop: 0}, 1000, 'swing', function() {
+            console.log("back up");
           });
         });
       });
-  
     }
   });
 
