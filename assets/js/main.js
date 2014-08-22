@@ -79,27 +79,34 @@ $(document).ready(function() {
 
   //hover functionality for slide nav on sides
 
-  $( ".right-nav" ).hover(
+  $( ".right-nav" ).mouseenter(
     function() {
-      // $( ".main-section" ).css('overflow', 'hidden');
-      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'visible');
-      $( ".right-nav" ).animate( {"width": "14.8%"}, 200 );
-      $( ".left-nav" ).animate( {"width": "0.19%"}, 200 );
-      $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle();
-        
 
-    }, function() {
       // $( ".main-section" ).css('overflow', 'hidden');
       $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'visible');
-      $( ".left-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');;
+      $( this ).animate( {"width": "15%"}, 200 );
+      $( ".left-nav" ).animate( {"width": "0%"}, 200 );
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle();
+      console.log("hovering on");
+      return false;
+      
+    }
+  );
+
+     $( ".right-nav" ).mouseleave(function() {
+      // $( ".main-section" ).css('overflow', 'hidden');
+      $( ".right-nav h4, .right-nav h5, .right-nav img" ).css('overflow', 'visible');
+      $( ".left-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');
       $( ".right-nav" ).animate( { "width": "7.5%" }, 300 ).css('overflow', 'hidden');
       
       // $( ".main-middle-section" ).css('overflow', 'hidden');
       // $( "#scroll-nav").css('overflow', 'hidden');
       $( ".right-nav h4, .right-nav h5, .right-nav img" ).fadeToggle(10);
-       
-    }
-  );
+      console.log("hovering off");
+      return false;
+      }
+    );
+  
 
   $( ".left-nav" ).hover(
     function() {
@@ -118,31 +125,89 @@ $(document).ready(function() {
     }
   );
     
-  var upFlag = true;
-  $(window).scroll(function(){
-    var top = $(this).scrollTop();
-    // var navTop = $("#scroll-nav").scrollTop(668);
-    console.log(top);
-    // console.log(navTop);
 
-    if(top > 150 && upFlag){
-    console.log("past 250");
-   
-      var body = $("body");
-      body.animate({scrollTop: 668}, 1000, 'swing', function() {
+    var upFlag = true;
+    var body = $("body");
+
+    $(window).scroll(function(){
+      var top = $(window).scrollTop();
+      console.log(top);
+      console.log("first scroll triggering");
+      console.log(upFlag);
+
+      if(top > 150 && upFlag){
         upFlag = false;
-        $(window).scroll(function() {
-          
-          $(window).animate({scrollTop: 0}, 1000, 'swing', function() {
-            console.log("back up");
+        $(window).scroll(function(){
+          console.log(top);
+          console.log("past 150 - second scroll triggering");
+          console.log(upFlag);
+       
+          // var body = $("body");
+          body.animate({scrollTop: 700}, 1000, 'swing', function() {
+            upFlag = false;
+            // console.log("upFlag=" + upFlag);
+            stopPropagation();
+            // goUp();
           });
+            
         });
-      });
-    }
-  });
+      }       
 
+      // var goUp = function() {
+        if (top > 650 && !upFlag) {          
+          $(window).scroll(function() {
+                    // upFlag = false;
+                    console.log("third scroll event");
+                    console.log(upFlag);
+                    body.animate({scrollTop: 0}, 1000, 'swing', function() {
+                      console.log("back up");
+                      console.log(upFlag);
+                    setTimeout(function() {upFlag = true; console.log("timeout executed");}, 5000);
+                    });
+                  });
+        }
+      // }  
+
+    });
+  
+  var reset = function() {
+    $(this).scrollTop(0);
+  }
 
 
 
 }); // end global 
+
+
+
+  // var upFlag = true;
+  
+  // $(window).scroll(function(){
+  //   var top = $(this).scrollTop();
+  //   // var navTop = $("#scroll-nav").scrollTop(668);
+  //   console.log(top);
+  //   // console.log(navTop);
+
+  //   if(top > 150 && upFlag){
+  //     upFlag = false;
+  //   console.log("past 250");
+   
+  //     var body = $("body");
+  //     body.animate({scrollTop: 668}, 1000, 'swing', function() {
+  //       // upFlag = false;
+  //         if (!upFlag) {
+  //           $(window).scroll(function() {
+  //             upFlag = true;
+  //             console.log("second scroll event");
+  //             body.animate({scrollTop: 0}, 1000, 'swing', function() {
+  //               console.log("back up");
+  //             upFlag = false;
+  //             });
+  //           });
+  //         }
+  //       });
+  //   }
+  // });
+
+//try 2
 
