@@ -3,30 +3,47 @@ $(document).ready(function() {
 
 // make all columns in main section equal 
 
-  $(function() {
+  
     function unifyHeights() {
         var maxHeight = 0;
-        $('.main-section').children('.left-nav, .right-nav, .main-middle-section').each(function() {
+        $('.main-section').children('.main-middle-section').each(function() {
             var height = $(this).outerHeight();
+            console.log(height);
             // alert(height);
             if ( height > maxHeight ) {
                 maxHeight = height;
             }
         });
-        $('.left-nav, .right-nav, .main-middle-section').css('height', maxHeight);
+        // $('.left-nav, .right-nav, .main-middle-section, .main-section').css('height', maxHeight);
+        $('.main-middle-section').attr('style', 'height: 646px !important');
+        $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+        
+        // $('.main-section').css('height', maxHeight);
+        console.log("unifying heights");
     }
     unifyHeights();
-  });
+
+
 
 
   // down arrow title description functionality 
-
+  var expandFlag = true;
   $( ".down-arrow" ).click(function() {
-
+    
+    if (expandFlag) {
+      $('.main-middle-section').attr('style', 'height: 756px !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 673px !important');
+      expandFlag = false;
+    } else {
+       $('.main-middle-section').attr('style', 'height: 646px !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+      expandFlag = true;
+    }
     $( ".desc-bar" ).toggleClass("collapsed");
     $( ".down-arrow ").toggleClass("arrow");
     $( ".down-arrow ").toggleClass("arrow-position");
     $( ".line1, .line2").toggle();
+    
   });
 
   // Page Scrolling

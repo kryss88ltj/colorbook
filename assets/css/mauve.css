@@ -7,11 +7,11 @@
   .main-section {
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    overflow: visible;
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
-    height: 645px;
+    /*height: 600px;*/
   } 
   
 /***********************/
@@ -19,8 +19,8 @@
 /***********************/
 
 .left-nav, .right-nav {
-  height: 100%;
-  width: 7.5%;
+height: auto;  
+width: 7.5%;
   /*border: 1px solid #fff;*/
   font-size: 24px;
   color: #fff;
@@ -461,6 +461,7 @@
   height: 20px;
   margin-bottom: 20px;
   float: left;
+  position: relative;
 }
 
   .page-break img {
@@ -471,7 +472,7 @@
     background-color: #f0d2e8;
     position: absolute;
     left: 47.2%;
-    top: 725px;
+    top: 10px;
 
   }
 
