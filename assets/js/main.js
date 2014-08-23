@@ -23,7 +23,12 @@ $(document).ready(function() {
     }
     unifyHeights();
 
+  // TextFill Initialization
 
+  //   $('body').flowtype({
+  //    minimum : 500,
+  //    maximum : 1290
+  // });
 
 
   // down arrow title description functionality 

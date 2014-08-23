@@ -108,7 +108,14 @@
     </section> <!-- end icon section --> 
 
     <section class="main-text">
-      <p>Mauve is the coolest hue in of all the reds. It has a fashionable and stylish appearance, particularly when paired with grey and other neutral colors. Mauve naturally appears more expensive than other colors. Mauvaline was the first color to be made with chemicals rather than natural pigments. Originally, the color was obtained from leaves of the mallow flower. Mauve is also a color representative of mourning, and brings a human touch to ceremonies covered in black. It is also a common choice for bridesmaid dresses, proving that women can be as bleak about their weddings as the grooms they drag down the aisle.</p>
+      <span>Mauve is the coolest hue in of all the reds. It has a fashionable and 
+        stylish appearance, particularly when paired with grey and other neutral colors. 
+        Mauve naturally appears more expensive than other colors. Mauvaline was the first 
+        color to be made with chemicals rather than natural pigments. Originally, the 
+        color was obtained from leaves of the mallow flower. Mauve is also a color 
+        representative of mourning, and brings a human touch to ceremonies covered in 
+        black. It is also a common choice for bridesmaid dresses, proving that women can 
+        be as bleak about their weddings as the grooms they drag down the aisle.</span>
     </section>
 
     <section class="right-infographic">

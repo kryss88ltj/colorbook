@@ -92,8 +92,9 @@ width: 7.5%;
 
 .main-middle-section {
   float: left;
-  width: 84.99%;
+  width: 84.9%;
   overflow: hidden;
+  margin-left: .03%
 }
 
 /***********************/
