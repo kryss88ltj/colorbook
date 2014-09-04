@@ -63,65 +63,188 @@
         </div>
       </a></li>
       
-      <li class="mauve-nav nav"><a href="mauve.php">
+      <li class="coral-nav nav"><a href="coral.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
             <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND.</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
-            <h4>mauve</h4>
-            <img class="icon" src="assets/img/nav/mauve-icon.png" alt="mauve icon">
+            <h4>coral</h4>
+            <img class="icon" src="assets/img/nav/coral-icon.gif" alt="coral icon">
           </div>
        </a></li>
 
-       <li class="magenta-nav nav"><a href="magenta.php">
+       <li class="orange-nav nav"><a href="orange.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
             <h5>REGINA GEORGE IN COLOR FORM</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
-            <h4>magenta</h4>
-            <img class="icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
+            <h4>orange</h4>
+            <img class="icon" src="assets/img/nav/orange-icon.png" alt="orange icon">
           </div>
        </a></li>
 
-       <li class="crimson-nav nav"><a href="crimson.php">
+       <li class="amber-nav nav"><a href="amber.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h5>GIVE IN TO YOUR VIOLENT IMPULSES.</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
-         <h4>crimson</h4>
-         <img class="icon" src="assets/img/nav/crimson-icon.png" alt="crimson icon">
+         <h4>amber</h4>
+         <img class="icon" src="assets/img/nav/amber-icon.png" alt="amber icon">
         </div>
        </a></li>
 
-      <li class="scarlet-nav nav"><a href="scarlet.php">
+      <li class="gold-nav nav"><a href="gold.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h5>OH, SCARLET!</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div> 
         <div class="bottom-scroll-text">
-          <h4>scarlet</h4>
-          <img class="icon" src="assets/img/nav/scarlet-icon.png" alt="scarlet icon">
+          <h4>gold</h4>
+          <img class="icon" src="assets/img/nav/gold-icon.png" alt="gold icon">
         </div>
       </a></li>
 
-      <li class="poster-red-nav nav"><a href="poster-red.php">
+      <li class="yellow-nav nav"><a href="yellow.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h5>RESISTANCE IS FUTILE.</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
-          <h4>poster red</h4>
-          <img class="icon" src="assets/img/nav/poster-red-icon.png" alt="poster red icon">
+          <h4>yellow</h4>
+          <img class="icon" src="assets/img/nav/yellow-icon.png" alt="yellow icon">
         </div>
       </a></li>
+
+      <li class="lime-nav nav"><a href="lime.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>lime</h4>
+          <img class="icon" src="assets/img/nav/lime-icon.png" alt="lime icon">
+        </div>
+      </a></li>
+
+      <li class="leaf-green-nav nav"><a href="leaf-green.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>leaf green</h4>
+          <img class="icon" src="assets/img/nav/lime-icon.png" alt="lime icon">
+        </div>
+      </a></li>
+
+      <li class="sea-green-nav nav"><a href="sea-green.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>sea green</h4>
+          <img class="icon" src="assets/img/nav/sea-green-icon.png" alt="sea-green icon">
+        </div>
+      </a></li>
+
+      <li class="emerald-nav nav"><a href="emeral.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>emerald</h4>
+          <img class="icon" src="assets/img/nav/emerald-icon.png" alt="emerald icon">
+        </div>
+      </a></li>
+
+      <li class="teal-nav nav"><a href="teal.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>teal</h4>
+          <img class="icon" src="assets/img/nav/teal-icon.png" alt="teal icon">
+        </div>
+      </a></li>
+
+    
+      <li class="cyan-nav nav"><a href="cyan.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>cyan</h4>
+          <img class="icon" src="assets/img/nav/cyan-icon.png" alt="cyan icon">
+        </div>
+      </a></li>
+
+      <li class="sky-blue-nav nav"><a href="sky-blue.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>sky blue</h4>
+          <img class="icon" src="assets/img/nav/sky-blue-icon.png" alt="sky blue icon">
+        </div>
+      </a></li>
+
+      <li class="ultramarine-nav nav"><a href="ultramarine.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>ultramarine</h4>
+          <img class="icon" src="assets/img/nav/ultramarine-icon.png" alt="ultramarine icon">
+        </div>
+      </a></li>
+
+      <li class="violet-nav nav"><a href="violet.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>violet</h4>
+          <img class="icon" src="assets/img/nav/violet-icon.png" alt="violet icon">
+        </div>
+      </a></li>
+
+      <li class="purple-nav nav"><a href="purple.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>RESISTANCE IS FUTILE.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>purple</h4>
+          <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
+        </div>
+      </a></li>
+
+
 
      </ul> 
     

@@ -6,7 +6,7 @@
 		<link href="assets/css/bottom-nav.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/<?php echo $css;?>.css">
     <link href="assets/css/homelink.css" rel="stylesheet" type="text/css" />
-   
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
