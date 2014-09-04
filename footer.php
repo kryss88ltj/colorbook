@@ -71,7 +71,7 @@
           </div>
           <div class="bottom-scroll-text">
             <h4>coral</h4>
-            <img class="icon" src="assets/img/nav/coral-icon.gif" alt="coral icon">
+            <img class="icon" src="assets/img/nav/coral-icon.png" alt="coral icon">
           </div>
        </a></li>
 
@@ -143,7 +143,7 @@
         </div>
         <div class="bottom-scroll-text">
           <h4>leaf green</h4>
-          <img class="icon" src="assets/img/nav/lime-icon.png" alt="lime icon">
+          <img class="icon" src="assets/img/nav/leaf-green-icon.png" alt="leaf green icon">
         </div>
       </a></li>
 

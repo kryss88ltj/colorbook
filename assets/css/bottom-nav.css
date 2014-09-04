@@ -198,6 +198,13 @@
     left: 36px;
   }
 
+  .coral-nav .icon {
+    width: 70px;
+    position: absolute;
+    top: 225px;
+    left: 36px;
+  }
+
   .mauve-nav {background: #b41e8e;}
   .magenta-nav {background: #ec008c;}
   .crimson-nav {background: #ea1378;}
