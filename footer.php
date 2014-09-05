@@ -6,7 +6,7 @@
        <li class="mauve-nav nav"><a href="mauve.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND.</h5>
+            <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -30,7 +30,7 @@
        <li class="crimson-nav nav"><a href="crimson.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>GIVE IN TO YOUR VIOLENT IMPULSES.</h5>
+          <h5>GIVE IN TO YOUR VIOLENT IMPULSES</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -42,7 +42,7 @@
       <li class="scarlet-nav nav"><a href="scarlet.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>OH, SCARLET!</h5>
+          <h5>YOU SAUCY MINX, YOU</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div> 
         <div class="bottom-scroll-text">
@@ -54,7 +54,7 @@
       <li class="poster-red-nav nav"><a href="poster-red.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>RESISTANCE IS FUTILE</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -66,7 +66,7 @@
       <li class="coral-nav nav"><a href="coral.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND.</h5>
+            <h5> It's getting hot in here, but leave on all your clothes</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -78,7 +78,7 @@
        <li class="orange-nav nav"><a href="orange.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5>REGINA GEORGE IN COLOR FORM</h5>
+            <h5>The overacheiver of the color spectrum</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -90,7 +90,7 @@
        <li class="amber-nav nav"><a href="amber.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>GIVE IN TO YOUR VIOLENT IMPULSES.</h5>
+          <h5>If you're happy and you know it</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -102,7 +102,7 @@
       <li class="gold-nav nav"><a href="gold.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>OH, SCARLET!</h5>
+          <h5>Rich like Scrooge (McDuck or Ebenezer)</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div> 
         <div class="bottom-scroll-text">
@@ -114,7 +114,7 @@
       <li class="yellow-nav nav"><a href="yellow.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5> Ain't nothin' yella' 'bout it</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -126,7 +126,7 @@
       <li class="lime-nav nav"><a href="lime.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>So fresh and so clean clean </h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -138,7 +138,7 @@
       <li class="leaf-green-nav nav"><a href="leaf-green.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>Saving the planet, one hue at a time</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -150,7 +150,7 @@
       <li class="sea-green-nav nav"><a href="sea-green.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>See? Green! (hur hur hur)</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -162,7 +162,7 @@
       <li class="emerald-nav nav"><a href="emeral.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>It pays to be a wise guy</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -174,7 +174,7 @@
       <li class="teal-nav nav"><a href="teal.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>Oscar Wilde: The hue.</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -187,7 +187,7 @@
       <li class="cyan-nav nav"><a href="cyan.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>Domo Arigato, Mr. Roboto</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -199,7 +199,7 @@
       <li class="sky-blue-nav nav"><a href="sky-blue.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5> A hue you can trust</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -211,7 +211,7 @@
       <li class="ultramarine-nav nav"><a href="ultramarine.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>[Cue the smooth jazz]</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -223,7 +223,7 @@
       <li class="violet-nav nav"><a href="violet.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>Just like your crazy Uncle Jeb.</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -235,7 +235,7 @@
       <li class="purple-nav nav"><a href="purple.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>RESISTANCE IS FUTILE.</h5>
+          <h5>Perfectly introspective.</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
