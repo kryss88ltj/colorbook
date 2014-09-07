@@ -51,7 +51,7 @@
     <!-- Description Bar --> 
     <section class="desc-bar collapsed">
       <img src="assets/img/line.png" alt="lines" class="line1">
-      <p class="desc-text">Poster Red is also called &#34;Miss Red&#34; if you’re nasty.</p>
+      <p class="desc-text">Poster Red is also called &#34;Miss Red&#34; if you&#39;re nasty.</p>
       <img src="assets/img/line.png" alt="lines" class="line2">
       <div class="down-arrow"></div>
     </section>
@@ -140,12 +140,11 @@
   <img src="assets/img/magenta/arrows-transparent.png">
 </section>
 
-
-
-<?php include("footer.php"); ?>
-
-<script>
+  <script>
     $('.main-text').flowtype({
        maxFont   : 20,
        fontRatio : 20});
   </script>
+
+<?php include("footer.php"); ?>
+

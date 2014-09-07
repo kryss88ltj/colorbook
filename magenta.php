@@ -141,11 +141,11 @@
   <img src="assets/img/magenta/arrows-transparent.png">
 </section>
 
-
-<?php include("footer.php"); ?>
-
-<script>
+  <script>
     $('.main-text').flowtype({
        maxFont   : 20,
        fontRatio : 26});
   </script>
+
+<?php include("footer.php"); ?>
+

@@ -164,11 +164,11 @@
   <img src="assets/img/mauve/arrows-transparent.png">
 </section>
 
-
-<?php include("footer.php"); ?>
-
 <script>
     $('.main-text').flowtype({
        maxFont   : 20,
        fontRatio : 26});
 </script>
+
+<?php include("footer.php"); ?>
+

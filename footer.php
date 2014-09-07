@@ -2,7 +2,6 @@
 
   <nav id="scroll-nav">
     <ul>
-
        <li class="mauve-nav nav"><a href="mauve.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
@@ -159,7 +158,7 @@
         </div>
       </a></li>
 
-      <li class="emerald-nav nav"><a href="emeral.php">
+      <li class="emerald-nav nav"><a href="emerald.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h5>It pays to be a wise guy</h5>
@@ -243,9 +242,6 @@
           <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
         </div>
       </a></li>
-
-
-
      </ul> 
     
     <div class="creators">
