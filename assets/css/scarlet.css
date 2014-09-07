@@ -2,8 +2,107 @@
 /* Background */
 /**************/
 
- body {background: #fee8e4;}
+  body {background: #fee8e4; overflow-y: scroll;}
 
+  .main-section {
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+    float: left;
+    /*height: 600px;*/
+  } 
+  
+/***********************/
+/*   Side Navigation   */
+/***********************/
+
+.left-nav, .right-nav {
+  height: auto;  
+  width: 7.5%;  
+  /*border: 1px solid #fff;*/
+  font-size: 24px;
+  color: #fff;
+  font-family: "brandon_grotesquemedium";
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.left-nav {
+  background: #ea1378;
+  float: left;
+}
+
+.right-nav {
+  background: #ea1b3b;
+  float: right;
+}
+
+.left-nav a, .right-nav a {
+  display: block;
+}
+
+  .left-nav h5, .right-nav  h5 {
+    text-transform: uppercase;
+    font-family: "brandon_grotesquethin";
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    /*padding-left: 5%;*/
+    margin: .75em auto -5px;
+    letter-spacing: .08em;
+    line-height: 24px;
+  }
+
+  .left-nav img, 
+  .right-nav img, 
+  .left-nav h4, 
+  .right-nav h4,
+  .left-nav h5,
+  .right-nav h5 {
+    display: none;
+    -webkit-transition: all .2 linear .9;
+    overflow: visible;
+  }
+.left-nav img {
+  margin-top: 14px;
+}
+
+.right-nav-icon {
+  margin-top: 15px;
+}
+
+/*.left-nav:hover {
+  width: 15%;
+}
+
+.left-nav:hover + .right-nav {
+  width: 0;
+}
+
+.right-nav:hover {
+    width: 15%;
+}
+
+.right-nav:hover ~ .left-nav {
+  width: 0%;
+}*/
+
+/***********************/
+/* Main Middle Section */
+/***********************/
+
+.main-middle-section {
+  float: left;
+  width: 84.9%;
+  overflow: hidden;
+  margin-left: .03%
+}
 
 /***********************/
 /* Title and Bourges # */
@@ -30,9 +129,10 @@
   }
 
   .number {
+    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    left: 55px;
+    left: 57px;
     display: inline-block;
     margin: 0;
     
@@ -46,9 +146,10 @@
   }
 
   .bourges {
+    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    right: 55px;
+    right: 60px;
     margin: 0;
     margin-bottom: 14px;
     display: inline-block;
@@ -65,8 +166,8 @@
   }
   .percentageBar * {  
     font-family: 'brandon_grotesque_regularRg';
-    font-size: 14pt;  
-    line-height: 47px;
+    font-size: 11pt;  
+    line-height: 39px;
     text-align: center;
     float:left;
     display: block;
@@ -78,7 +179,7 @@
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #ed145b;
+    background: #ed0677;
   }
 
   .ninety {background: #ee3e82;}
@@ -91,6 +192,8 @@
   .twenty {background: #fbd4dc;}
   .ten {background: #fde8eb;}
   .five {background: #fef2f4;}
+
+
 
 /***********************/
 /*   Description Bar   */
@@ -121,10 +224,10 @@
   .desc-text {
     /*float: left;*/
     margin: 0 auto;
-    margin-top: 0.625em;
+    margin-top: .85em;
     /*display: block;*/
     font-family: 'brandon_grotesquethin';
-    font-size: 30pt;
+    font-size: 26pt;
     color: #fff;
   }
 
@@ -175,7 +278,8 @@
   /***** Top ******/
   .icons {
     background: #feedee;
-    width: 17.4%;
+    /*width: 17.4%;*/
+    width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
@@ -185,13 +289,41 @@
   }
 
   .top-icons {
-    text-align: center;
     margin: 20px auto 25px;
     display: table;
-    position: relative;
+    text-align: center; 
   }
 
-  .top-icon1,
+    .top-icons img {
+      width: 89%;
+    }
+
+  .top-right-iconset,
+  .top-left-iconset,
+  .bottom-left-iconset, 
+  .bottom-right-iconset {
+    position: relative; 
+    float: left;
+    width: 44%;
+  }
+
+  .top-right-iconset {margin-bottom: 1em;}
+  
+  .top-left-iconset,
+  .bottom-left-iconset {
+    margin-left: 4%;
+  }
+
+  .top-right-iconset,
+  .bottom-right-iconset {
+    margin-left: 10px;
+  }
+
+  .left-text1 {
+    margin-left: -5px;
+  }
+
+  /*.top-icon1,
   .top-icon3 {
     margin-right: 7px;
   }
@@ -201,19 +333,19 @@
     display: inline-block;
     margin: 0;
     /*width: 40%;*/
-  }
+  /*}
 
-  .left-text1 {position: absolute; top: 92px; left: 0;}
-  .right-text1 {margin-left: 27px !important; width: 52%;}
+  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
+  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
   .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 25px !important;}
+  .right-text2 {margin-left: 19px !important;}*/
 
   /***** Bottom ******/
 
   .bottom-icons {
     margin: 0 0 0 10px;
     text-align: center;
-    line-height: 0;
+    line-height: 1.7;
     color: #fff;
     font-family: 'brandon_grotesqueblack';
     font-size: 30px;
@@ -229,8 +361,8 @@
   .bottom-left-sq,
   .bottom-right-sq {
     float: left;
-    height: 65px;
-    width: 66px;
+    height: 57px;
+    width: 57px;
     border-radius: 5px;
   }
 
@@ -249,8 +381,8 @@
 
   .upper-right-sq {
     margin: 0 0 7px;
-    font-size: 19px;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.813;
 
   }
 
@@ -274,13 +406,19 @@
   }  
 
   .right-col * {
-    height: 42px;
-    width: 42px;
+    height: 36.6px;
+    width: 36.6px;
     border-radius: 5px;
     margin-bottom: 4.5px;
   }
 
   /**** Primary Colors ****/
+
+  .a, .b, .c {
+    line-height: 1.9;
+    font-size: 0.7em;
+    font-family: 'brandon_grotesquebold';
+  }
 
   .a {
     background: #ff0000;
@@ -295,11 +433,6 @@
     background: #0000ff;
   }
 
- .a, .b, .c {
-    line-height: 1.8;
-    font-size: 0.8em;
-    font-family: 'brandon_grotesquebold';
-  }
 /***********************/
 /*  Main Text Section  */
 /***********************/
@@ -307,11 +440,12 @@
   .main-text {
     float: left;
     width: 55%;
-    color: #b41e8e;
-    font-size: 20px;
+    color: #ed145b;
+    font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.2;
-    margin-top: 27px;
+    line-height: 2.1;
+    margin-top: 7px;
+    text-align: justify;
   }
 
 /******************************/
@@ -321,35 +455,185 @@
 .right-infographic {
   float: left;
   background: #8c0f37;
-  width: 21%;
+  /*width: 21%;*/
+  width: 225px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 27px;
+  font-size: 25px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 0px;
+  margin: 20px 10px 15px;
 }
   .right-infographic h1 span {
-    font-size: 35px;
+    font-size: 30px;
   }
 
 .right-infographic p {
-  margin: 0px 0 10px 17%;
-  width: 65%;
-  font-size: 20px;
+  margin: 0px 0 0px 17%;
+  width: 70%;
+  font-size: 19px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
+  text-align: center;
 }
 
 .right-infographic img {
-  margin: 10px 0 10px 0%;
+  margin: 10px 0 4px 0%;
+  width: 55%;
 }
 
-.right-infographic img.bottom-img {
-  margin: 30px auto 40px;
-  display: table;
+.right-infographic .bottom-img {
+  width: 31%;
+  margin: 6% 20%;
 }
+/***********************/
+/*  Bottom Page Break  */
+/***********************/
+
+.page-break {
+  border-bottom: 2px solid #ed145b;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+  float: left;
+  position: relative;
+}
+
+  .page-break img {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    width: 72px;
+    background-color: #fee8e4;
+    position: absolute;
+    left: 47.2%;
+    top: 10px;
+
+  }
+
+
+/***********************/
+/*    Media Queries    */
+/***********************/
+
+@media only screen and (max-width: 1263px) {
+  .main-text {
+    width: 54%;
+  }
+}
+
+@media only screen and (max-width: 1236px) {
+  .main-text {
+    width: 53%;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .main-text {
+    width: 52%;
+  }
+}
+
+@media only screen and (max-width: 1185px) {
+  .main-text {
+    width: 51%;
+  }
+}
+
+@media only screen and (max-width: 1161px) {
+  .main-text {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1138px) {
+  .main-text {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 1116px) {
+  .main-text {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 1095px) {
+  .main-text {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .main-text {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .main-text {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .main-text {
+    width: 44%;
+  }
+}
+
+/*@media only screen and (max-width: 1280px) {*/
+
+   /*.main-text { font-size: 3em; }*/
+ /* .icons {font-size: 8pt;}
+
+  .upper-left-sq,
+  .upper-right-sq,
+  .bottom-left-sq,
+  .bottom-right-sq {height: 50px; width: 50px; line-height: 1.5;}
+
+  .upper-right-sq {font-size: 14px; line-height: 1.8;}
+
+  .right-col * {
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+
+  }
+
+}
+
+@media only screen and (max-width: 1189px) {
+  .right-infographic h1 {font-size: 21px;}
+}
+
+@media only screen and (max-width: 1175px) {
+  .right-infographic {width: 20%;}
+}
+
+@media only screen and (max-width: 1169px) {
+  .main-text {font-size: 19.1px;}
+}
+
+@media only screen and (max-width: 1123px) {
+  .right-infographic {width: 18%;}
+  .right-infographic h1 {margin: 25px 10px 10px; font-size: 19px;}
+  /*.right-infographic p {margin: 0px 0 10px 17%; width: 65%; font-size: 17.5px;}*/
+/*  .right-infographic h1 span {font-size: 25px;}
+  .right-infographic p {margin: 0px 0 10px 15%;width: 71%;font-size: 18px;}
+  .right-infographic img {margin-top: 15px;}
+  .main-text {font-size: 19px;}
+  .right-col * {
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+
+}*/
+
+
+
+

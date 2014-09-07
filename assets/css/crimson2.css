@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #fee9ea; overflow-y: scroll;}
+  body {background: #fee8e4; overflow-y: scroll;}
 
   .main-section {
     padding: 0;
@@ -33,12 +33,12 @@
 }
 
 .left-nav {
-  background: #ec008c;
+  background: #ea1378;
   float: left;
 }
 
 .right-nav {
-  background: #ed145b;
+  background: #ea1b3b;
   float: right;
 }
 
@@ -69,6 +69,9 @@
     -webkit-transition: all .2 linear .9;
     overflow: visible;
   }
+.left-nav img {
+  margin-top: 14px;
+}
 
 .right-nav-icon {
   margin-top: 15px;
@@ -109,7 +112,7 @@
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #ed0677;
+    color: #ed145b;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
@@ -118,7 +121,7 @@
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #ed0677;
+    color: #ed145b;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -203,7 +206,7 @@
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/crimson/crimson-bg.png);
+    background: url(../img/scarlet/scarlet-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -250,7 +253,7 @@
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #fee9ea;
+  border-top: 18px solid #fee8e4;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -274,13 +277,13 @@
 
   /***** Top ******/
   .icons {
-    background: #feede9;
+    background: #feedee;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #ea1378;
+    color: #b41e8e;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
   }
@@ -305,9 +308,19 @@
   }
 
   .top-right-iconset {margin-bottom: 1em;}
+  
   .top-left-iconset,
   .bottom-left-iconset {
-    margin-left: 7%;
+    margin-left: 4%;
+  }
+
+  .top-right-iconset,
+  .bottom-right-iconset {
+    margin-left: 10px;
+  }
+
+  .left-text1 {
+    margin-left: -7px;
   }
 
   /*.top-icon1,
@@ -355,7 +368,7 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #faa61a;
+    background: #ffcb05;
   }
   
 
@@ -380,11 +393,11 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #00a76d;
+    background: #00a99d;
   }
 
   .bottom-right-sq {
-    background: #0089cf;
+    background: #2e3192;
   }
 
   .right-col {
@@ -427,7 +440,7 @@
   .main-text {
     float: left;
     width: 55%;
-    color: #ea1378;
+    color: #ed145b;
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.1;
@@ -453,32 +466,36 @@
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 30px;
+  margin: 20px 10px 15px;
 }
   .right-infographic h1 span {
     font-size: 30px;
   }
 
 .right-infographic p {
-  margin: 0px 0 0px 14%;
-  width: 65%;
-  font-size: 17px;
+  margin: 0px 0 0px 17%;
+  width: 70%;
+  font-size: 19px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
-  text-transform: uppercase;
-  text-align: left;
+  text-align: center;
 }
 
 .right-infographic img {
-  margin: 10px 0 32px 0%;
+  margin: 10px 0 4px 0%;
+  width: 55%;
 }
 
+.right-infographic .bottom-img {
+  width: 10%;
+  margin: 6% 20%;
+}
 /***********************/
 /*  Bottom Page Break  */
 /***********************/
 
 .page-break {
-  border-bottom: 2px solid #ed0677;
+  border-bottom: 2px solid #ed145b;
   width: 100%;
   height: 20px;
   margin-bottom: 20px;
@@ -491,7 +508,7 @@
     text-align: center;
     display: table;
     width: 72px;
-    background-color: #fee9ea;
+    background-color: #fee8e4;
     position: absolute;
     left: 47.2%;
     top: 10px;
