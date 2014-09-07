@@ -265,11 +265,7 @@
     });
   </script>
 
-  <script>
-    $('.main-text').flowtype({
-       maxFont   : 20,
-       fontRatio : 26});
-  </script>
+  
 
 </body>
 </html>

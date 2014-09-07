@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #fee8e4; overflow-y: scroll;}
+  body {background: #fee8e0; overflow-y: scroll;}
 
   .main-section {
     padding: 0;
@@ -33,12 +33,12 @@
 }
 
 .left-nav {
-  background: #ea1378;
+  background: #ed145b;
   float: left;
 }
 
 .right-nav {
-  background: #ea1b3b;
+  background: #ed1c24;
   float: right;
 }
 
@@ -73,7 +73,6 @@
 .left-nav .icon {
   margin-top: 19px;
 }
-
 
 .right-nav-icon {
   margin-top: 15px;
@@ -114,16 +113,17 @@
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #ed145b;
+    color: #ed1a3b;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
+    letter-spacing: -4px;
   }
 
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #ed145b;
+    color: #ed1a3b;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -181,19 +181,19 @@
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #ed0677;
+    background: #ed1a3b;
   }
 
-  .ninety {background: #ef4066;}
-  .eighty {background: #f05b72;}
-  .seventy {background: #f27180;}
-  .sixty {background: #f4858e;}
-  .fifty {background: #f5989d;}
-  .forty {background: #f8abad;}
-  .thirty {background: #fabfbf;}
-  .twenty {background: #fcd4d2;}
-  .ten {background: #fde8e6;}
-  .five {background: #fef2ef;}
+  .ninety {background: #ef4048;}
+  .eighty {background: #f15b56;}
+  .seventy {background: #f37165;}
+  .sixty {background: #f48476;}
+  .fifty {background: #f69788;}
+  .forty {background: #f8aa9b;}
+  .thirty {background: #fabfb1;}
+  .twenty {background: #fcd3c8;}
+  .ten {background: #fee7e0;}
+  .five {background: #fef2ed;}
 
 
 
@@ -208,7 +208,7 @@
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/scarlet/scarlet-bg.png);
+    background: url(../img/poster-red/poster-red-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -255,7 +255,7 @@
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #fee8e4;
+  border-top: 18px solid #fee8e0;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -279,13 +279,13 @@
 
   /***** Top ******/
   .icons {
-    background: #feedee;
+    background: #feede6;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #ed145b;
+    color: #ed1a3b;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
   }
@@ -323,6 +323,10 @@
 
   .left-text1 {
     margin-left: -5px;
+  }
+
+  .right-text2 {
+    width: 101%;
   }
 
   /*.top-icon1,
@@ -370,7 +374,7 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #ffcb05;
+    background: #fff200;
   }
   
 
@@ -395,11 +399,11 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #00a99d;
+    background: #00accd;
   }
 
   .bottom-right-sq {
-    background: #2e3192;
+    background: #6f2c91;
   }
 
   .right-col {
@@ -441,8 +445,8 @@
 
   .main-text {
     float: left;
-    width: 55%;
-    color: #ed145b;
+    width: 37%;
+    color: #ed1a3b;
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.1;
@@ -456,27 +460,33 @@
 
 .right-infographic {
   float: left;
-  background: #8c0f37;
+  background: #5b5b5b;
   /*width: 21%;*/
-  width: 225px;
+  width: 362px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 15px;
+  margin: 20px 10px 5px;
 }
-  .right-infographic h1 span {
-    font-size: 30px;
-  }
+
+.right-infographic span {
+  font-family: 'brandon_grotesquebold';
+  color: #fff;  
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: block;
+}
 
 .right-infographic p {
-  margin: 0px 0 0px 17%;
-  width: 70%;
+  margin: 0px 0 0px 13%;
+  width: 74%;
   font-size: 19px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
@@ -485,19 +495,19 @@
 
 .right-infographic img {
   margin: 10px 0 4px 0%;
-  width: 55%;
+  width: 36%;
 }
 
-.right-infographic .bottom-img {
-  width: 31%;
-  margin: 6% 20%;
+.right-infographic .bottom-img-cultured {
+  width: 77%;
+  margin: 8% 0 8%;
 }
 /***********************/
 /*  Bottom Page Break  */
 /***********************/
 
 .page-break {
-  border-bottom: 2px solid #ed145b;
+  border-bottom: 2px solid #ed1a3b;
   width: 100%;
   height: 20px;
   margin-bottom: 20px;
@@ -510,7 +520,7 @@
     text-align: center;
     display: table;
     width: 72px;
-    background-color: #fee8e4;
+    background-color: #fee8e0;
     position: absolute;
     left: 47.2%;
     top: 10px;
@@ -522,55 +532,55 @@
 /*    Media Queries    */
 /***********************/
 
-@media only screen and (max-width: 1263px) {
-  .main-text {
-    width: 54%;
-  }
-}
-
-@media only screen and (max-width: 1236px) {
-  .main-text {
-    width: 53%;
-  }
-}
-
-@media only screen and (max-width: 1210px) {
-  .main-text {
-    width: 52%;
-  }
-}
-
-@media only screen and (max-width: 1185px) {
-  .main-text {
-    width: 51%;
-  }
-}
-
 @media only screen and (max-width: 1161px) {
   .main-text {
-    width: 50%;
+    width: 36%;
   }
 }
 
-@media only screen and (max-width: 1138px) {
+@media only screen and (max-width: 1143px) {
   .main-text {
-    width: 49%;
+    width: 35%;
   }
 }
 
-@media only screen and (max-width: 1116px) {
+@media only screen and (max-width: 1125px) {
   .main-text {
-    width: 48%;
+    width: 34%;
   }
 }
 
-@media only screen and (max-width: 1095px) {
+@media only screen and (max-width: 1109px) {
   .main-text {
-    width: 47%;
+    width: 33%;
   }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1094px) {
+  .main-text {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .main-text {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 1061px) {
+  .main-text {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1049px) {
+  .main-text {
+    width: 29%;
+  }
+}
+
+/*media only screen and (max-width: 1075px) {
   .main-text {
     width: 46%;
   }
@@ -586,7 +596,7 @@
   .main-text {
     width: 44%;
   }
-}
+}*/
 
 /*@media only screen and (max-width: 1280px) {*/
 
