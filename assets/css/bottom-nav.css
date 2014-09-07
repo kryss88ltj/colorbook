@@ -1,6 +1,9 @@
 /******************/
 /*   Bottom Nav   */
 /******************/
+body {
+  -webkit-transition: all 1s ease-in-out .25s;
+}
 
 #scroll-nav {
   float: left;
@@ -60,7 +63,7 @@
 
   .nav {
     float: left;
-    width: 177px;
+    width: 187px;
     height: 540px;
     position: relative;
     /*-webkit-transition: width .3s ease-in-out;
@@ -91,7 +94,7 @@
   .mauve-nav h4 {
     position: absolute;
     top: 154px;
-    left: 42px;
+    left: 48px;
   }
 
   .mauve-nav .icon {
@@ -108,7 +111,7 @@
   .magenta-nav h4 {
     position: absolute;
     top: 154px;
-    left: 28px;
+    left: 32px;
   }
 
   .magenta-nav .icon {
@@ -130,7 +133,7 @@
   .crimson-nav h4 {
     position: absolute;
     top: 154px;
-    left: 30px;
+    left: 33px;
   }
 
   .crimson-nav .icon {
@@ -148,7 +151,7 @@
   .scarlet-nav h4 {
     position: absolute;
     top: 154px;
-    left: 35px;
+    left: 39px;
   }
 
   .scarlet-nav .icon {
@@ -158,7 +161,7 @@
   }
 
   .scarlet-nav h5 {
-    width: 100% !important;
+    width: 93% !important;
   }
 
   .poster-red-nav .top-scroll-text {
@@ -169,7 +172,7 @@
   .poster-red-nav h4 {
     position: absolute;
     top: 154px;
-    left: 13px;
+    left: 18px;
     width: 152px;
   }
 
@@ -187,7 +190,7 @@
   .coral-nav h4 {
     position: absolute;
     top: 154px;
-    left: 42px;
+    left: 50px;
   }
 
   .coral-nav .icon {
@@ -205,7 +208,7 @@
   .orange-nav h4 {
     position: absolute;
     top: 154px;
-    left: 34px;
+    left: 39px;
   }
 
   .orange-nav .icon {
@@ -223,7 +226,7 @@
   .amber-nav h4 {
     position: absolute;
     top: 154px;
-    left: 42px;
+    left: 47px;
   }
 
   .amber-nav .icon {
@@ -248,7 +251,7 @@
     width: 70px;
     position: absolute;
     top: 225px;
-    left: 52px;
+    left: 56px;
   }
 
   .yellow-nav .top-scroll-text {
@@ -259,7 +262,7 @@
   .yellow-nav h4 {
     position: absolute;
     top: 154px;
-    left: 38px;
+    left: 42px;
   }
 
   .yellow-nav .icon {
@@ -296,7 +299,7 @@
     width: 151px;
     position: absolute;
     top: 154px;
-    left: 14px;
+    left: 18px;
   }
   .leaf-green-nav .icon {
     width: 70px;
@@ -314,7 +317,7 @@
     width: 151px;
     position: absolute;
     top: 154px;
-    left: 13px;
+    left: 19px;
   }
 
   .sea-green-nav .icon {
@@ -332,7 +335,7 @@
   .emerald-nav h4 {
     position: absolute;
     top: 154px;
-    left: 30px;
+    left: 35px;
   }
 
   .emerald-nav .icon {
@@ -368,7 +371,7 @@
   .cyan-nav h4 {
     position: absolute;
     top: 154px;
-    left: 53px;
+    left: 60px;
   }
 
   .cyan-nav .icon {
@@ -387,7 +390,7 @@
     width: 114px;
     position: absolute;
     top: 154px;
-    left: 33px;
+    left: 38px;
   }
 
   .sky-blue-nav .icon {
@@ -405,7 +408,7 @@
   .ultramarine-nav h4 {
     position: absolute;
     top: 154px;
-    left: 4px;
+    left: 9px;
     letter-spacing: -.6px;
   }
 
@@ -424,7 +427,7 @@
   .violet-nav h4 {
     position: absolute;
     top: 154px;
-    left: 43px;
+    left: 48px;
   }
 
   .violet-nav .icon {
@@ -442,7 +445,7 @@
   .purple-nav h4 {
     position: absolute;
     top: 154px;
-    left: 42px;
+    left: 45px;
   }
 
   .purple-nav .icon {
@@ -521,5 +524,34 @@
 
   .created {
     float: right;
-
   }
+
+
+  #transition {
+    display: none;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out .5s;
+  }
+
+  @media only screen and (max-width: 1036px) {
+    body > * {
+      display: none;
+      -webkit-transition: all 1s ease-in-out .25s;
+    }
+  }
+
+  @media only screen and (max-width: 1036px) {
+    body {
+      background: #ff0000;
+    }
+
+    #transition {
+      display: table;
+      opacity: 1;
+      margin: 100px auto;
+      text-align: center;
+      font-size: 3em;
+      /*-webkit-transition: all 1s ease-in-out .25s;*/
+    }
+  }
+

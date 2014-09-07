@@ -254,13 +254,23 @@
     </div> 
   </nav>
 
-
+  <section id="transition">
+   <p>tablet coming soon</p>
+  </section> 
 
   <!-- Scrolling Nav Script --> 
   <script type="text/javascript">
     $(document).ready(function() {
       $('#scroll-nav').scrollingCarousel();
     });
+  </script>
+
+  <script>
+    $('.main-text').flowtype({
+
+       
+       maxFont   : 20,
+       fontRatio : 26});
   </script>
 
 </body>

@@ -19,8 +19,8 @@
 /***********************/
 
 .left-nav, .right-nav {
-height: auto;  
-width: 7.5%;
+  height: auto;  
+  width: 7.5%;  
   /*border: 1px solid #fff;*/
   font-size: 24px;
   color: #fff;
@@ -30,6 +30,16 @@ width: 7.5%;
   padding-top: 5%;
   margin: 0;
   overflow: hidden;
+}
+
+.left-nav {
+  background: #6f2c91;
+  float: left;
+}
+
+.right-nav {
+  background: #ea1378;
+  float: right;
 }
 
 .left-nav a, .right-nav a {
@@ -44,10 +54,9 @@ width: 7.5%;
     text-align: center;
     width: 150px;
     /*padding-left: 5%;*/
-    margin: .75em auto 0em;
+    margin: .75em auto -5px;
     letter-spacing: .08em;
     line-height: 24px;
-
   }
 
   .left-nav img, 
@@ -60,6 +69,11 @@ width: 7.5%;
     -webkit-transition: all .2 linear .9;
     overflow: visible;
   }
+
+.right-nav-icon {
+  margin-top: 15px;
+}
+
 /*.left-nav:hover {
   width: 15%;
 }
@@ -75,16 +89,6 @@ width: 7.5%;
 .right-nav:hover ~ .left-nav {
   width: 0%;
 }*/
-
-.left-nav {
-  background: #ec008c;
-  float: left;
-}
-
-.right-nav {
-  background: #ea1378;
-  float: right;
-}
 
 /***********************/
 /* Main Middle Section */
@@ -122,9 +126,10 @@ width: 7.5%;
   }
 
   .number {
+    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    left: 55px;
+    left: 53px;
     display: inline-block;
     margin: 0;
     
@@ -138,6 +143,7 @@ width: 7.5%;
   }
 
   .bourges {
+    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
     right: 55px;
@@ -157,8 +163,8 @@ width: 7.5%;
   }
   .percentageBar * {  
     font-family: 'brandon_grotesque_regularRg';
-    font-size: 14pt;  
-    line-height: 47px;
+    font-size: 11pt;  
+    line-height: 39px;
     text-align: center;
     float:left;
     display: block;
@@ -214,10 +220,10 @@ width: 7.5%;
   .desc-text {
     /*float: left;*/
     margin: 0 auto;
-    margin-top: 0.625em;
+    margin-top: .85em;
     /*display: block;*/
     font-family: 'brandon_grotesquethin';
-    font-size: 30pt;
+    font-size: 26pt;
     color: #fff;
   }
 
@@ -268,7 +274,8 @@ width: 7.5%;
   /***** Top ******/
   .icons {
     background: #f3dbed;
-    width: 17.4%;
+    /*width: 17.4%;*/
+    width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
@@ -284,10 +291,25 @@ width: 7.5%;
   }
 
     .top-icons img {
-      width: 40%;
+      width: 89%;
     }
 
-  .top-icon1,
+  .top-right-iconset,
+  .top-left-iconset,
+  .bottom-left-iconset, 
+  .bottom-right-iconset {
+    position: relative; 
+    float: left;
+    width: 42%;
+  }
+
+  .top-right-iconset {margin-bottom: 2em;}
+  .top-left-iconset,
+  .bottom-left-iconset {
+    margin-left: 7%;
+  }
+
+  /*.top-icon1,
   .top-icon3 {
     margin-right: 7px;
   }
@@ -297,12 +319,12 @@ width: 7.5%;
     display: inline-block;
     margin: 0;
     /*width: 40%;*/
-  }
+  /*}
 
   .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
   .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
   .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 19px !important;}
+  .right-text2 {margin-left: 19px !important;}*/
 
   /***** Bottom ******/
 
@@ -405,7 +427,7 @@ width: 7.5%;
     float: left;
     width: 55%;
     color: #b41e8e;
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.2;
     margin-top: 7px;
@@ -419,7 +441,8 @@ width: 7.5%;
 .right-infographic {
   float: left;
   background: #8c0f37;
-  width: 21%;
+  /*width: 21%;*/
+  width: 225px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
@@ -482,10 +505,76 @@ width: 7.5%;
 /*    Media Queries    */
 /***********************/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1263px) {
+  .main-text {
+    width: 54%;
+  }
+}
+
+@media only screen and (max-width: 1236px) {
+  .main-text {
+    width: 53%;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .main-text {
+    width: 52%;
+  }
+}
+
+@media only screen and (max-width: 1185px) {
+  .main-text {
+    width: 51%;
+  }
+}
+
+@media only screen and (max-width: 1161px) {
+  .main-text {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1138px) {
+  .main-text {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 1116px) {
+  .main-text {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 1095px) {
+  .main-text {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .main-text {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .main-text {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .main-text {
+    width: 44%;
+  }
+}
+
+/*@media only screen and (max-width: 1280px) {*/
 
    /*.main-text { font-size: 3em; }*/
-  .icons {font-size: 8pt;}
+ /* .icons {font-size: 8pt;}
 
   .upper-left-sq,
   .upper-right-sq,
@@ -519,7 +608,7 @@ width: 7.5%;
   .right-infographic {width: 18%;}
   .right-infographic h1 {margin: 25px 10px 10px; font-size: 19px;}
   /*.right-infographic p {margin: 0px 0 10px 17%; width: 65%; font-size: 17.5px;}*/
-  .right-infographic h1 span {font-size: 25px;}
+/*  .right-infographic h1 span {font-size: 25px;}
   .right-infographic p {margin: 0px 0 10px 15%;width: 71%;font-size: 18px;}
   .right-infographic img {margin-top: 15px;}
   .main-text {font-size: 19px;}
@@ -528,7 +617,7 @@ width: 7.5%;
     width: 30px;
     font-size: 16px;
 
-}
+}*/
 
 
 

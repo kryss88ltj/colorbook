@@ -12,12 +12,12 @@
 
   <!-- Side Menu Left -->
   <nav class="left-nav">
-    <a href="magenta.php">
+    <a href="purple.php">
       <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-      <h5>REGINA GEORGE IN COLOR FORM</h5>
+      <h5>Perfectly introspective.</h5>
       <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-      <h4>magenta</h4>
-      <img class="left-nav-icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
+      <h4>purple</h4>
+      <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
     </a>
   </nav>
 
@@ -28,9 +28,9 @@
 
     <!-- Bourges Number --> 
     <div class="bourgesBlock">
-      <h6 class="bourges">bourges</h6>
+      <h5 class="bourges">bourges</h6>
       <h5 class="numeral">1</h5>
-      <h6 class="number">number</h6>
+      <h5 class="number">number</h6>
     </div> 
 
     <!-- Percentage Bar --> 
@@ -59,7 +59,7 @@
     
     <section class="icons">
       <!-- Info Icons - Top -->
-      <section class="top-icons clearfix">
+      <!-- <section class="top-icons clearfix">
         <div>
           <img class="top-icon1" src="assets/img/mauve/icons/icon1.png" alt="">
           <img class="top-icon2"src="assets/img/mauve/icons/icon2.png" alt="">
@@ -76,7 +76,27 @@
           <p class="icon-text left-text2">mournful</p>
           <p class="icon-text right-text2">expensive</p>
         </div>
+      </section> -->
+
+      <section class="top-icons clearfix">
+        <div class="top-left-iconset">
+          <img class="top-icon1" src="assets/img/mauve/icons/icon1.png" alt="">
+          <p class="icon-text left-text1">first chem color</p>
+        </div>
+        <div class="top-right-iconset">
+          <img class="top-icon2"src="assets/img/mauve/icons/icon2.png" alt="">
+          <p class="icon-text right-text1">stylish</p>
+        </div>
+        <div class="bottom-left-iconset">
+          <img class="top-icon3" src="assets/img/mauve/icons/icon3.png" alt="">
+          <p class="icon-text left-text2">mournful</p>
+        </div>
+         <div class="bottom-right-iconset">
+          <img class="top-icon4" src="assets/img/mauve/icons/icon4.png" alt="">
+          <p class="icon-text right-text2">expensive</p>
+        </div>
       </section>
+
       
       <!-- Info Icons - Bottom -->
       <section class="bottom-icons clearfix">
@@ -107,15 +127,15 @@
       </section>
     </section> <!-- end icon section --> 
 
-    <section class="main-text">
-      <span>Mauve is the coolest hue in of all the reds. It has a fashionable and 
+    <section class="main-text clearfix">
+        Mauve is the coolest hue in of all the reds. It has a fashionable and 
         stylish appearance, particularly when paired with grey and other neutral colors. 
         Mauve naturally appears more expensive than other colors. Mauvaline was the first 
         color to be made with chemicals rather than natural pigments. Originally, the 
         color was obtained from leaves of the mallow flower. Mauve is also a color 
         representative of mourning, and brings a human touch to ceremonies covered in 
         black. It is also a common choice for bridesmaid dresses, proving that women can 
-        be as bleak about their weddings as the grooms they drag down the aisle.</span>
+        be as bleak about their weddings as the grooms they drag down the aisle.
     </section>
 
     <section class="right-infographic">
@@ -129,13 +149,13 @@
 
   <!-- Side Menu Right -->
   <nav class="right-nav">
-    <!-- <a href="magenta.php"> -->
+    <a href="magenta.php">
       <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h5>REGINA GEORGE IN COLOR FORM</h5>
       <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
       <h4>magenta</h4>
-      <!-- <img class="right-nav-icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon"> -->
-    <!-- </a> -->
+      <img class="right-nav-icon" src="assets/img/nav/magenta-icon.png" alt="magenta icon">
+    </a>
   </nav>
 
 </section> <!-- end entire main section --> 
@@ -143,5 +163,6 @@
 <section class="page-break">
   <img src="assets/img/mauve/arrows-transparent.png">
 </section>
+
 
 <?php include("footer.php"); ?>

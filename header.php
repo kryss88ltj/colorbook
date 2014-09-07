@@ -14,7 +14,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/pagescroll.js"></script>
-    <script src="assets/js/flowtext.js"></script>
+    <script src="assets/js/flowtype.js"></script>
 
 	</head>
 	<body>
