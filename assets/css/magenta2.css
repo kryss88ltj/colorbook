@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #f0d2e8; overflow-y: scroll;}
+  body {background: #fde9f2; overflow-y: scroll;}
 
   .main-section {
     padding: 0;
@@ -33,12 +33,12 @@
 }
 
 .left-nav {
-  background: #6f2c91;
+  background: #b41e8e;
   float: left;
 }
 
 .right-nav {
-  background: #ec008c;
+  background: #ea1378;
   float: right;
 }
 
@@ -109,7 +109,7 @@
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #b41e8e;
+    color: #ec008c;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
@@ -118,7 +118,7 @@
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #b41e8e;
+    color: #ec008c;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -176,19 +176,20 @@
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #b41e8e;
+    background: #ec008c;
   }
 
-  .ninety {background: #b82994;}
-  .eighty {background: #bc359a;}
-  .seventy {background: #c34ba5;}
-  .sixty {background: #cb62b0;}
-  .fifty {background: #d278bb;}
-  .forty {background: #da8fc7;}
-  .thirty {background: #e1a5d2;}
-  .twenty {background: #e8bbdd;}
-  .ten {background: #f0d2e8;}
-  .five {background: #f7e8f3;}
+  .ninety {background: #ee3d96;}
+  .eighty {background: #ef5ba1;}
+  .seventy {background: #f173ac;}
+  .sixty {background: #f173ac;}
+  .fifty {background: #f49abf;}
+  .forty {background: #f6adcd;}
+  .thirty {background: #f8c1d6;}
+  .twenty {background: #fad5e5;}
+  .ten {background: #fde9f1;}
+  .five {background: #fef3f7;}
+
 
 
 /***********************/
@@ -202,7 +203,7 @@
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/mauve/topbarbgs/mauve-bg.png);
+    background: url(../img/magenta/topbarbgs/magenta-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -249,7 +250,7 @@
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #f0d2e8;
+  border-top: 18px solid #fde9f2;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -273,7 +274,7 @@
 
   /***** Top ******/
   .icons {
-    background: #f3dbed;
+    background: #fdedf5;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
@@ -354,7 +355,7 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #ed1c24;
+    background: #f37021;
   }
   
 
@@ -379,11 +380,11 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #50b848;
+    background: #00a651;
   }
 
   .bottom-right-sq {
-    background: #00aeef;
+    background: #0089cf;
   }
 
   .right-col {
@@ -440,7 +441,7 @@
 
 .right-infographic {
   float: left;
-  background: #8c0f37;
+  background: #707070;
   /*width: 21%;*/
   width: 225px;
   margin: 20px 15px 20px 25px;
@@ -480,7 +481,7 @@
 /***********************/
 
 .page-break {
-  border-bottom: 2px solid #b41e8e;
+  border-bottom: 2px solid #ec008c;
   width: 100%;
   height: 20px;
   margin-bottom: 20px;
@@ -493,7 +494,7 @@
     text-align: center;
     display: table;
     width: 72px;
-    background-color: #f0d2e8;
+    background-color: #fde9f2;
     position: absolute;
     left: 47.2%;
     top: 10px;

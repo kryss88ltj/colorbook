@@ -2,104 +2,66 @@
 /* Background */
 /**************/
 
-  body {background: #fde9f2; overflow-y: scroll;}
+ body {background: #fde9f2;}
 
-  .main-section {
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    /*overflow-x: hidden;*/
-    /*overflow-y: scroll;*/
-    float: left;
-    /*height: 600px;*/
-  } 
-  
 /***********************/
 /*   Side Navigation   */
 /***********************/
 
 .left-nav, .right-nav {
-  height: auto;  
-  width: 7.5%;  
-  /*border: 1px solid #fff;*/
+  height: 90vh;
+  opacity: 0;
+  width: 15%;
+  border: 1px solid #fff;
   font-size: 24px;
   color: #fff;
   font-family: "brandon_grotesquemedium";
   text-transform: uppercase;
   text-align: center;
+  -webkit-transition: all .2s ease-in-out;
   padding-top: 5%;
-  margin: 0;
-  overflow: hidden;
 }
 
-.left-nav {
-  background: #b41e8e;
-  float: left;
+.left-nav h5, .right-nav  h5 {
+  text-transform: uppercase;
+  font-family: "brandon_grotesquethin";
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  width: 89%;
+  padding-left: 5%;
+  margin: .75em 0;
+  letter-spacing: .08em;
+  line-height: 24px;
 }
 
-.right-nav {
-  background: #ea1378;
-  float: right;
-}
-
-.left-nav a, .right-nav a {
-  display: block;
-}
-
-  .left-nav h5, .right-nav  h5 {
-    text-transform: uppercase;
-    font-family: "brandon_grotesquethin";
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    width: 150px;
-    /*padding-left: 5%;*/
-    margin: .75em auto -5px;
-    letter-spacing: .08em;
-    line-height: 24px;
-  }
-
-  .left-nav img, 
-  .right-nav img, 
-  .left-nav h4, 
-  .right-nav h4,
-  .left-nav h5,
-  .right-nav h5 {
-    display: none;
-    -webkit-transition: all .2 linear .9;
-    overflow: visible;
-  }
-
-.right-nav-icon {
-  margin-top: 15px;
-}
-
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
+.left-nav:hover {
+  position: absolute;
+  left: 0;
+  height: 90vh;
+  opacity: 1;
+  background: #ec008c;
 }
 
 .right-nav:hover {
-    width: 15%;
+  opacity: 1;
+  height: 90vh;
+  right: 0;
+  background: #ed145b;
 }
 
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
-
-/***********************/
-/* Main Middle Section */
-/***********************/
-
-.main-middle-section {
-  float: left;
-  width: 84.9%;
-  overflow: hidden;
-  margin-left: .03%
+.left-nav {
+  position: absolute;
+  left: -5%;
+  z-index: 1000;
 }
+
+.right-nav {
+  position: absolute;
+  right: -5%;
+  z-index: 1000;
+}
+
 
 /***********************/
 /* Title and Bourges # */
@@ -126,10 +88,9 @@
   }
 
   .number {
-    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    left: 53px;
+    left: 55px;
     display: inline-block;
     margin: 0;
     
@@ -143,7 +104,6 @@
   }
 
   .bourges {
-    font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
     right: 55px;
@@ -163,8 +123,8 @@
   }
   .percentageBar * {  
     font-family: 'brandon_grotesque_regularRg';
-    font-size: 11pt;  
-    line-height: 39px;
+    font-size: 14pt;  
+    line-height: 47px;
     text-align: center;
     float:left;
     display: block;
@@ -178,7 +138,7 @@
     height: 6px;
     background: #ec008c;
   }
-
+  
   .ninety {background: #ee3d96;}
   .eighty {background: #ef5ba1;}
   .seventy {background: #f173ac;}
@@ -190,13 +150,11 @@
   .ten {background: #fde9f1;}
   .five {background: #fef3f7;}
 
-
-
 /***********************/
 /*   Description Bar   */
 /***********************/
 
-  .desc-bar {
+   .desc-bar {
     position: relative;
     float: left;
     margin: 10px 0 0 0;
@@ -221,10 +179,10 @@
   .desc-text {
     /*float: left;*/
     margin: 0 auto;
-    margin-top: .85em;
+    margin-top: 0.625em;
     /*display: block;*/
     font-family: 'brandon_grotesquethin';
-    font-size: 26pt;
+    font-size: 30pt;
     color: #fff;
   }
 
@@ -233,15 +191,13 @@
     top: 20px;
     left: 28.25%;
     margin: 0 auto;
-    display: none;
   }
 
    .line2 {
     position: absolute;
     bottom: 20px;
     margin: 0 auto;
-    left: 28.25%;
-    display: none;
+    left: 28.25%
   }
 
 .down-arrow {
@@ -275,8 +231,7 @@
   /***** Top ******/
   .icons {
     background: #fdedf5;
-    /*width: 17.4%;*/
-    width: 187px;
+    width: 17.4%;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
@@ -291,26 +246,7 @@
     text-align: center; 
   }
 
-    .top-icons img {
-      width: 89%;
-    }
-
-  .top-right-iconset,
-  .top-left-iconset,
-  .bottom-left-iconset, 
-  .bottom-right-iconset {
-    position: relative; 
-    float: left;
-    width: 42%;
-  }
-
-  .top-right-iconset {margin-bottom: 1em;}
-  .top-left-iconset,
-  .bottom-left-iconset {
-    margin-left: 7%;
-  }
-
-  /*.top-icon1,
+  .top-icon1,
   .top-icon3 {
     margin-right: 7px;
   }
@@ -318,21 +254,20 @@
   .icon-text {
     margin: 0px 5px 10px 5px !important;
     display: inline-block;
-    margin: 0;
-    /*width: 40%;*/
-  /*}
+    width: 40%;
+  }
 
-  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
-  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
-  .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 19px !important;}*/
+  .left-text1 {margin-left: 8px !important; position: relative; top: -18px; left: -3px;}
+  /*.right-text1 {margin-left: 27px !important;}*/
+  .left-text2 {margin-left: -13px !important; position: relative; top: -18px; left: 17px;}
+  .right-text2 {margin-left: 22px !important; text-align: center;}
 
   /***** Bottom ******/
 
   .bottom-icons {
     margin: 0 0 0 10px;
     text-align: center;
-    line-height: 1.7;
+    line-height: 0;
     color: #fff;
     font-family: 'brandon_grotesqueblack';
     font-size: 30px;
@@ -348,8 +283,8 @@
   .bottom-left-sq,
   .bottom-right-sq {
     float: left;
-    height: 57px;
-    width: 57px;
+    height: 65px;
+    width: 66px;
     border-radius: 5px;
   }
 
@@ -357,7 +292,6 @@
     margin: 0 9px 7px 0;
     background: #f37021;
   }
-  
 
   /**** CMYK Colors ****/
 
@@ -368,8 +302,8 @@
 
   .upper-right-sq {
     margin: 0 0 7px;
-    font-size: 16px;
-    line-height: 1.813;
+    font-size: 19px;
+    line-height: 1.7;
 
   }
 
@@ -393,8 +327,8 @@
   }  
 
   .right-col * {
-    height: 36.6px;
-    width: 36.6px;
+    height: 42px;
+    width: 42px;
     border-radius: 5px;
     margin-bottom: 4.5px;
   }
@@ -402,8 +336,8 @@
   /**** Primary Colors ****/
 
   .a, .b, .c {
-    line-height: 1.9;
-    font-size: 0.7em;
+    line-height: 1.8;
+    font-size: 0.8em;
     font-family: 'brandon_grotesquebold';
   }
 
@@ -428,11 +362,10 @@
     float: left;
     width: 55%;
     color: #b41e8e;
-    font-size: 1.2em;
+    font-size: 20px;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.1;
-    margin-top: 7px;
-    text-align: justify;
+    line-height: 2.2;
+    margin-top: 6px;
   }
 
 /******************************/
@@ -442,181 +375,50 @@
 .right-infographic {
   float: left;
   background: #707070;
-  /*width: 21%;*/
-  width: 225px;
+  width: 21%;
+  height: 439px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 25px;
+  font-size: 27px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 30px;
+  margin: 20px 10px 0px;
 }
   .right-infographic h1 span {
-    font-size: 30px;
+    font-size: 35px;
   }
 
 .right-infographic p {
-  margin: 0px 0 0px 14%;
+  margin: 0px 0 10px 17%;
   width: 65%;
-  font-size: 17px;
+  font-size: 15px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
   text-transform: uppercase;
   text-align: left;
 }
 
+.right-infographic p.top-para {
+  margin: 0 -4px 0 49px;
+}
+
+.right-infographic p.bottom-para {
+  margin: 29px 0 0 49px;
+}
+
 .right-infographic img {
-  margin: 10px 0 32px 0%;
+  margin: 10px 0 10px 0%;
 }
-
-/***********************/
-/*  Bottom Page Break  */
-/***********************/
-
-.page-break {
-  border-bottom: 2px solid #ec008c;
-  width: 100%;
-  height: 20px;
-  margin-bottom: 20px;
-  float: left;
-  position: relative;
-}
-
-  .page-break img {
-    margin: 0 auto;
-    text-align: center;
-    display: table;
-    width: 72px;
-    background-color: #fde9f2;
-    position: absolute;
-    left: 47.2%;
-    top: 10px;
-
+  
+  .right-infographic img.top-line {
+    margin: 45px 0 25px;
   }
 
-
-/***********************/
-/*    Media Queries    */
-/***********************/
-
-@media only screen and (max-width: 1263px) {
-  .main-text {
-    width: 54%;
+  .right-infographic img.bottom-line {
+    margin-top: 45px;
   }
-}
-
-@media only screen and (max-width: 1236px) {
-  .main-text {
-    width: 53%;
-  }
-}
-
-@media only screen and (max-width: 1210px) {
-  .main-text {
-    width: 52%;
-  }
-}
-
-@media only screen and (max-width: 1185px) {
-  .main-text {
-    width: 51%;
-  }
-}
-
-@media only screen and (max-width: 1161px) {
-  .main-text {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 1138px) {
-  .main-text {
-    width: 49%;
-  }
-}
-
-@media only screen and (max-width: 1116px) {
-  .main-text {
-    width: 48%;
-  }
-}
-
-@media only screen and (max-width: 1095px) {
-  .main-text {
-    width: 47%;
-  }
-}
-
-@media only screen and (max-width: 1075px) {
-  .main-text {
-    width: 46%;
-  }
-}
-
-@media only screen and (max-width: 1055px) {
-  .main-text {
-    width: 45%;
-  }
-}
-
-@media only screen and (max-width: 1036px) {
-  .main-text {
-    width: 44%;
-  }
-}
-
-/*@media only screen and (max-width: 1280px) {*/
-
-   /*.main-text { font-size: 3em; }*/
- /* .icons {font-size: 8pt;}
-
-  .upper-left-sq,
-  .upper-right-sq,
-  .bottom-left-sq,
-  .bottom-right-sq {height: 50px; width: 50px; line-height: 1.5;}
-
-  .upper-right-sq {font-size: 14px; line-height: 1.8;}
-
-  .right-col * {
-    height: 32px;
-    width: 32px;
-    font-size: 16px;
-
-  }
-
-}
-
-@media only screen and (max-width: 1189px) {
-  .right-infographic h1 {font-size: 21px;}
-}
-
-@media only screen and (max-width: 1175px) {
-  .right-infographic {width: 20%;}
-}
-
-@media only screen and (max-width: 1169px) {
-  .main-text {font-size: 19.1px;}
-}
-
-@media only screen and (max-width: 1123px) {
-  .right-infographic {width: 18%;}
-  .right-infographic h1 {margin: 25px 10px 10px; font-size: 19px;}
-  /*.right-infographic p {margin: 0px 0 10px 17%; width: 65%; font-size: 17.5px;}*/
-/*  .right-infographic h1 span {font-size: 25px;}
-  .right-infographic p {margin: 0px 0 10px 15%;width: 71%;font-size: 18px;}
-  .right-infographic img {margin-top: 15px;}
-  .main-text {font-size: 19px;}
-  .right-col * {
-    height: 30px;
-    width: 30px;
-    font-size: 16px;
-
-}*/
-
-
-
 
