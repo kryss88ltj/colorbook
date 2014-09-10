@@ -445,7 +445,7 @@
 
   .main-text {
     float: left;
-    width: 42%;
+    width: 57%;
     color: #50b848;
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
@@ -462,7 +462,7 @@
   float: left;
   background: #50b848;
   /*width: 21%;*/
-  width: 362px;
+  /*width: 362px;*/
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
