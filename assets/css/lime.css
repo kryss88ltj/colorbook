@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-  body {background: #fee8e0; overflow-y: scroll;}
+  body {background: #ecf5e8; overflow-y: scroll;}
 
   .main-section {
     padding: 0;
@@ -33,12 +33,12 @@
 }
 
 .left-nav {
-  background: #ea1b3b;
+  background: #fff200;
   float: left;
 }
 
 .right-nav {
-  background: #f37021;
+  background: #00a46b;
   float: right;
 }
 
@@ -113,7 +113,7 @@
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #ed1a3b;
+    color: #50b848;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
@@ -123,7 +123,7 @@
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #ed1a3b;
+    color: #50b848;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -181,19 +181,21 @@
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #ed1a3b;
+    background: #50b848;
   }
-  
-  .ninety {background: #ef4130;}
-  .eighty {background: #f15b40;}
-  .seventy {background: #f37053;}
-  .sixty {background: #f58466;}
-  .fifty {background: #f69679;}
-  .forty {background: #f9aa8f;}
-  .thirty {background: #fbbea7;}
-  .twenty {background: #fcd3c1;}
-  .ten {background: #fee7dc;}
-  .five {background: #fff2eb;}
+
+  .ninety {background: #67bd53;}
+  .eighty {background: #79c366;}
+  .seventy {background: #8ac979;}
+  .sixty {background: #9acf8b;}
+  .fifty {background: #aad69c;}
+  .forty {background: #aad69c;}
+  .thirty {background: #aad69c;}
+  .twenty {background: #dbedd4;}
+  .ten {background: #ebf5e7;}
+  .five {background: #ebf5e7;}
+
+
 
 /***********************/
 /*   Description Bar   */
@@ -206,7 +208,7 @@
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/coral/coral-bg.png);
+    background: url(../img/lime/lime-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -253,7 +255,7 @@
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #fee8e0;
+  border-top: 18px solid #ecf5e8;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -277,13 +279,13 @@
 
   /***** Top ******/
   .icons {
-    background: #feede6;
+    background: #f0f7ed;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #ed1a3b;
+    color: #50b848;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
   }
@@ -323,19 +325,10 @@
     margin-left: -5px;
   }
 
-  .left-text2 {
-    width: 122%;
-    margin-left: -8px;
-  }
-
   .right-text2 {
     width: 101%;
   }
 
-  .right-text1 {
-    width: 117%;
-    margin-left: -4px;
-  }
   /*.top-icon1,
   .top-icon3 {
     margin-right: 7px;
@@ -381,7 +374,7 @@
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #fff200;
+    background: #00aeef;
   }
   
 
@@ -406,11 +399,11 @@
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #00accd;
+    background: #b41e8e;
   }
 
   .bottom-right-sq {
-    background: #6f2c91;
+    background: #ed1c24;
   }
 
   .right-col {
@@ -452,8 +445,8 @@
 
   .main-text {
     float: left;
-    width: 55%;
-    color: #ed1a3b;
+    width: 42%;
+    color: #50b848;
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.1;
@@ -467,32 +460,32 @@
 
 .right-infographic {
   float: left;
-  background: #cf1c24;
+  background: #50b848;
   /*width: 21%;*/
-  width: 225px;
+  width: 362px;
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 26px;
+  font-size: 23px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 5px;
+  margin: 10px 10px -10px;
 }
 
 .right-infographic span {
   font-family: 'brandon_grotesquebold';
   color: #fff;  
   text-transform: uppercase;
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 45px;
+  margin-bottom: -15px;
   display: block;
 }
 
 .right-infographic p {
-  margin: 0px 0 0px 13%;
+  margin: 4px 0 10px 13%;
   width: 74%;
   font-size: 19px;
   color: #fff;
@@ -500,22 +493,24 @@
   text-align: center;
 }
 
-.right-infographic img {
-  margin: 10px 0 4px 0%;
-  width: 36%;
+.right-infographic .linetop {
+
 }
 
-.right-infographic .clock-icon {
-  /*width: 77%;*/
-  margin: 9% auto;
-  display: block;
+.right-infographic .linebottom {
+  margin-bottom: 10px;
+}
+
+.right-infographic .bottom-img-cultured {
+  width: 77%;
+  margin: 8% 0 8%;
 }
 /***********************/
 /*  Bottom Page Break  */
 /***********************/
 
 .page-break {
-  border-bottom: 2px solid #ed1a3b;
+  border-bottom: 2px solid #50b848;
   width: 100%;
   height: 20px;
   margin-bottom: 20px;
@@ -528,7 +523,7 @@
     text-align: center;
     display: table;
     width: 72px;
-    background-color: #fee8e0;
+    background-color: #ecf5e8;
     position: absolute;
     left: 47.2%;
     top: 10px;
