@@ -26,6 +26,8 @@ body {
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
+    height: 100%;              /******* changed! *******/
+    /*margin-bottom: 25px;        /******* changed! *******/
     /*height: 600px;*/
   } 
   
@@ -89,22 +91,6 @@ body {
   margin-top: 15px;
 }
 
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
-}
-
-.right-nav:hover {
-    width: 15%;
-}
-
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
-
 /***********************/
 /* Main Middle Section */
 /***********************/
@@ -113,7 +99,8 @@ body {
   float: left;
   width: 84.9%;
   overflow: hidden;
-  margin-left: .03%
+  margin-left: .03%;
+  height: 90%;             /*****changed*******/
 }
 
 /***********************/
@@ -498,7 +485,8 @@ body {
   border-bottom: 2px solid #b41e8e;
   width: 100%;
   height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;  /************ changed ********/
+  margin-top: -16px;    /************ changed ********/
   float: left;
   position: relative;
 }

@@ -6,7 +6,7 @@
 
 <!-- Main Section - Includes all but bottom nav slider -->
 <section class="scrollsections">
-  <div class="main-section">
+  <div class="main-section clearfix">
 
     <!-- Return Home -->
     <a href="index.php"><img class="home" src="assets/img/home/eye.gif" alt="home"></a>
@@ -126,6 +126,7 @@
         <img src="assets/img/infog-line.png" alt="">
         <img class="glasses" src="assets/img/mauve/glasses.png" alt="">
       </div> 
+
     </div> <!-- end main middle section -->
 
     <!-- Side Menu Right -->
@@ -139,11 +140,13 @@
       </a>
     </nav>
 
+    <div class="page-break">
+      <img src="assets/img/mauve/arrows-transparent.png">
+    </div>
+
   </div> <!-- end entire main section --> 
 
-  <div class="page-break">
-    <img src="assets/img/mauve/arrows-transparent.png">
-  </div>
+  
 
 </section>
 

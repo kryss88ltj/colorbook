@@ -15,8 +15,10 @@ $(document).ready(function() {
             }
         });
         // $('.left-nav, .right-nav, .main-middle-section, .main-section').css('height', maxHeight);
-        $('.main-middle-section').attr('style', 'height: 646px !important');
-        $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+        // $('.main-middle-section').attr('style', 'height: 646px !important');
+        $('.main-middle-section').attr('style', 'height: 98%');
+        // $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+          $('.left-nav, .right-nav').attr('style', 'height: 88%');
         
         // $('.main-section').css('height', maxHeight);
         console.log("unifying heights");
@@ -28,13 +30,22 @@ $(document).ready(function() {
   var expandFlag = true;
   $( ".down-arrow" ).click(function() {
     
+    // if (expandFlag) {
+    //   $('.main-middle-section').attr('style', 'height: 756px !important');
+    //   $('.left-nav, .right-nav').attr('style', 'height: 673px !important');
+    //   expandFlag = false;
+    // } else {
+    //    $('.main-middle-section').attr('style', 'height: 646px !important');
+    //   $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+    //   expandFlag = true;
+    // }
     if (expandFlag) {
-      $('.main-middle-section').attr('style', 'height: 756px !important');
-      $('.left-nav, .right-nav').attr('style', 'height: 673px !important');
+      $('.main-middle-section').attr('style', 'height: 98% !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 88% !important');
       expandFlag = false;
     } else {
-       $('.main-middle-section').attr('style', 'height: 646px !important');
-      $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
+       $('.main-middle-section').attr('style', 'height: 98% !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 88% !important');
       expandFlag = true;
     }
     $( ".desc-bar" ).toggleClass("collapsed");

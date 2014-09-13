@@ -1,11 +1,11 @@
 body {
-  background: url(../img/home/diagonalbg.jpg) repeat;
+  background: url(../img/home/stripebg.png) repeat;
 }
 html,
 body {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   padding: 0;
   margin: 0;
 }
@@ -28,7 +28,7 @@ body {
 /**************/
 
   .section1 {
-    padding-top: 170px;
+    padding-top: 10%;
     /*border: 1px solid #000;*/
   }
   .eye {

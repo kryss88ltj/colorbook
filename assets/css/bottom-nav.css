@@ -11,23 +11,29 @@ body {
   padding: 0;
   width: 100%;
   position: relative;
+  height: 100%;
 }
   
   #scroll-nav ul {
     float: left;
     padding: 0;
+    height: 100%;
   }
 
   #scroll-nav ul li {
     list-style-type: none;
     border-left: 1px solid #fff;
     position: relative;
-    padding-top: 3%;
+    /*padding-top: 3%;*/
+    height: 100%
   }
 
   #scroll-nav ul li a {
     position: relative;
     display: block;
+    height: 100%;
+    /*margin-top: calc(50% - 280px);*/
+    margin-top: 33%;
   }
 
   #scroll-nav ul li h5 {
@@ -66,7 +72,8 @@ body {
     float: left;
     width: 187px;
     /*height: 540px;*/
-    height: 640px;
+    /*height: 640px;*/
+    height: 100%;
     position: relative;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
