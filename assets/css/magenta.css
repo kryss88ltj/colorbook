@@ -1,6 +1,21 @@
 /**************/
 /* Background */
 /**************/
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.scrollsections {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
   body {background: #fde9f2; overflow-y: scroll;}
 
@@ -187,7 +202,7 @@
   .ninety {background: #ee3d96;}
   .eighty {background: #ef5ba1;}
   .seventy {background: #f173ac;}
-  .sixty {background: #f173ac;}
+  .sixty {background: #f287b7;}
   .fifty {background: #f49abf;}
   .forty {background: #f6adcd;}
   .thirty {background: #f8c1d6;}
@@ -486,7 +501,7 @@
   border-bottom: 2px solid #ec008c;
   width: 100%;
   height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   float: left;
   position: relative;
 }
@@ -573,54 +588,6 @@
     width: 44%;
   }
 }
-
-/*@media only screen and (max-width: 1280px) {*/
-
-   /*.main-text { font-size: 3em; }*/
- /* .icons {font-size: 8pt;}
-
-  .upper-left-sq,
-  .upper-right-sq,
-  .bottom-left-sq,
-  .bottom-right-sq {height: 50px; width: 50px; line-height: 1.5;}
-
-  .upper-right-sq {font-size: 14px; line-height: 1.8;}
-
-  .right-col * {
-    height: 32px;
-    width: 32px;
-    font-size: 16px;
-
-  }
-
-}
-
-@media only screen and (max-width: 1189px) {
-  .right-infographic h1 {font-size: 21px;}
-}
-
-@media only screen and (max-width: 1175px) {
-  .right-infographic {width: 20%;}
-}
-
-@media only screen and (max-width: 1169px) {
-  .main-text {font-size: 19.1px;}
-}
-
-@media only screen and (max-width: 1123px) {
-  .right-infographic {width: 18%;}
-  .right-infographic h1 {margin: 25px 10px 10px; font-size: 19px;}
-  /*.right-infographic p {margin: 0px 0 10px 17%; width: 65%; font-size: 17.5px;}*/
-/*  .right-infographic h1 span {font-size: 25px;}
-  .right-infographic p {margin: 0px 0 10px 15%;width: 71%;font-size: 18px;}
-  .right-infographic img {margin-top: 15px;}
-  .main-text {font-size: 19px;}
-  .right-col * {
-    height: 30px;
-    width: 30px;
-    font-size: 16px;
-
-}*/
 
 
 

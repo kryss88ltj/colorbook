@@ -7,7 +7,7 @@
 <div class="main-wrap my_sections">
 
     <!-- Section 1 -->
-    <section class="scrollsections section1 ">
+    <section class="scrollsections section1">
       <img class="eye" src="assets/img/home/eye.gif" alt="eye logo">
 
       <div class="text-wrap">
@@ -93,3 +93,9 @@
 <section class="scrollsections">
   <?php include("footer.php"); ?>
 </section>
+
+<script>
+  $(function() {
+    $('section.scrollsections').scrollSections({createNavigation: false});
+  });
+</script>

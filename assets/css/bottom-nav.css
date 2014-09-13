@@ -22,6 +22,7 @@ body {
     list-style-type: none;
     border-left: 1px solid #fff;
     position: relative;
+    padding-top: 3%;
   }
 
   #scroll-nav ul li a {
@@ -58,23 +59,29 @@ body {
     font-family: "brandon_grotesquemedium";
     text-transform: uppercase;
     text-align: center;
-    float: left;
+    /*float: left;*/
   }
 
   .nav {
     float: left;
     width: 187px;
-    height: 540px;
+    /*height: 540px;*/
+    height: 640px;
     position: relative;
-    /*-webkit-transition: width .3s ease-in-out;
-    -moz-transition: width .3s ease-in-out;
-    -o-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;*/
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 
   .nav:hover {
-    /*width: 220px;*/
+    opacity: .7;
+    padding: 0 10px;
   }
+
+/*  .nav:hover + li.purple-nav {
+    width: 160px;
+  }*/
 
   .nav h5 {text-transform: uppercase;}
 

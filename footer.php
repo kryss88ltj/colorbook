@@ -1,4 +1,4 @@
-  
+
 
   <nav id="scroll-nav">
     <ul>
@@ -250,6 +250,7 @@
     </div> 
   </nav>
 
+
   <section id="transition">
    <p>tablet coming soon</p>
   </section> 
@@ -261,7 +262,12 @@
     });
   </script>
 
-  
+  <script>
+    $(function() {
+      $('section.scrollsections').scrollSections({createNavigation: false});
+    });
+  </script>
+   
 
 </body>
 </html>

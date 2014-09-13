@@ -4,6 +4,21 @@
 
   body {background: #f0d2e8; overflow-y: scroll;}
 
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.scrollsections {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
   .main-section {
     padding: 0;
     margin: 0;

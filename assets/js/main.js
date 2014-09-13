@@ -23,13 +23,6 @@ $(document).ready(function() {
     }
     unifyHeights();
 
-  // TextFill Initialization
-
-  //   $('body').flowtype({
-  //    minimum : 500,
-  //    maximum : 1290
-  // });
-
 
   // down arrow title description functionality 
   var expandFlag = true;
@@ -49,54 +42,6 @@ $(document).ready(function() {
     $( ".down-arrow ").toggleClass("arrow-position");
     $( ".line1, .line2").toggle();
     
-  });
-
-  // Page Scrolling
-  
-  $(function() {
-    
-    $('section.scrollsections .title').hide(); // Hide all titles
-
-    $('section.scrollsections')
-      .scrollSections({
-        alwaysStartWithFirstSection : true, // force to load the page on the first section (prevent broswer caching)
-        
-        before: function($currentSection, $nextSection){
-
-          _initFuturSection($nextSection);
-        },
-        
-        after: function($currentSection, $previousSection){
-
-          _initNewSection($currentSection, $previousSection);
-        }
-      });
-
-    function _initNewSection($section, $prevSection){
-
-      // Do some stuff each time this new section ends animating
-      
-      // Only if there is a previous section (its null on first scroll)
-      if($prevSection){
-        $('.title', $prevSection).hide(); // Hide old section title
-      }
-      $('.title', $section).fadeIn(); // Fade in current section title
-      
-      // Do some stuffs only on first init
-      if( !$section.data('isInit') ){
-        // Create slider for example
-        // $('.selector', $section).slider();
-
-        // Singleton
-        $section.data('isInit', true);
-      }
-    }
-
-    function _initFuturSection($section){
-
-      // Do some stuff each time before this section appears
-      $('.title', $section).hide();
-    }
   });
 
   //hover functionality for slide nav on sides
@@ -148,55 +93,7 @@ $(document).ready(function() {
   );
     
 
-    var upFlag = true;
-    var body = $("body");
-
-    $(window).scroll(function(){
-      var top = $(window).scrollTop();
-      console.log(top);
-      console.log("first scroll triggering");
-      console.log(upFlag);
-
-      if(top > 150 && upFlag){
-        upFlag = false;
-        $(window).scroll(function(){
-          console.log(top);
-          console.log("past 150 - second scroll triggering");
-          console.log(upFlag);
-       
-          // var body = $("body");
-          body.animate({scrollTop: 700}, 1000, 'swing', function() {
-            upFlag = false;
-            // console.log("upFlag=" + upFlag);
-            stopPropagation();
-            // goUp();
-          });
-            
-        });
-      }       
-
-      // var goUp = function() {
-        if (top > 650 && !upFlag) {          
-          $(window).scroll(function() {
-                    // upFlag = false;
-                    console.log("third scroll event");
-                    console.log(upFlag);
-                    body.animate({scrollTop: 0}, 1000, 'swing', function() {
-                      console.log("back up");
-                      console.log(upFlag);
-                    setTimeout(function() {upFlag = true; console.log("timeout executed");}, 5000);
-                    });
-                  });
-        }
-      // }  
-
-    });
-  
-  var reset = function() {
-    $(this).scrollTop(0);
-  }
-
-
+    
 
 }); // end global 
 
