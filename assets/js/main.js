@@ -16,9 +16,9 @@ $(document).ready(function() {
         });
         // $('.left-nav, .right-nav, .main-middle-section, .main-section').css('height', maxHeight);
         // $('.main-middle-section').attr('style', 'height: 646px !important');
-        $('.main-middle-section').attr('style', 'height: 98%');
+        $('.main-middle-section').attr('style', 'height: 95%');
         // $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
-          $('.left-nav, .right-nav').attr('style', 'height: 88%');
+          $('.left-nav, .right-nav').attr('style', 'height: 85%');
         
         // $('.main-section').css('height', maxHeight);
         console.log("unifying heights");
