@@ -145,15 +145,13 @@
     </div>
 
   </div> <!-- end entire main section --> 
-
-  
-
 </section>
 
 <section class="scrollsections section2">
   <?php include("footer.php"); ?>
 </section>
 
+<div id="transition">Tablet version coming soon!</div>
 
 <script>
     $('.main-text').flowtype({

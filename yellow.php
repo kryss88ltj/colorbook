@@ -112,7 +112,7 @@
 
         <div class="main-text clearfix">
           Yellow is the biggest of all the hues - it is large and in charge. It is an optimistic, self-determined hue and represents hope. Just looking at yellow will make someone happy and is especially good for short-term
-          activities. However, just like poster red it can be physically tiring in long term activities. Yellow is a confident color, but in small quantities can seem irrational. Too much yellow will give you an ego and increase your heart rate. If your favorite color is yellow, you’re probably original and slightly perfectionistic. Yellow is also a tad schizophrenic, which might be why people either love it or hate it. Yellow can be both sour and inspiring. It can be anxious, sharp or bitter. It can open up any space, making the page look physically bigger. Yellow is the brightest color, but also hardest to read on a white page. It is extremely hard to use as a background color.
+          activities. However, just like poster red it can be physically tiring in long term activities. Yellow is a confident color, but in small quantities can seem irrational. Too much yellow will give you an ego and increase your heart rate. If your favorite color is yellow, you&#39;re probably original and slightly perfectionistic. Yellow is also a tad schizophrenic, which might be why people either love it or hate it. Yellow can be both sour and inspiring. It can be anxious, sharp or bitter. It can open up any space, making the page look physically bigger. Yellow is the brightest color, but also hardest to read on a white page. It is extremely hard to use as a background color.
         </div>
             
         <div class="right-infographic">
@@ -137,7 +137,7 @@
       </nav>
 
       <div class="page-break">
-        <img src="assets/img/coral/arrows-transparent.png">
+        <img src="assets/img/yellow/arrows-transparent.png">
       </div>
 
     </div> <!-- end entire main section --> 

@@ -251,7 +251,6 @@
         </div>
         <div class="bottom-scroll-text">
           <h4>Home</h4>
-          <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
         </div>
       </a></li>
 

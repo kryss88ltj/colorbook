@@ -89,10 +89,12 @@ body {
 
 .left-nav .icon {
   margin-top: 19px;
+  width: 35%;
 }
 
 .right-nav-icon {
   margin-top: 15px;
+  width: 35%;
 }
 
 /***********************/
@@ -328,7 +330,7 @@ body {
   }
 
   .left-text1 {
-    margin-left: -5px;
+    margin-left: 0px;
   }
 
   .right-text2 {

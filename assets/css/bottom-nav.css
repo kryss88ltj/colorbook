@@ -118,7 +118,7 @@ body {
   .mauve-nav .icon {
     position: absolute;
     top: 225px;
-    left: 64px;
+    left: 37px;
   }
 
   .magenta-nav .top-scroll-text {
@@ -323,7 +323,7 @@ body {
     width: 70px;
     position: absolute;
     top: 225px;
-    left: 52px;
+    left: 56px;
   }
 
   .sea-green-nav .top-scroll-text {
@@ -339,10 +339,10 @@ body {
   }
 
   .sea-green-nav .icon {
-    width: 55px;
+    width: 100px;
     position: absolute;
     top: 225px;
-    left: 60px;
+    left: 41px;
   }
 
   .emerald-nav .top-scroll-text {
@@ -415,7 +415,7 @@ body {
     width: 70px;
     position: absolute;
     top: 225px;
-    left: 52px;
+    left: 57px;
   }
 
   .ultramarine-nav .top-scroll-text {
@@ -511,7 +511,8 @@ body {
   .sky-blue-nav .bottom-scroll-text, 
   .ultramarine-nav .bottom-scroll-text, 
   .violet-nav .bottom-scroll-text, 
-  .purple-nav .bottom-scroll-text {
+  .purple-nav .bottom-scroll-text,
+  .home-nav .bottom-scroll-text {
     position: absolute;
     top: 35px;
   } 
@@ -536,6 +537,7 @@ body {
   .ultramarine-nav {background: #0066b3;}
   .violet-nav {background: #2e3192;}
   .purple-nav {background: #6f2c91;}
+  .home-nav {background: #363636;}
   
 
 
@@ -572,28 +574,28 @@ body {
   #transition {
     display: none;
     opacity: 0;
-    -webkit-transition: opacity 1s ease-in-out .5s;
+    -webkit-transition: opacity 10s ease-in-out 5s !important;
+    transition: opacity 10s ease-in-out 5s !important;
   }
 
   @media only screen and (max-width: 1036px) {
     body > * {
-      display: none;
-      -webkit-transition: all 1s ease-in-out .25s;
+      display: none !important;
+      -webkit-transition: all 1s ease-in-out .25s !important;
     }
-  }
 
-  @media only screen and (max-width: 1036px) {
     body {
       background: #ff0000;
     }
 
     #transition {
-      display: table;
+      display: table !important;
       opacity: 1;
       margin: 100px auto;
       text-align: center;
       font-size: 3em;
-      /*-webkit-transition: all 1s ease-in-out .25s;*/
+      -webkit-transition: opacity 1s ease-in-out 5s !important;
+      transition: opacity 1s ease-in-out 5s !important;
     }
   }
 

@@ -89,10 +89,12 @@ body {
 
 .left-nav .icon {
   margin-top: 19px;
+
 }
 
 .right-nav-icon {
   margin-top: 15px;
+  width: 35%;
 }
 
 /*.left-nav:hover {
