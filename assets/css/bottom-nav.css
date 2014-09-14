@@ -473,6 +473,24 @@ body {
     left: 27px;
   }
 
+   .home-nav .top-scroll-text {
+    position: absolute;
+    top: 24px;
+  }
+
+  .home-nav h4 {
+    position: absolute;
+    top: 154px;
+    left: 45px;
+  }
+
+  .home-nav .icon {
+    width: 120px;
+    position: absolute;
+    top: 203px;
+    left: 27px;
+  }
+
 
   .mauve-nav .bottom-scroll-text, 
   .magenta-nav .bottom-scroll-text, 

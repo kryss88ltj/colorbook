@@ -242,6 +242,19 @@
           <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
         </div>
       </a></li>
+
+      <li class="home-nav nav"><a href="index.php">
+        <div class="top-scroll-text">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <h5>Where the heart is.</h5>
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+        </div>
+        <div class="bottom-scroll-text">
+          <h4>Home</h4>
+          <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
+        </div>
+      </a></li>
+
      </ul> 
     
   
