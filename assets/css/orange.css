@@ -4,6 +4,22 @@
 
   body {background: #ffede0; overflow-y: scroll;}
 
+  html,
+  body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.scrollsections {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
   .main-section {
     padding: 0;
     margin: 0;
@@ -11,6 +27,7 @@
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
+    height: 100%;
     /*height: 600px;*/
   } 
   
@@ -102,7 +119,8 @@
   float: left;
   width: 84.9%;
   overflow: hidden;
-  margin-left: .03%
+  margin-left: .03%;
+  height: 90%;
 }
 
 /***********************/
@@ -338,27 +356,11 @@
     width: 117%;
     margin-left: -4px;
   }
-  /*.top-icon1,
-  .top-icon3 {
-    margin-right: 7px;
-  }
-
-  .icon-text {
-    margin: 0px 5px 10px 5px !important;
-    display: inline-block;
-    margin: 0;
-    /*width: 40%;*/
-  /*}
-
-  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
-  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
-  .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 19px !important;}*/
 
   /***** Bottom ******/
 
   .bottom-icons {
-    margin: -20px 0 0 10px;
+    margin: -15px 0 0 10px;
     text-align: center;
     line-height: 1.7;
     color: #fff;
@@ -456,9 +458,9 @@
     float: left;
     width: 55%;
     color: #f37021;
-    font-size: 1.2em;
+    font-size: .9em;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.1;
+    line-height: 1.8;
     margin-top: 7px;
     text-align: justify;
   }
@@ -481,7 +483,7 @@
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 0px;
+  margin: 14px 10px 0px;
 }
 
 .right-infographic span {
@@ -510,6 +512,7 @@
 .right-infographic .half-orange-icon {
   /*width: 77%;*/
   margin: 9% auto;
+  margin-top: 4%;
   display: block;
 }
 /***********************/
@@ -523,6 +526,8 @@
   margin-bottom: 20px;
   float: left;
   position: relative;
+  margin-bottom: 0px;
+  margin-top: -16px; 
 }
 
   .page-break img {

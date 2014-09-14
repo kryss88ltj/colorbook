@@ -26,6 +26,7 @@ body {
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
+    height: 100%;
     /*height: 600px;*/
   } 
   
@@ -118,7 +119,8 @@ body {
   float: left;
   width: 84.9%;
   overflow: hidden;
-  margin-left: .03%
+  margin-left: .03%;
+  height: 90%;  
 }
 
 /***********************/
@@ -350,7 +352,7 @@ body {
   /***** Bottom ******/
 
   .bottom-icons {
-    margin: 0 0 0 10px;
+    margin: -15px 0 0 10px;
     text-align: center;
     line-height: 1.7;
     color: #fff;
@@ -448,9 +450,9 @@ body {
     float: left;
     width: 55%;
     color: #b41e8e;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.1;
+    line-height: 1.9;
     margin-top: 7px;
     text-align: justify;
   }
@@ -490,8 +492,9 @@ body {
 }
 
 .right-infographic img {
-  margin: 10px 0 32px 0%;
+  margin: 0px 0 35px 0%;
 }
+
 
 /***********************/
 /*  Bottom Page Break  */
@@ -501,9 +504,11 @@ body {
   border-bottom: 2px solid #ec008c;
   width: 100%;
   height: 20px;
-  margin-bottom: 12px;
+  /*margin-bottom: 12px;*/
   float: left;
   position: relative;
+  margin-bottom: 0px;  
+  margin-top: -16px;
 }
 
   .page-break img {

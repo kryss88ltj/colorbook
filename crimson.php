@@ -137,11 +137,13 @@
       </a>
     </nav>
 
+    <div class="page-break">
+      <img src="assets/img/magenta/arrows-transparent.png">
+    </div>
+
   </div> <!-- end entire main section --> 
 
-  <div class="page-break">
-    <img src="assets/img/magenta/arrows-transparent.png">
-  </div>
+  
 </section>
 
   <script>

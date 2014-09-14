@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-body {background: #fee9ea;}
+  body {background: #e3f3f1; overflow-y: scroll;}
 
 html,
 body {
@@ -12,12 +12,14 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .scrollsections {
   display: block;
   position: relative;
   width: 100%;
   height: 100%;
 }
+
   .main-section {
     padding: 0;
     margin: 0;
@@ -25,8 +27,8 @@ body {
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
-    height: 100%;
     /*height: 600px;*/
+    height: 100%;
   } 
   
 /***********************/
@@ -48,12 +50,12 @@ body {
 }
 
 .left-nav {
-  background: #ec008c;
+  background: #00a46b;
   float: left;
 }
 
 .right-nav {
-  background: #ed145b;
+  background: #00accd;
   float: right;
 }
 
@@ -89,26 +91,9 @@ body {
   margin-top: 19px;
 }
 
-
 .right-nav-icon {
   margin-top: 15px;
 }
-
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
-}
-
-.right-nav:hover {
-    width: 15%;
-}
-
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
 
 /***********************/
 /* Main Middle Section */
@@ -119,7 +104,7 @@ body {
   width: 84.9%;
   overflow: hidden;
   margin-left: .03%;
-  height: 90%;   
+  height: 90%;
 }
 
 /***********************/
@@ -130,16 +115,17 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #ed0677;
+    color: #00a99d;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
+    letter-spacing: -4px;
   }
 
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #ed0677;
+    color: #00a99d;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -150,7 +136,7 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    left: 53px;
+    left: 88px;
     display: inline-block;
     margin: 0;
     
@@ -167,7 +153,7 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    right: 55px;
+    right: 85px;
     margin: 0;
     margin-bottom: 14px;
     display: inline-block;
@@ -197,19 +183,19 @@ body {
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #ed0677;
+    background: #00a99d;
   }
 
-  .ninety {background: #ee3e82;}
-  .eighty {background: #f05a8d;}
-  .seventy {background: #f17299;}
-  .sixty {background: #f386a5;}
-  .fifty {background: #f599b1;}
-  .forty {background: #f7acbf;}
-  .thirty {background: #f9c0cd;}
-  .twenty {background: #fbd4dc;}
-  .ten {background: #fde8eb;}
-  .five {background: #fef2f4;}
+  .ninety {background: #00afa5;}
+  .eighty {background: #00b5ad;}
+  .seventy {background: #2dbdb6;}
+  .sixty {background: #5bc4bf;}
+  .fifty {background: #7accc8;}
+  .forty {background: #96d5d2;}
+  .thirty {background: #b0dfdb;}
+  .twenty {background: #c9e9e6;}
+  .ten {background: #e3f3f1;}
+  .five {background: #eff8f5;}
 
 
 
@@ -224,7 +210,7 @@ body {
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/crimson/crimson-bg.png);
+    background: url(../img/emerald/emerald-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -271,7 +257,7 @@ body {
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #fee9ea;
+  border-top: 18px solid #e3f3f1;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -295,13 +281,13 @@ body {
 
   /***** Top ******/
   .icons {
-    background: #feede9;
+    background: #e9f5f4;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #ea1378;
+    color: #00a99d;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
   }
@@ -338,30 +324,17 @@ body {
   }
 
   .left-text1 {
-    margin-left: -7px;
+    margin-left: -5px;
   }
 
-  /*.top-icon1,
-  .top-icon3 {
-    margin-right: 7px;
+  .right-text2 {
+    width: 101%;
   }
-
-  .icon-text {
-    margin: 0px 5px 10px 5px !important;
-    display: inline-block;
-    margin: 0;
-    /*width: 40%;*/
-  /*}
-
-  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
-  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
-  .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 19px !important;}*/
 
   /***** Bottom ******/
 
   .bottom-icons {
-    margin: -15px 0 0 10px;
+    margin: -20px 0 0 10px;
     text-align: center;
     line-height: 1.7;
     color: #fff;
@@ -386,7 +359,7 @@ body {
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #faa61a;
+    background: #2e3192;
   }
   
 
@@ -411,11 +384,11 @@ body {
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #00a76d;
+    background: #ed145b;
   }
 
   .bottom-right-sq {
-    background: #0089cf;
+    background: #ffcb05;
   }
 
   .right-col {
@@ -457,13 +430,17 @@ body {
 
   .main-text {
     float: left;
-    width: 55%;
-    color: #ea1378;
-    font-size: 0em;
+    width: 57%;
+    color: #00a99d;
+    font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.1;
+    line-height: 2;
     margin-top: 7px;
     text-align: justify;
+  }
+
+  .main-text > p {
+    margin-bottom: 20px;
   }
 
 /******************************/
@@ -472,55 +449,64 @@ body {
 
 .right-infographic {
   float: left;
-  background: #8c0f37;
+  background: #50b848;
   /*width: 21%;*/
-  width: 225px;
+  /*width: 362px;*/
   margin: 20px 15px 20px 25px;
   text-align: center;
 }
 .right-infographic h1 {
   font-family: 'brandon_grotesquebold';
-  font-size: 25px;
+  font-size: 23px;
   color: #fff;  
   text-transform: uppercase;
   /*text-align: center;*/
-  margin: 20px 10px 8px;
+  margin: 10px 10px -10px;
 }
-  .right-infographic h1 span {
-    font-size: 30px;
-  }
+
+.right-infographic span {
+  font-family: 'brandon_grotesquebold';
+  color: #fff;  
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-bottom: -15px;
+  display: block;
+}
 
 .right-infographic p {
-  margin: 0px 0 0px 17%;
-  width: 70%;
+  margin: 4px 0 10px 13%;
+  width: 74%;
   font-size: 19px;
   color: #fff;
   font-family: 'brandon_grotesquelight';
   text-align: center;
 }
 
-.right-infographic img {
-  margin: 10px 0 4px 0%;
-  width: 55%;
+.right-infographic .linetop {
+
 }
 
-.right-infographic .bottom-img {
-  width: 9%;
-  margin: 6% 20%;
+.right-infographic .linebottom {
+  margin-bottom: 10px;
+}
+
+.right-infographic .bottom-img-cultured {
+  width: 77%;
+  margin: 8% 0 8%;
 }
 /***********************/
 /*  Bottom Page Break  */
 /***********************/
 
 .page-break {
-  border-bottom: 2px solid #ed0677;
+  border-bottom: 2px solid #00a99d;
   width: 100%;
   height: 20px;
-  /*margin-bottom: 12px;*/
+  margin-bottom: 20px;
   float: left;
   position: relative;
-  margin-bottom: 0px;  
-  margin-top: -16px;
+  margin-bottom: 0px; 
+  margin-top: -16px;  
 }
 
   .page-break img {
@@ -528,7 +514,7 @@ body {
     text-align: center;
     display: table;
     width: 72px;
-    background-color: #fee9ea;
+    background-color: #e3f3f1;
     position: absolute;
     left: 47.2%;
     top: 10px;
@@ -540,120 +526,52 @@ body {
 /*    Media Queries    */
 /***********************/
 
-@media only screen and (max-width: 1263px) {
-  .main-text {
-    width: 54%;
-  }
-}
-
-@media only screen and (max-width: 1236px) {
-  .main-text {
-    width: 53%;
-  }
-}
-
-@media only screen and (max-width: 1210px) {
-  .main-text {
-    width: 52%;
-  }
-}
-
-@media only screen and (max-width: 1185px) {
-  .main-text {
-    width: 51%;
-  }
-}
-
 @media only screen and (max-width: 1161px) {
   .main-text {
-    width: 50%;
+    width: 36%;
   }
 }
 
-@media only screen and (max-width: 1138px) {
+@media only screen and (max-width: 1143px) {
   .main-text {
-    width: 49%;
+    width: 35%;
   }
 }
 
-@media only screen and (max-width: 1116px) {
+@media only screen and (max-width: 1125px) {
   .main-text {
-    width: 48%;
+    width: 34%;
   }
 }
 
-@media only screen and (max-width: 1095px) {
+@media only screen and (max-width: 1109px) {
   .main-text {
-    width: 47%;
+    width: 33%;
   }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1094px) {
   .main-text {
-    width: 46%;
+    width: 32%;
   }
 }
 
-@media only screen and (max-width: 1055px) {
+@media only screen and (max-width: 1076px) {
   .main-text {
-    width: 45%;
+    width: 31%;
   }
 }
 
-@media only screen and (max-width: 1036px) {
+@media only screen and (max-width: 1061px) {
   .main-text {
-    width: 44%;
+    width: 30%;
   }
 }
 
-/*@media only screen and (max-width: 1280px) {*/
-
-   /*.main-text { font-size: 3em; }*/
- /* .icons {font-size: 8pt;}
-
-  .upper-left-sq,
-  .upper-right-sq,
-  .bottom-left-sq,
-  .bottom-right-sq {height: 50px; width: 50px; line-height: 1.5;}
-
-  .upper-right-sq {font-size: 14px; line-height: 1.8;}
-
-  .right-col * {
-    height: 32px;
-    width: 32px;
-    font-size: 16px;
-
+@media only screen and (max-width: 1049px) {
+  .main-text {
+    width: 29%;
   }
-
 }
-
-@media only screen and (max-width: 1189px) {
-  .right-infographic h1 {font-size: 21px;}
-}
-
-@media only screen and (max-width: 1175px) {
-  .right-infographic {width: 20%;}
-}
-
-@media only screen and (max-width: 1169px) {
-  .main-text {font-size: 19.1px;}
-}
-
-@media only screen and (max-width: 1123px) {
-  .right-infographic {width: 18%;}
-  .right-infographic h1 {margin: 25px 10px 10px; font-size: 19px;}
-  /*.right-infographic p {margin: 0px 0 10px 17%; width: 65%; font-size: 17.5px;}*/
-/*  .right-infographic h1 span {font-size: 25px;}
-  .right-infographic p {margin: 0px 0 10px 15%;width: 71%;font-size: 18px;}
-  .right-infographic img {margin-top: 15px;}
-  .main-text {font-size: 19px;}
-  .right-col * {
-    height: 30px;
-    width: 30px;
-    font-size: 16px;
-
-}*/
-
-
 
 

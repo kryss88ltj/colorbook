@@ -1,6 +1,9 @@
 /**************/
 /* Background */
 /**************/
+
+  body {background: #e4f2e8; overflow-y: scroll;}
+
 html,
 body {
   position: relative;
@@ -9,6 +12,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .scrollsections {
   display: block;
   position: relative;
@@ -16,18 +20,17 @@ body {
   height: 100%;
 }
 
-  body {background: #ecf5e8; overflow-y: scroll;}
-
   .main-section {
     padding: 0;
     margin: 0;
     overflow: visible;
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
-    /*float: left;*/
+    float: left;
     /*height: 600px;*/
+    height: 100%;
   } 
-
+  
 /***********************/
 /*   Side Navigation   */
 /***********************/
@@ -47,12 +50,12 @@ body {
 }
 
 .left-nav {
-  background: #fff200;
+  background: #50b848;
   float: left;
 }
 
 .right-nav {
-  background: #00a651;
+  background: #00a46b;
   float: right;
 }
 
@@ -92,22 +95,6 @@ body {
   margin-top: 15px;
 }
 
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
-}
-
-.right-nav:hover {
-    width: 15%;
-}
-
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
-
 /***********************/
 /* Main Middle Section */
 /***********************/
@@ -116,7 +103,8 @@ body {
   float: left;
   width: 84.9%;
   overflow: hidden;
-  margin-left: .03%
+  margin-left: .03%;
+  height: 90%;
 }
 
 /***********************/
@@ -127,7 +115,7 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     font-size: 80pt;
     text-transform: uppercase;
-    color: #50b848;
+    color: #00a651;
     margin: 30px 0 20px 1%;
     float: left;
     line-height: 88px;  
@@ -137,7 +125,7 @@ body {
   .bourgesBlock {
     position: relative;
     float: right;
-    color: #50b848;
+    color: #00a651;
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     margin: 45px 110px 0 0;
@@ -148,7 +136,7 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    left: 57px;
+    left: 67px;
     display: inline-block;
     margin: 0;
     
@@ -165,7 +153,7 @@ body {
     font-family: 'brandon_grotesque_regularRg';
     position: absolute;
     top: 37px;
-    right: 60px;
+    right: 69px;
     margin: 0;
     margin-bottom: 14px;
     display: inline-block;
@@ -195,19 +183,19 @@ body {
   .top-border {
     width: 100% !important;
     height: 6px;
-    background: #50b848;
+    background: #00a651;
   }
 
-  .ninety {background: #67bd53;}
-  .eighty {background: #79c366;}
-  .seventy {background: #8ac979;}
-  .sixty {background: #9acf8b;}
-  .fifty {background: #aad69c;}
-  .forty {background: #aad69c;}
-  .thirty {background: #aad69c;}
-  .twenty {background: #dbedd4;}
-  .ten {background: #ebf5e7;}
-  .five {background: #ebf5e7;}
+  .ninety {background: #00ac5b;}
+  .eighty {background: #00b26b;}
+  .seventy {background: #45b97c;}
+  .sixty {background: #67c18c;}
+  .fifty {background: #82ca9c;}
+  .forty {background: #9bd3ae;}
+  .thirty {background: #b4ddc0;}
+  .twenty {background: #cce7d3;}
+  .ten {background: #e4f2e7;}
+  .five {background: #f0f8f1;}
 
 
 
@@ -222,7 +210,7 @@ body {
     width: 100%;
     height: 6.875em;
     text-align: center;
-    background: url(../img/lime/lime-bg.png);
+    background: url(../img/leafgreen/leafgreen-bg.png);
     display: block;
     -webkit-transition-property: all;
     -webkit-transition-duration: .5s;
@@ -269,7 +257,7 @@ body {
   left: 300px;
   width: 0; 
   height: 0;
-  border-top: 18px solid #ecf5e8;
+  border-top: 18px solid #e4f2e8;
   border-left: 16px solid transparent; 
   border-right: 16px solid transparent; 
 }
@@ -293,13 +281,13 @@ body {
 
   /***** Top ******/
   .icons {
-    background: #f0f7ed;
+    background: #e9f5ed;
     /*width: 17.4%;*/
     width: 187px;
     float: left;
     font-family: 'brandon_grotesque_regularRg';
     font-size: 9.83pt;
-    color: #50b848;
+    color: #00a651;
     text-transform: uppercase;
     margin: 20px 20px 20px 5px;
   }
@@ -388,7 +376,7 @@ body {
 
   .upper-left-sq {
     margin: 0 9px 7px 0;
-    background: #00aeef;
+    background: #0089cf;
   }
   
 
@@ -413,11 +401,11 @@ body {
 
   .bottom-left-sq {
     margin: 0 9px 0 0;
-    background: #b41e8e;
+    background: #ec008c;
   }
 
   .bottom-right-sq {
-    background: #ed1c24;
+    background: #f37021;
   }
 
   .right-col {
@@ -460,12 +448,16 @@ body {
   .main-text {
     float: left;
     width: 57%;
-    color: #50b848;
+    color: #00a651;
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
-    line-height: 2.1;
+    line-height: 2;
     margin-top: 7px;
     text-align: justify;
+  }
+
+  .main-text > p {
+    margin-bottom: 20px;
   }
 
 /******************************/
@@ -527,9 +519,11 @@ body {
   border-bottom: 2px solid #50b848;
   width: 100%;
   height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   float: left;
   position: relative;
+  margin-bottom: 0px; 
+  margin-top: -16px;  
 }
 
   .page-break img {

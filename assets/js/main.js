@@ -16,9 +16,9 @@ $(document).ready(function() {
         });
         // $('.left-nav, .right-nav, .main-middle-section, .main-section').css('height', maxHeight);
         // $('.main-middle-section').attr('style', 'height: 646px !important');
-        $('.main-middle-section').attr('style', 'height: 95%');
+        $('.main-middle-section').attr('style', 'height: 93%');
         // $('.left-nav, .right-nav').attr('style', 'height: 583px !important');
-          $('.left-nav, .right-nav').attr('style', 'height: 85%');
+          $('.left-nav, .right-nav').attr('style', 'height: 84%');
         
         // $('.main-section').css('height', maxHeight);
         console.log("unifying heights");
@@ -44,8 +44,8 @@ $(document).ready(function() {
       $('.left-nav, .right-nav').attr('style', 'height: 88% !important');
       expandFlag = false;
     } else {
-       $('.main-middle-section').attr('style', 'height: 98% !important');
-      $('.left-nav, .right-nav').attr('style', 'height: 88% !important');
+       $('.main-middle-section').attr('style', 'height: 93% !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 84% !important');
       expandFlag = true;
     }
     $( ".desc-bar" ).toggleClass("collapsed");
@@ -103,7 +103,34 @@ $(document).ready(function() {
     }
   );
     
+// hack for bottom scrolling 
 
+$("#scroll-nav").hover(
+  function() {
+    // console.log("hovering purp");
+    // console.log( $("#scroll-nav").width());
+    var position = $(this).children('ul:first').position();
+    console.log(position);
+    var $purple = $(this).children('ul:first').children('li:last');
+
+    $purple.hover(
+
+      function() {
+        position.left += '25px';
+        console.log("touching puprp");
+      });
+
+    // $(".ultramarine-nav").attr('width', '184px');
+    // $(".mauve-nav").attr('width', '184px');
+    // $(".magenta-nav").attr('width', '184px');
+    // $(".sky-blue-nav").attr('width', '184px');
+    // $(".cyan-nav").attr('width', '184px');
+    // $(".emerald-nav").attr('width', '184px');
+    // $(".sea-green-nav").attr('width', '184px');
+    // $(".leaf-green-nav").attr('width', '184px');
+    // $(".lime-nav").attr('width', '184px');
+    // $(".yellow-nav").attr('width', '184px');
+  });
     
 
 }); // end global 

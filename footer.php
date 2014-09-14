@@ -244,12 +244,13 @@
       </a></li>
      </ul> 
     
-    <div class="creators">
-      <p>SITE DESIGNED BY DAN ROSENBERG AND CHRISTINE STAUFFER</p>
-      <p class="created">CREATED WINTER 2014</p>
-    </div> 
+  
   </nav>
 
+  <div class="creators">
+      <p>SITE DESIGNED BY DAN ROSENBERG AND CHRISTINE STAUFFER</p>
+      <p class="created">CREATED WINTER 2014</p>
+  </div> 
 
   <section id="transition">
    <p>tablet coming soon</p>

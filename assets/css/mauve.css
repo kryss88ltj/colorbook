@@ -12,6 +12,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .scrollsections {
   display: block;
   position: relative;
@@ -508,7 +509,7 @@ body {
 /*    Media Queries    */
 /***********************/
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
   .main-text {
     width: 54%;
   }
