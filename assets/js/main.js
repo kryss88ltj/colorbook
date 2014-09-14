@@ -41,7 +41,7 @@ $(document).ready(function() {
     // }
     if (expandFlag) {
       $('.main-middle-section').attr('style', 'height: 98% !important');
-      $('.left-nav, .right-nav').attr('style', 'height: 88% !important');
+      $('.left-nav, .right-nav').attr('style', 'height: 84% !important');
       expandFlag = false;
     } else {
        $('.main-middle-section').attr('style', 'height: 93% !important');

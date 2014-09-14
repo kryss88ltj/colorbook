@@ -111,8 +111,8 @@
       </div> <!-- end icon section --> 
 
       <div class="main-text clearfix">
-        Coral is the hottest color on the market. With tinges of red and orange, it is a fiery color with explosive connotations. It's hot hot hot! Illustrated manuscripts frequently made use of coral to bring out the dull colors
-        of the parchment and give life to otherwise boring documents. It’s like the zombie virus in color form, if walkers came from boring-ass documents.  Coral is a vibrant color, evoking energy and livelihood. This glorious color works particularly well as a punch color with neutrals. But coral bears a terrible curse - in order to look attractive, it must be used in varied values. Too much pure coral can wear on the eyes and take away from the very energy it is meant to evoke.
+        Coral is the hottest color on the market. With tinges of red and orange, it is a fiery color with explosive connotations. It&#39;s hot hot hot! Illustrated manuscripts frequently made use of coral to bring out the dull colors
+        of the parchment and give life to otherwise boring documents. It&#39;s like the zombie virus in color form, if walkers came from boring-ass documents.  Coral is a vibrant color, evoking energy and livelihood. This glorious color works particularly well as a punch color with neutrals. But coral bears a terrible curse - in order to look attractive, it must be used in varied values. Too much pure coral can wear on the eyes and take away from the very energy it is meant to evoke.
       </div>
           
       <div class="right-infographic">
