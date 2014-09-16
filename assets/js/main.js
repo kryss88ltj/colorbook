@@ -109,14 +109,15 @@ $("#scroll-nav").hover(
   function() {
     // console.log("hovering purp");
     // console.log( $("#scroll-nav").width());
-    var position = $(this).children('ul:first').position();
-    console.log(position);
-    var $purple = $(this).children('ul:first').children('li:last');
+    // var position = $("#scroll-nav").children('ul:first');
+    var expandScroller = document.getElementById("nav-ul");
+    console.log(expandScroller);
+    var $homeNav = $(this).children('ul:first').children('li:last');
 
-    $purple.hover(
+    $homeNav.hover(
 
       function() {
-        position.left += '25px';
+        expandScroller.style.width = "4500px";
         console.log("touching puprp");
       });
 
