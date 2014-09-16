@@ -87,7 +87,8 @@ body {
 
   .nav:hover {
     opacity: .7;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
+    padding-top: 5px;
   }
 
  /* .nav:hover + li.purple-nav {

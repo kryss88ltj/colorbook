@@ -105,7 +105,7 @@ $(document).ready(function() {
     
 // hack for bottom scrolling 
 
-$("#scroll-nav").hover(
+$("#nav-ul .home-nav").hover(
   function() {
     // console.log("hovering purp");
     // console.log( $("#scroll-nav").width());
