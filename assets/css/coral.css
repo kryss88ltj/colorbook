@@ -92,26 +92,15 @@ body {
 
 }
 
+.left-nav h4 {
+  width: 190px;
+}
+
 .right-nav-icon {
   margin-top: 15px;
   width: 35%;
 }
 
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
-}
-
-.right-nav:hover {
-    width: 15%;
-}
-
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
 
 /***********************/
 /* Main Middle Section */

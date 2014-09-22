@@ -14,13 +14,13 @@
 		<script src="assets/js/scrollingcarousel.2.0.min.js"></script>
     
 
-    <script src="assets/js/jquery.scrollstop.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <!-- // <script src="assets/js/jquery.scrollsnap.js"></script> -->
-<!--     // <script src="assets/js/pagescroll.js"></script> -->
+    <!-- // <script src="assets/js/jquery.scrollstop.js"></script> -->
+    <!-- // <script src="assets/js/jquery.easing.min.js"></script> -->
+    <script src="assets/js/jquery.scroll_to.js"></script>
+    <script src="assets/js/jquery.snapscroll.js"></script>
     <script src="assets/js/flowtype.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/jquery.scrollSections.js"></script>
+    <!-- // <script src="assets/js/plugins.js"></script> -->
+    <!-- // <script src="assets/js/jquery.scrollSections.js"></script> -->
     
     
     <script src="assets/js/main.js"></script>

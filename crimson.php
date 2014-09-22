@@ -130,7 +130,7 @@
     <nav class="right-nav">
       <a href="scarlet.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>YOU SAUCY MINX, YOU</h5>
+        <h5>what a saucy little minx</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>scarlet</h4>
         <img class="right-nav-icon" src="assets/img/nav/scarlet-icon.png" alt="scarlet icon">

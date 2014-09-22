@@ -13,6 +13,11 @@ body {
   margin: 0;
 }
 
+#startScroll {
+  height: 100%;
+  width: 100%;
+}
+
 .scrollsections {
   display: block;
   position: relative;
@@ -27,7 +32,8 @@ body {
     /*overflow-x: hidden;*/
     /*overflow-y: scroll;*/
     float: left;
-    height: 100%;              /******* changed! *******/
+    height: 100%;  
+    width: 100%;            /******* changed! *******/
     /*margin-bottom: 25px;        /******* changed! *******/
     /*height: 600px;*/
   } 
@@ -37,7 +43,7 @@ body {
 /***********************/
 
 .left-nav, .right-nav {
-  height: auto;  
+  height: 100%;  
   width: 7.5%;  
   /*border: 1px solid #fff;*/
   font-size: 24px;

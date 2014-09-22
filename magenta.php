@@ -15,7 +15,7 @@
     <nav class="left-nav">
       <a href="mauve.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND</h5>
+        <h5>the coolest red on the block</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>mauve</h4>
         <img class="icon" src="assets/img/nav/mauve-icon.png" alt="mauve icon">
@@ -129,7 +129,7 @@
     <nav class="right-nav">
       <a href="crimson.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>GIVE INTO YOUR VIOLENT IMPULSES</h5>
+        <h5>it's ok to feel more violent</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>crimson</h4>
         <img class="right-nav-icon" src="assets/img/nav/crimson-icon.png" alt="crimson icon">

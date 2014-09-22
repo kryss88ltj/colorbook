@@ -91,30 +91,13 @@ body {
   margin-top: 19px;
 }
 
+.right-nav h4 {
+  width: 190px;
+}
 
 .right-nav-icon {
   margin-top: 15px;
 }
-
-/*.left-nav:hover {
-  width: 15%;
-}
-
-.left-nav:hover + .right-nav {
-  width: 0;
-}
-
-.right-nav:hover {
-    width: 15%;
-}
-
-.right-nav:hover ~ .left-nav {
-  width: 0%;
-}*/
-
-/***********************/
-/* Main Middle Section */
-/***********************/
 
 .main-middle-section {
   float: left;

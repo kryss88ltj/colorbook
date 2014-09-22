@@ -15,7 +15,7 @@
     <nav class="left-nav">
       <a href="scarlet.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>YOU SAUCY MINX, YOU</h5>
+        <h5>what a saucy little minx</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>scarlet</h4>
         <img class="icon" src="assets/img/nav/scarlet-icon.png" alt="scarlet icon">
@@ -128,7 +128,7 @@
     <nav class="right-nav">
       <a href="coral.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>it's getting hot in here, but leave on all your clothes</h5>
+        <h5>burn baby, burn</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>coral</h4>
         <img class="right-nav-icon" src="assets/img/nav/coral-icon.png" alt="coral icon">

@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="coral.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>it's getting hot in here, but leave on all your clothes</h5>
+          <h5>burn baby, burn</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>coral</h4>
           <img class="icon" src="assets/img/nav/coral-icon.png" alt="coral icon">

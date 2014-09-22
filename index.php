@@ -4,7 +4,7 @@
 <?php include("header.php"); ?>
 
 
-<div class="main-wrap my_sections">
+<div id="startScroll" class="main-wrap">
 
     <!-- Section 1 -->
     <section class="scrollsections section1">
@@ -88,14 +88,22 @@
         </div> 
       </div> 
     </section>
+  
+    <section class="scrollsections">
+      <?php include("footer.php"); ?>
+    </section>
+
+
   </div> <!-- end main wrap --> 
 
-<section class="scrollsections">
-  <?php include("footer.php"); ?>
-</section>
-
 <script>
-  $(function() {
-    $('section.scrollsections').scrollSections({createNavigation: false});
-  });
+  $("#startScroll").snapscroll();
 </script>
+
+</body>
+</html>
+<!-- // <script> -->
+<!-- // $(function() { -->
+<!-- //     $('section.scrollsections').scrollSections({createNavigation: false}); -->
+<!-- //   }); -->
+<!-- // </script> -->

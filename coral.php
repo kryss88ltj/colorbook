@@ -132,7 +132,7 @@
     <nav class="right-nav">
       <a href="orange.php">
         <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-        <h5>the overachiever of the color spectrum</h5>
+        <h5>meet the overachiever</h5>
         <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         <h4>orange</h4>
         <img class="right-nav-icon" src="assets/img/nav/orange-icon.png" alt="orange icon">
@@ -152,7 +152,8 @@
        fontRatio : 26});
   </script>
 
-<section class="scrollsections section2">
-  <?php include("footer.php"); ?>
-</section>
+<!-- <section class="scrollsections section2">
+  // <?php //include("footer.php"); ?>
+</section> -->
+
 

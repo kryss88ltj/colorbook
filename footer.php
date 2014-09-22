@@ -275,12 +275,10 @@
     });
   </script>
 
-  <script>
-    $(function() {
-      $('section.scrollsections').scrollSections({createNavigation: false});
-    });
-  </script>
+  <!--<script>
+  //   $(function() {
+  //     $('section.scrollsections').scrollSections({createNavigation: false});
+  //   });
+  // </script> --> 
    
 
-</body>
-</html>

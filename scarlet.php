@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="crimson.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>GIVE INTO YOUR VIOLENT IMPULSES</h5>
+          <h5>it's ok to feel more violent</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>crimson</h4>
           <img class="icon" src="assets/img/nav/crimson-icon.png" alt="crimson icon">
