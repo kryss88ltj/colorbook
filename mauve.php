@@ -141,7 +141,7 @@
       </nav>
 
       <div class="page-break">
-        <img src="assets/img/mauve/arrows-transparent.png">
+        <a href="#scroll-nav"><img src="assets/img/mauve/arrows-transparent.png"></a>
       </div>
 
     </div> <!-- end entire main section --> 

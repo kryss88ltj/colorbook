@@ -61,6 +61,7 @@ body {
 
 .left-nav a, .right-nav a {
   display: block;
+  height: 100%;
 }
 
   .left-nav h5, .right-nav  h5 {
