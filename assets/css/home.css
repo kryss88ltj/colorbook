@@ -50,7 +50,8 @@ li {height: 100%; width: 100%;}
     margin: 0 auto;
     text-align: center;
     display: table;
-    width: 72%;
+    /*float: left;*/
+    width: 76%;
   }
 
   .eye {
@@ -59,7 +60,7 @@ li {height: 100%; width: 100%;}
 
   .text-wrap {
     float: left;
-    margin-left: 6%;
+    margin-left: 3%;
   }
 
   .everything {
@@ -120,7 +121,7 @@ li {height: 100%; width: 100%;}
   float: right;
   font-family: 'brandon_grotesquebold';
   font-size: 41px;
-  margin-right: 70px;
+  margin-right: 10%;
   margin-top: 15%;
   margin-bottom: 1%;
 }
@@ -139,7 +140,7 @@ li {height: 100%; width: 100%;}
   letter-spacing: 0.03em;
   word-spacing: 1.473px;
   text-align: justify;
-  margin: -12px 70px 0 95px;
+  margin: -12px 10% 0 95px;
 }
 
 .bourges-text {

@@ -7,7 +7,7 @@
 <!-- Main Section - Includes all but bottom nav slider -->
   <section>
     <div class="scrollsections section1">
-      <div class="section1-wrap clearfix">
+      <div class="section1-wrap">
         <img class="eye" src="assets/img/home/eye.gif" alt="eye logo">
 
         <div class="text-wrap">
@@ -92,8 +92,6 @@
   </section>
 
 </div>
-
-<div id="transition">Tablet version coming soon!</div>
 
 <script>
   $("#startScroll").snapscroll();

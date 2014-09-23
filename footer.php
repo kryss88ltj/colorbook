@@ -264,9 +264,6 @@
       <p class="created">CREATED WINTER 2014</p>
   </div> 
 
-  <section id="transition">
-   <p>tablet coming soon</p>
-  </section> 
 
   <!-- Scrolling Nav Script --> 
   <script type="text/javascript">

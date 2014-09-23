@@ -581,7 +581,7 @@ body {
     transition: opacity 10s ease-in-out 5s !important;
   }
 
-  @media only screen and (max-width: 1036px) {
+  @media only screen and (max-width: 1200px) {
     body > * {
       display: none !important;
       -webkit-transition: all 1s ease-in-out .25s !important;
