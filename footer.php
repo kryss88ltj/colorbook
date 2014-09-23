@@ -5,7 +5,7 @@
        <li class="mauve-nav nav"><a href="mauve.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5>A RED SO COOL, IT&#39;LL STEAL YOUR GIRLFRIEND</h5>
+            <h5>THE COOLEST RED ON THE BLOCK</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -29,7 +29,7 @@
        <li class="crimson-nav nav"><a href="crimson.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>GIVE IN TO YOUR VIOLENT IMPULSES</h5>
+          <h5>IT'S OK TO FEEL MORE VIOLENT</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -41,7 +41,7 @@
       <li class="scarlet-nav nav"><a href="scarlet.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>YOU SAUCY MINX, YOU</h5>
+          <h5>WHAT A SAUCY LITTLE MINX</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div> 
         <div class="bottom-scroll-text">
@@ -65,7 +65,7 @@
       <li class="coral-nav nav"><a href="coral.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5> It's getting hot in here, but leave on all your clothes</h5>
+            <h5>BURN BABY, BURN</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -77,7 +77,7 @@
        <li class="orange-nav nav"><a href="orange.php">
           <div class="top-scroll-text">
             <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-            <h5>The overacheiver of the color spectrum</h5>
+            <h5>MEET THE OVERACHIEVER</h5>
             <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           </div>
           <div class="bottom-scroll-text">
@@ -275,10 +275,6 @@
     });
   </script>
 
-  <!--<script>
-  //   $(function() {
-  //     $('section.scrollsections').scrollSections({createNavigation: false});
-  //   });
-  // </script> --> 
+
    
 

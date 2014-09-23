@@ -9,9 +9,9 @@
     <link href="assets/css/homelink.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-		<script src="assets/js/scrollingcarousel.2.0.min.js"></script>
+	   <script src="assets/js/scrollingcarousel.2.0.min.js"></script>
     
 
     <!-- // <script src="assets/js/jquery.scrollstop.js"></script> -->
@@ -27,6 +27,3 @@
 
 	</head>
 	<body>
-  
-<!--   <section class="snap">
-  </section> -->
