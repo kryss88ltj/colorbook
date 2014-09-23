@@ -48,7 +48,7 @@
           In the world of paints, your RYB primaries will combine into  ORANGE, GREEN &#38; VIOLET. But what about when you don&#39;t mix your primaries evenly? You end up with one of the...
         </div>
         <div class="tertiary">
-          <h5>TERTIARY</h5>
+          <h5>TERTIARY COLORS</h5>
           As you combine more of one primary color than another into your secondary color, we move into tertiary families, RED-ORANGE,  YELLOW-ORANGE, YELLOW-GREEN, BLUE-GREEN, BLUE-VIOLET &#38; RED-VIOLET.
         </div>
       </div> 
