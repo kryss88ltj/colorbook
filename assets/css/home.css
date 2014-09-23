@@ -184,7 +184,7 @@ li {height: 100%; width: 100%;}
   width: 31.25%;
   float: left;
   margin-right: 9%;
-  margin: 9% 9% 0 10%;
+  margin: 9% 14% 0 15%;
 }
 
 .primary, .secondary, .tertiary {
@@ -203,7 +203,7 @@ li {height: 100%; width: 100%;}
 .color-squares {
   position: absolute;
   top: 4%;
-  left: 48%;
+  left: 52%;
   float: left;
   width: 59%;
 }
