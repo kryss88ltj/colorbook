@@ -126,7 +126,7 @@
       <nav class="right-nav">
         <a href="gold.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>rich like scrooge (mcduck or ebenezer)</h5>
+          <h5>greed is good</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>gold</h4>
           <img class="right-nav-icon" src="assets/img/nav/gold-icon.png" alt="gold icon">
