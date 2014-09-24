@@ -94,6 +94,7 @@ body {
 
 .right-nav-icon {
   margin-top: 15px;
+  width: 50%;
 }
 
 /*.left-nav:hover {
@@ -208,11 +209,11 @@ body {
   .seventy {background: #8ac979;}
   .sixty {background: #9acf8b;}
   .fifty {background: #aad69c;}
-  .forty {background: #aad69c;}
-  .thirty {background: #aad69c;}
+  .forty {background: #bbddae;}
+  .thirty {background: #cbe5c1;}
   .twenty {background: #dbedd4;}
   .ten {background: #ebf5e7;}
-  .five {background: #ebf5e7;}
+  .five {background: #f2f9f2;}
 
 
 

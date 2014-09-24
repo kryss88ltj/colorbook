@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="leaf-green.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>saving the planet, one hue at a time</h5>
+          <h5>not all leaves, but most</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>leaf green</h4>
           <img class="icon" src="assets/img/nav/leaf-green-icon.png" alt="leaf green icon">

@@ -196,6 +196,11 @@ body {
     width: 152px;
   }
 
+  .poster-red-nav h5 {
+    width: 66% !important;
+    padding-left: 17% !important;
+  }
+
   .poster-red-nav .icon {
     position: absolute;
     top: 240px;
@@ -205,12 +210,17 @@ body {
   .coral-nav .top-scroll-text {
     position: absolute;
     top: 29px;
+    left: 9px;
   }
 
   .coral-nav h4 {
     position: absolute;
     top: 154px;
     left: 50px;
+  }
+
+  .coral-nav h5 {
+    padding-left: 6% !important;
   }
 
   .coral-nav .icon {
@@ -222,7 +232,7 @@ body {
 
   .orange-nav .top-scroll-text {
     position: absolute;
-    top: 0px;
+    top: 29px;
   }
 
   .orange-nav h4 {
@@ -258,13 +268,18 @@ body {
 
   .gold-nav .top-scroll-text {
     position: absolute;
-    top: 0px;
+    top: 29px;
   }
 
   .gold-nav h4 {
     position: absolute;
     top: 154px;
     left: 54px;
+  }
+
+  .gold-nav h5 {
+    width: 43% !important;
+    padding-left: 30% !important;
   }
 
   .gold-nav .icon {
@@ -294,13 +309,18 @@ body {
 
   .lime-nav .top-scroll-text {
     position: absolute;
-    top: 24px;
+    top: 29px;
   }
 
   .lime-nav h4 {
     position: absolute;
     top: 154px;
     left: 63px;
+  }
+
+  .lime-nav h5 {
+    width: 83% !important;
+    padding-left: 10% !important;
   }
 
   .lime-nav .icon {
@@ -312,7 +332,7 @@ body {
 
   .leaf-green-nav .top-scroll-text {
     position: absolute;
-    top: 13px;
+    top: 29px;
   }
 
   .leaf-green-nav h4 {
@@ -377,6 +397,11 @@ body {
     left: 59px;
   }
 
+  .teal-nav h5 {
+    width: 84% !important;
+    padding-left: 9% !important;
+  }
+
   .teal-nav .icon {
     width: 93px;
     position: absolute;
@@ -414,6 +439,11 @@ body {
     left: 38px;
   }
 
+  .sky-blue-nav h5 {
+    width: 72% !important;
+    padding-left: 15% !important;
+  }
+
   .sky-blue-nav .icon {
     width: 93px;
     position: absolute;
@@ -431,6 +461,11 @@ body {
     top: 154px;
     left: 9px;
     letter-spacing: -.6px;
+  }
+
+  .ultramarine-nav h5 {
+    width: 84% !important;
+    padding-left: 8% !important;
   }
 
   .ultramarine-nav .icon {

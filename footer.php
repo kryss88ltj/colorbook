@@ -101,7 +101,7 @@
       <li class="gold-nav nav"><a href="gold.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Rich like Scrooge (McDuck or Ebenezer)</h5>
+          <h5>greed is good</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div> 
         <div class="bottom-scroll-text">
@@ -113,7 +113,7 @@
       <li class="yellow-nav nav"><a href="yellow.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5> Ain't nothin' yella' 'bout it</h5>
+          <h5>Betcha can't read this</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -125,7 +125,7 @@
       <li class="lime-nav nav"><a href="lime.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>So fresh and so clean clean </h5>
+          <h5>So fresh and so clean</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -137,7 +137,7 @@
       <li class="leaf-green-nav nav"><a href="leaf-green.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Saving the planet, one hue at a time</h5>
+          <h5>not all leaves, but most</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -173,7 +173,7 @@
       <li class="teal-nav nav"><a href="teal.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Oscar Wilde: The hue.</h5>
+          <h5>Oscar Wilde: The hue</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -222,7 +222,7 @@
       <li class="violet-nav nav"><a href="violet.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Just like your crazy Uncle Jeb.</h5>
+          <h5>Just like your crazy Uncle Jeb</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -234,7 +234,7 @@
       <li class="purple-nav nav"><a href="purple.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Perfectly introspective.</h5>
+          <h5>Perfectly introspective</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
@@ -246,7 +246,7 @@
       <li class="home-nav nav"><a href="index.php">
         <div class="top-scroll-text">
           <img class="top-title-line" src="assets/img/nav/nav-title-line2.png" alt="title line">
-          <h5>Where the heart is.</h5>
+          <h5>Where the heart is</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line2.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">

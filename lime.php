@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="yellow.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>rich like scrooge (mcduck or ebenezer)</h5>
+          <h5>betcha can't read this</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>yellow</h4>
           <img class="icon" src="assets/img/nav/yellow-icon.png" alt="yellow icon">
@@ -130,7 +130,7 @@
       <nav class="right-nav">
         <a href="leaf-green.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>saving the planet, one hue at a time</h5>
+          <h5>Not all leaves, but most</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>leaf green</h4>
           <img class="right-nav-icon" src="assets/img/nav/leaf-green-icon.png" alt="leaf green icon">

@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="lime.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>so fresh and so clean clean</h5>
+          <h5>so fresh and so clean</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>lime</h4>
           <img class="icon" src="assets/img/nav/lime-icon.png" alt="lime icon">

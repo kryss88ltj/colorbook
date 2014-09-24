@@ -51,9 +51,9 @@
 
         <!-- Description Bar --> 
         <div class="desc-bar collapsed">
-          <img src="assets/img/line.png" alt="lines" class="line1">
+          <img src="assets/img/line-dark.png" alt="lines" class="line1">
           <p class="desc-text">Yellow is the fattest color of all, and probably should stop eating so many carbs.</p>
-          <img src="assets/img/line.png" alt="lines" class="line2">
+          <img src="assets/img/line-dark.png" alt="lines" class="line2">
           <div class="down-arrow"></div>
         </div>
 
