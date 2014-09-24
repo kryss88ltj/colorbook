@@ -76,6 +76,10 @@ body {
     line-height: 24px;
   }
 
+.left-nav h5 {
+  width: 156px;
+}
+
   .left-nav img, 
   .right-nav img, 
   .left-nav h4, 

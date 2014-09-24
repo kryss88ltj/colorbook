@@ -52,7 +52,7 @@
         <!-- Description Bar --> 
         <div class="desc-bar collapsed">
           <img src="assets/img/line.png" alt="lines" class="line1">
-          <p class="desc-text">Violet is often confused with Indigo.</p>
+          <p class="desc-text">Violet is often confused with Indigo</p>
           <img src="assets/img/line.png" alt="lines" class="line2">
           <div class="down-arrow"></div>
         </div>
@@ -127,7 +127,7 @@
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h5>perfectly introspective</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h4>violet</h4>
+          <h4>purple</h4>
           <img class="right-nav-icon" src="assets/img/nav/purple-icon.png" alt="purple icon">
         </a>
       </nav>

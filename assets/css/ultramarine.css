@@ -70,11 +70,19 @@ body {
     font-size: 14px;
     color: #fff;
     text-align: center;
-    width: 150px;
+   /* width: 150px;*/
     /*padding-left: 5%;*/
     margin: .75em auto -5px;
     letter-spacing: .08em;
     line-height: 24px;
+  }
+
+  .left-nav h5 {
+    width: 134px;
+  }
+
+  .right-nav h5 {
+    width: 156px;
   }
 
   .left-nav img, 
@@ -241,7 +249,7 @@ body {
   .line1 {
     position: absolute;
     top: 20px;
-    left: 28.25%;
+    left: 24.5%;
     margin: 0 auto;
     display: none;
   }
@@ -250,7 +258,7 @@ body {
     position: absolute;
     bottom: 20px;
     margin: 0 auto;
-    left: 28.25%;
+    left: 24.5%;
     display: none;
   }
 

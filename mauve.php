@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="purple.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>Perfectly introspective.</h5>
+          <h5>Perfectly introspective</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>purple</h4>
           <img class="icon" src="assets/img/nav/purple-icon.png" alt="purple icon">

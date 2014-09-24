@@ -124,7 +124,7 @@
       <nav class="right-nav">
         <a href="mauve.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>a red so cool, it&#39;ll steal your girlfriend</h5>
+          <h5>the coolest red on the block</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>mauve</h4>
           <img class="right-nav-icon" src="assets/img/nav/mauve-icon.png" alt="mauve icon">
