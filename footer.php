@@ -245,12 +245,13 @@
 
       <li class="home-nav nav"><a href="index.php">
         <div class="top-scroll-text">
-          <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <img class="top-title-line" src="assets/img/nav/nav-title-line2.png" alt="title line">
           <h5>Where the heart is.</h5>
-          <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
+          <img class="bottom-title-line" src="assets/img/nav/nav-title-line2.png" alt="title line">
         </div>
         <div class="bottom-scroll-text">
           <h4>Home</h4>
+          <img class="icon" src="assets/img/nav/eye-logo.png" alt="eye icon">
         </div>
       </a></li>
 

@@ -481,17 +481,26 @@ body {
     top: 24px;
   }
 
+  .home-nav h5 {
+    color: #000 !important; 
+    font-weight: 700 !important;
+    width: 82% !important;
+    padding-left: 9% !important;
+    font-family: 'brandon_grotesque_regularRg' !important;
+  }
+
   .home-nav h4 {
     position: absolute;
     top: 154px;
     left: 55px;
+    color: #000 !important;
   }
 
   .home-nav .icon {
     width: 120px;
     position: absolute;
-    top: 203px;
-    left: 27px;
+    top: 235px;
+    left: 35px;
   }
 
 
@@ -540,7 +549,7 @@ body {
   .ultramarine-nav {background: #0066b3;}
   .violet-nav {background: #2e3192;}
   .purple-nav {background: #6f2c91;}
-  .home-nav {background: #363636;}
+  .home-nav {background: #f1f3f3;}
   
 
 
