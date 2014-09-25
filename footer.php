@@ -261,7 +261,7 @@
   </nav>
 
   <div class="creators">
-      <p>SITE DESIGNED BY DAN ROSENBERG AND CHRISTINE STAUFFER</p>
+      <p>SITE DESIGNED BY <a class="dan" href="www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND CHRISTINE STAUFFER</p>
       <p class="created">CREATED WINTER 2014</p>
   </div> 
 

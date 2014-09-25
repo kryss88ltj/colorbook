@@ -625,6 +625,10 @@ body {
     transition: opacity 10s ease-in-out 5s !important;
   }
 
+  .dan:hover {
+      color: #000;
+  }
+
   @media only screen and (max-width: 1200px) {
     body > * {
       display: none !important;
