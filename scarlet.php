@@ -144,7 +144,7 @@
 
   <script>
     $('.main-text').flowtype({
-       maxFont   : 20,
+       maxFont   : 25,
        fontRatio : 26});
   </script>
 
