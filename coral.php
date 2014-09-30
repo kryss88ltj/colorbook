@@ -152,8 +152,9 @@
        fontRatio : 26});
   </script>
 
-<!-- <section class="scrollsections section2">
-  // <?php //include("footer.php"); ?>
-</section> -->
+<section class="scrollsections section2">
+   <?php include("footer.php"); ?>
+</section>
 
+<div id="transition">Tablet version coming soon!</div>
 
