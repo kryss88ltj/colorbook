@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('assets/fonts/brandonG/brandongrotesque-black-webfont.eot');
+    src: url('assetsfonts/brandonG/brandongrotesque-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/brandonG/brandongrotesque-black-webfont.woff') format('woff'),
+         url('assets/fonts/brandonG/brandongrotesque-black-webfont.ttf') format('truetype'),
+         url('assets/fonts/brandonG/brandongrotesque-black-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('assets/fonts/brandonG/brandongrotesque-regular-webfont.eot');
+    src: url('assets/fonts/brandonG/brandongrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/brandonG/brandongrotesque-regular-webfont.woff') format('woff'),
+         url('assets/fonts/brandonG/brandongrotesque-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/brandonG/brandongrotesque-regular-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#tablet {
+  /*margin: 0 auto;*/
+  /*display: table;*/
+  text-align: center;
+}
+
+.h1wrapper {
+  width: 100%;
+  background: #000;
+}
+
+#tablet h1 {
+  text-transform: uppercase;
+  margin: 0px auto;
+  padding: 15px 0;
+  width: 318px;
+  min-width: 25%;
+  background: #000;
+  color: #fff;
+  font-family: 'brandon_grotesque_regularRg';
+  font-size: 30px;
+}
+
+p {
+  font-family: 'brandon_grotesque_regularRg'; 
+  text-align: center; 
+  margin: 18px auto; 
+  font-size: 17px;
+}
+
+.p1 {
+  min-width: 37%; 
+  width: 469px;
+}
+
+.p2 {
+  min-width: 25%;
+  width: 317px;
+}
+
+.p3 {
+  min-width: 27%;
+  width: 342px;
+}
+
+
+
+
+
+

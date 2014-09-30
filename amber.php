@@ -151,4 +151,4 @@
   <?php include("footer.php"); ?>
 </section>
 
-<div id="transition">Tablet version coming soon!</div>
+<div id="transition"><?php include("tablet.php"); ?></div>

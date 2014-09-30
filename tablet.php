@@ -1,10 +1,3 @@
-<html>
-<head>
-<title>some junk</title>
-
-<link rel="stylesheet" type="text/css" href="test.css">
-</head>
-
 <div id="tablet">
   <img src="assets/img/nav/eye-logo.png">
   <div class="h1wrapper">
