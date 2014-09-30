@@ -99,12 +99,11 @@
 
 </div>
 
-<div id="transition">Tablet version coming soon!</div>
-
 <script>
   $("#startScroll").snapscroll();
 </script>
 
+<div id="transition"><?php include("tablet.php"); ?></div>
 
 </body>
 </html>

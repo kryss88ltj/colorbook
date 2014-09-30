@@ -587,7 +587,13 @@ body {
 
 @media only screen and (max-width: 1291px) {
   .main-text {
-    width: 44%;
+    width: 43%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-text {
+    width: 40%;
   }
 }
 
