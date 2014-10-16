@@ -261,10 +261,51 @@
   </nav>
 
   <div class="creators">
-      <p>SITE DESIGNED BY <a class="dan" href="www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND CHRISTINE STAUFFER</p>
+      <p>SITE DESIGNED BY <a class="dan" href="http://www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND CHRISTINE STAUFFER</p>
+      <img class="info-eye" src="assets/img/nav/little-eye.png" alt="">
       <p class="created">CREATED WINTER 2014</p>
   </div> 
 
+  <div class="main-popup">
+    <div class="popup-wrap group clearfix">
+      <section class="popup-top group clearfix">
+        <img class="close-icon" src="assets/img/nav/close-icon.gif">
+        <img class="eyeball1" src="assets/img/nav/eye-logo.png">
+        <h1 class="color-title">everything i know about color</h1>
+        <div class="about-wrap">
+          <h3 class="about-book">about the book</h3>
+          <p class="about-para1">
+          This project first started in 2013 as a booklet for Type 2 at the creative circus. After 10 weeks of Sylvia learning, it seemed like the best way to keep the information fresh.  Later, it felt selfish to keep the book to myself, so here you go, internet. About a year later, it’s online, for free.   
+          </p><br>
+          <p class="about-para2">
+          Many of the icons featured  here are from The Noun Project, and the information comes from the gospel of Gaffney. Also, a thank you to Kinsey Travitz for keeping excellent notes and letting me borrow them. She’s also a great designer and art director and a decent friend, so go hire her. See below for a full list of attributions.    
+          </p>
+
+          <h3 class="about-creators">about the creators</h3>
+          <h4 class="d-rosey">Dan Rosenberg</h4>
+          <p class="creators-para1">
+            I’m an art director and color-loving geek. I’m a soon-to-be or recent graduate of the Creative Circus (depending upon when you’re reading this). If you like this resource, I’d love to hear from you - drop me an email at DanRosenberg7@gmail.com, even just to say “Yo.” 
+          </p>
+          <h4 class="c-swizzy">Christine Suarez</h4>
+          <p class="creators-para2">
+            I'm Dan Rosenberg's biggest fan, and I am in love with Internet technology.  Feel free to get in touch with me via email or LinkedIn.  
+          </p>
+        </div>
+      </section>
+
+      <section class="popup-bottom group">
+        <div class="color-imgs">
+          <div class="blocknum1">#1</div>
+          <div class="blocknum2">#2</div>
+          <div class="blocknum3">#3</div>
+        </div>
+        <h3 class="what-are-these">what are these?</h3>
+        <p class="what-are-these-para">
+          On each page, you’ll find the two related hues (#1, #3) and the hue’s complement (#2), along with the CMYK values. You can even click on them!
+        </p>
+      </section>
+    </div>
+  </div>
 
   <!-- Scrolling Nav Script --> 
   <script type="text/javascript">

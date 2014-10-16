@@ -538,6 +538,10 @@ body {
     left: 35px;
   }
 
+  .info-eye {
+    float: left;
+    margin: 0 0 0px 15px;
+  }
 
   .mauve-nav .bottom-scroll-text, 
   .magenta-nav .bottom-scroll-text, 
@@ -695,6 +699,158 @@ body {
   min-width: 27%;
   width: 342px;
 }
+
+/*****************/
+/**  Info Popup **/
+/*****************/
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.main-popup {
+  display: none;
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.6);
+  font-family: 'brandon_grotesque_regularRg';
+}
+
+.popup-wrap {
+  z-index: 100000;
+  height: 100%;
+  width: 65%;
+  background: #d1d2d4;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.about-wrap {
+  padding: 0 18%;
+}
+
+.about-para1, 
+.about-para2,
+.creators-para1,
+.creators-para2 {
+  font-size: 14px;  
+}
+
+.about-book, 
+.about-creators {
+  text-transform: uppercase;
+  font-family: 'brandon_grotesquemedium';
+}
+
+.about-book, 
+.about-creators, 
+.d-rosey, 
+.c-swizzy,
+.creators-para1,
+.creators-para2,
+.about-para1, 
+.about-para2 {
+  margin: 0;
+  padding: 0;
+}
+
+.d-rosey, 
+.c-swizzy {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.about-creators {
+  margin-top: 18px;
+}
+
+.eyeball1 {
+  height: 65px;
+  width: 65px;
+  margin: 0 auto;
+  display: table;
+}
+
+.color-title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 15px 0;
+  font-family: 'brandon_grotesquemedium';
+}
+
+.popup-top {
+  margin-bottom: 50px;
+  background: #d1d2d4;
+  position: relative;
+}
+
+.close-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.popup-bottom {
+  background: #e7e8e9;
+  padding: 2% 10%;
+}
+
+.blocknum1,
+.blocknum2,
+.blocknum3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'brandon_grotesquemedium';
+  text-align: center;
+  line-height: 1.7;
+}
+
+.blocknum1 {background: #ed1c24; display: block; margin-bottom: 5px; margin-right: 50px;}
+.blocknum2 {background: #00aeef; float: left; margin-right: 5px;}
+.blocknum3 {background: #39b54a; float: left; margin-right: 20px;}
+
+.what-are-these {
+  margin-top: -40px;
+  padding: 0;
+  text-transform: uppercase;
+  float: left;
+}
+
+.what-are-these-para {
+  float: left;
+  width: 77%;
+  display: inline;
+  font-size: 16px;
+  color: #5d5e5e;
+  margin: 0;
+  margin-top: -15px;
+  padding: 0;
+}
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  }
+
+
+
+
+
+
 
 
 

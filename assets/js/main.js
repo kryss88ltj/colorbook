@@ -102,6 +102,16 @@ $(document).ready(function() {
       $( ".left-nav h4, .left-nav h5, .left-nav img" ).fadeToggle(10);
     }
   );
+
+// Info popup
+
+$(".info-eye").click(function() {
+  $(".main-popup").fadeToggle();
+});
+
+$(".close-icon").click(function() {
+  $(".main-popup").fadeToggle();
+});
     
 // hack for bottom scrolling 
 
@@ -121,16 +131,7 @@ $("#nav-ul .home-nav").hover(
         console.log("touching puprp");
       });
 
-    // $(".ultramarine-nav").attr('width', '184px');
-    // $(".mauve-nav").attr('width', '184px');
-    // $(".magenta-nav").attr('width', '184px');
-    // $(".sky-blue-nav").attr('width', '184px');
-    // $(".cyan-nav").attr('width', '184px');
-    // $(".emerald-nav").attr('width', '184px');
-    // $(".sea-green-nav").attr('width', '184px');
-    // $(".leaf-green-nav").attr('width', '184px');
-    // $(".lime-nav").attr('width', '184px');
-    // $(".yellow-nav").attr('width', '184px');
+
   });
     
 
@@ -138,34 +139,4 @@ $("#nav-ul .home-nav").hover(
 
 
 
-  // var upFlag = true;
-  
-  // $(window).scroll(function(){
-  //   var top = $(this).scrollTop();
-  //   // var navTop = $("#scroll-nav").scrollTop(668);
-  //   console.log(top);
-  //   // console.log(navTop);
-
-  //   if(top > 150 && upFlag){
-  //     upFlag = false;
-  //   console.log("past 250");
-   
-  //     var body = $("body");
-  //     body.animate({scrollTop: 668}, 1000, 'swing', function() {
-  //       // upFlag = false;
-  //         if (!upFlag) {
-  //           $(window).scroll(function() {
-  //             upFlag = true;
-  //             console.log("second scroll event");
-  //             body.animate({scrollTop: 0}, 1000, 'swing', function() {
-  //               console.log("back up");
-  //             upFlag = false;
-  //             });
-  //           });
-  //         }
-  //       });
-  //   }
-  // });
-
-//try 2
 
