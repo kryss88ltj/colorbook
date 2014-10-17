@@ -2,7 +2,7 @@
 /* Background */
 /**************/
 
-body {background: #fee9ea;}
+body {background: #fee9ea; overflow-y: scroll;}
 
 html,
 body {
@@ -12,6 +12,12 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#startScroll {
+  height: 100%;
+  width: 100%;
+}
+
 .scrollsections {
   display: block;
   position: relative;

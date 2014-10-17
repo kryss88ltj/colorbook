@@ -3,7 +3,7 @@
 
 <?php include("header.php"); ?>
 
-
+<div id="startScroll">
 <!-- Main Section - Includes all but bottom nav slider -->
   <section class="scrollsections">
     <div class="main-section clearfix">
@@ -140,14 +140,21 @@
     </div> <!-- end entire main section --> 
   </section> 
 
+  <section class="scrollsections section2">
+    <?php include("footer.php"); ?>
+  </section>
+
+  <div id="transition"><?php include("tablet.php"); ?></div>
+
+  <script>
+    $("#startScroll").snapscroll();
+  </script>
+
   <script>
     $('.main-text').flowtype({
        maxFont   : 20,
-       fontRatio : 20});
-  </script>
+       fontRatio : 26});
+</script>
 
-<section class="scrollsections section2">
-  <?php include("footer.php"); ?>
-</section>
-
-<div id="transition"><?php include("tablet.php"); ?></div>
+</body>
+</html>
