@@ -798,6 +798,13 @@ body {
   width: 25px;
 }
 
+.info-icon {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin: -2px 0 0px 15px;
+}
+
 .popup-bottom {
   background: #e7e8e9;
   padding: 2% 10%;

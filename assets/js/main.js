@@ -105,12 +105,15 @@ $(document).ready(function() {
 
 // Info popup
 
-$(".info-eye").click(function() {
+
+$(".info-icon").click(function() {
   $(".main-popup").fadeToggle();
+  $("body").css("overflow","hidden");
 });
 
-$(".close-icon").click(function() {
+$(".close-icon, .main-popup").click(function() {
   $(".main-popup").fadeToggle();
+  $("body").css("overflow","auto");
 });
     
 // hack for bottom scrolling 

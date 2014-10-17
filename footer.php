@@ -262,7 +262,7 @@
 
   <div class="creators">
       <p>SITE DESIGNED BY <a class="dan" href="http://www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND CHRISTINE STAUFFER</p>
-      <img class="info-eye" src="assets/img/nav/little-eye.png" alt="">
+      <img class="info-icon" src="assets/img/nav/info-xxl.png" alt="">
       <p class="created">CREATED WINTER 2014</p>
   </div> 
 
