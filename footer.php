@@ -261,7 +261,7 @@
   </nav>
 
   <div class="creators">
-      <p>SITE DESIGNED BY <a class="dan" href="http://www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND CHRISTINE STAUFFER</p>
+      <p>SITE DESIGNED BY <a class="dan" href="http://www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND <a class="christine" href="https://www.linkedin.com/pub/christine-stauffer/40/873/491">CHRISTINE STAUFFER</a></p>
       <img class="info-icon" src="assets/img/nav/info-xxl.png" alt="">
       <p class="created">CREATED WINTER 2014</p>
   </div> 
@@ -284,7 +284,7 @@
           <h3 class="about-creators">about the creators</h3>
           <h4 class="d-rosey">Dan Rosenberg</h4>
           <p class="creators-para1">
-            I’m an art director and color-loving geek. I’m a soon-to-be or recent graduate of the Creative Circus (depending upon when you’re reading this). If you like this resource, I’d love to hear from you - drop me an email at DanRosenberg7@gmail.com, even just to say “Yo.” 
+            I’m an art director and color-loving geek. I’m a soon-to-be or recent graduate of the Creative Circus (depending upon when you’re reading this). If you like this resource, I’d love to hear from you - drop me an email at <span>DanRosenberg7@gmail.com</span>, even just to say “Yo.” 
           </p>
           <h4 class="c-swizzy">Christine Suarez</h4>
           <p class="creators-para2">

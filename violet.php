@@ -133,7 +133,7 @@
       </nav>
 
       <div class="page-break">
-        <img src="assets/img/violet/arrows-transparent.png">
+        <a name="scroll-nav"><img src="assets/img/violet/arrows-transparent.png"></a>
       </div>
 
     </div> <!-- end entire main section --> 

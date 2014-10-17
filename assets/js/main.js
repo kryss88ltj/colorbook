@@ -112,9 +112,28 @@ $(".info-icon").click(function() {
 });
 
 $(".close-icon, .main-popup").click(function() {
+  $(".popup-wrap").click(function() {
+    event.preventDefault();
+  });
   $(".main-popup").fadeToggle();
   $("body").css("overflow","auto");
 });
+
+
+
+
+// functionality for arrow scrolling 
+
+
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$(".page-break").click(function() {
+   scrollToAnchor('scroll-nav');
+});
+
     
 // hack for bottom scrolling 
 

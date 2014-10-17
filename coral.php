@@ -140,7 +140,7 @@
       </nav>
 
       <div class="page-break">
-        <img src="assets/img/coral/arrows-transparent.png">
+        <a name="scroll-nav"><img src="assets/img/coral/arrows-transparent.png"></a>
       </div>
 
     </div> <!-- end entire main section --> 

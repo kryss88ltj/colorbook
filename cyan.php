@@ -15,7 +15,7 @@
       <nav class="left-nav">
         <a href="teal.php">
           <img class="top-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
-          <h5>oscar wilde: the hue.</h5>
+          <h5>oscar wilde: the hue</h5>
           <img class="bottom-title-line" src="assets/img/nav/nav-title-line.png" alt="title line">
           <h4>teal</h4>
           <img class="icon" src="assets/img/nav/teal-icon.png" alt="teal icon">
@@ -132,7 +132,7 @@
       </nav>
 
       <div class="page-break">
-        <img src="assets/img/cyan/arrows-transparent.png">
+        <a name="scroll-nav"><img src="assets/img/cyan/arrows-transparent.png"></a>
       </div>
 
     </div> <!-- end entire main section --> 

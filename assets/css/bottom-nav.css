@@ -629,8 +629,13 @@ body {
     transition: opacity 10s ease-in-out 5s !important;
   }
 
-  .dan:hover {
+  .dan, .christine {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  .dan:hover, .christine:hover {
       color: #000;
+      
   }
 
   @media only screen and (max-width: 1200px) {
@@ -729,6 +734,7 @@ body {
   background: #d1d2d4;
   margin: 0 auto;
   opacity: 1;
+  pointer-events: none;
 }
 
 .about-wrap {
@@ -740,6 +746,10 @@ body {
 .creators-para1,
 .creators-para2 {
   font-size: 14px;  
+}
+
+.creators-para1 span {
+  color: #0000ff;
 }
 
 .about-book, 
@@ -791,6 +801,7 @@ body {
   margin-bottom: 50px;
   background: #d1d2d4;
   position: relative;
+  pointer-events: none;
 }
 
 .close-icon {
@@ -798,16 +809,31 @@ body {
   width: 25px;
 }
 
+.close-icon:hover {
+  background: #ff0000;
+  cursor: pointer;
+}
+
 .info-icon {
   height: 25px;
   width: 25px;
   float: left;
   margin: -2px 0 0px 15px;
+  border-radius: 25px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.info-icon:hover {
+  background: #ff0000;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .popup-bottom {
   background: #e7e8e9;
   padding: 2% 10%;
+  pointer-events: none;
 }
 
 .blocknum1,
@@ -853,6 +879,9 @@ body {
   height: 0;
   }
 
+.page-break:hover {
+  cursor: pointer;
+}
 
 
 
