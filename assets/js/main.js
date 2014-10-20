@@ -107,19 +107,15 @@ $(document).ready(function() {
 
 
 $(".info-icon").click(function() {
-  $(".main-popup").fadeToggle();
+  $(".main-popup, .popup-wrap").fadeToggle();
   $("body").css("overflow","hidden");
 });
 
+
 $(".close-icon, .main-popup").click(function() {
-  $(".popup-wrap").click(function() {
-    event.preventDefault();
-  });
-  $(".main-popup").fadeToggle();
+  $(".main-popup, .popup-wrap").fadeToggle();
   $("body").css("overflow","auto");
 });
-
-
 
 
 // functionality for arrow scrolling 
