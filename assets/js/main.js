@@ -40,7 +40,7 @@ $(document).ready(function() {
     //   expandFlag = true;
     // }
     if (expandFlag) {
-      $('.main-middle-section').attr('style', 'height: 98% !important');
+      $('.main-middle-section').attr('style', 'height: 93% !important');
       $('.left-nav, .right-nav').attr('style', 'height: 84% !important');
       expandFlag = false;
     } else {
