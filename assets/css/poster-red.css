@@ -458,7 +458,7 @@ body {
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.1;
-    margin-top: 7px;
+    margin-top: 35px;
     text-align: justify;
   }
 
@@ -592,7 +592,7 @@ body {
 
 @media only screen and (max-width: 1291px) {
   .main-text {
-    width: 43%;
+    width: 42%;
   }
 }
 

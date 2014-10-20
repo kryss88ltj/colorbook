@@ -200,10 +200,10 @@ body {
   .sixty {background: #63c2a0;}
   .fifty {background: #7fcbae;}
   .forty {background: #99d4bc;}
-  .thirty {background: #c3e2c1;}
-  .twenty {background: #d6ebd4;}
-  .ten {background: #e9f4e7;}
-  .five {background: #f2f9f2;}
+  .thirty {background: #b2decb;}
+  .twenty {background: #cbe8db;}
+  .ten {background: #e3f2eb;}
+  .five {background: #f0f8f3;}
 
 
 
@@ -447,7 +447,7 @@ body {
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2;
-    margin-top: 7px;
+    margin-top: 35px;
     text-align: justify;
   }
 

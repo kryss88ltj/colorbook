@@ -25,7 +25,7 @@
 
       <div class="main-middle-section clearfix">
        <!-- Color Title --> 
-        <h1 class="title">magenta</h1>
+        <h1 class="title">m<span class="magenta-title">agenta<span></h1>
 
         <!-- Bourges Number --> 
         <div class="bourgesBlock">

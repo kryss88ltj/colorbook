@@ -121,7 +121,7 @@
         <div class="right-infographic">
           <h1>hot-blooded</h1>
           <img src="assets/img/infog-line.png" alt="">
-          <p>Studies have found that after just minutes of looking at the color red a patients body temperature will rise.</p>
+          <p>Studies have found that after just minutes of looking at the color red a patient's body temperature will rise.</p>
           <img src="assets/img/infog-line.png" alt="">
           <img class="bottom-img" src="assets/img/crimson/thermometer.png" alt="thermometer">
         </div> 

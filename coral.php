@@ -64,7 +64,7 @@
           <div class="top-icons clearfix">
             <div class="bottom-left-iconset">
               <img class="top-icon3" src="assets/img/coral/icons/icon3.png" alt="">
-              <p class="icon-text left-text2">used in varied values</p>
+              <p class="icon-text left-text2">best in varied values</p>
             </div>
             <div class="top-right-iconset">
               <img class="top-icon2" src="assets/img/coral/icons/icon2.png" alt="">

@@ -337,22 +337,6 @@ body {
     margin-left: -5px;
   }
 
-  /*.top-icon1,
-  .top-icon3 {
-    margin-right: 7px;
-  }
-
-  .icon-text {
-    margin: 0px 5px 10px 5px !important;
-    display: inline-block;
-    margin: 0;
-    /*width: 40%;*/
-  /*}
-
-  .left-text1 {margin-left: -11px !important; text-align: center; width: 40%;}
-  .right-text1 {margin-left: 28px !important; position: relative; top: -19px;}
-  .left-text2 {margin-left: 6px !important;}
-  .right-text2 {margin-left: 19px !important;}*/
 
   /***** Bottom ******/
 
@@ -458,7 +442,7 @@ body {
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.1;
-    margin-top: 7px;
+    margin-top: 35px;
     text-align: justify;
   }
 

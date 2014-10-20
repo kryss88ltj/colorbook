@@ -117,7 +117,7 @@
         <div class="right-infographic">
           <h1>red hot love</h1>
           <img src="assets/img/infog-line.png" alt="">
-          <p>Red the universally accepted color of love, joy and passion. It also makes men spend more, proving that subconscious, culturally-engrained 
+          <p>Red is the universally accepted color of love, joy and passion. It also makes men spend more, proving that subconscious, culturally-engrained 
           sex sells.</p>
           <img src="assets/img/infog-line.png" alt="">
           <img class="bottom-img" src="assets/img/scarlet/heart-icon.png" alt="heart">

@@ -125,6 +125,10 @@ body {
     line-height: 88px;  
   }
 
+    .mauve-title {
+      margin-left: -5px;
+    }
+
   .bourgesBlock {
     position: relative;
     float: right;
@@ -440,7 +444,7 @@ body {
     font-size: 1.2em;
     font-family: 'brandon_grotesquelight';
     line-height: 2.2;
-    margin-top: 7px;
+    margin-top: 35px;
     text-align: justify;
   }
 

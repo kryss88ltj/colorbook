@@ -63,19 +63,19 @@
      
           <div class="top-icons clearfix">
             <div class="bottom-left-iconset">
-              <img class="top-icon3" src="assets/img/orange/icons/icon3.png" alt="">
+              <img class="top-icon3" src="assets/img/amber/icons/icon1.png" alt="">
               <p class="icon-text left-text2">abundance</p>
             </div>
             <div class="top-right-iconset">
-              <img class="top-icon2" src="assets/img/orange/icons/icon2.png" alt="">
+              <img class="top-icon2" src="assets/img/amber/icons/icon2.png" alt="">
               <p class="icon-text right-text1">nostaliga</p>
             </div>
             <div class="bottom-right-iconset">
-              <img class="top-icon4" src="assets/img/orange/icons/icon4.png" alt="">
+              <img class="top-icon4" src="assets/img/amber/icons/icon4.png" alt="">
               <p class="icon-text right-text2">happiness</p>
             </div>
             <div class="top-left-iconset">
-              <img class="top-icon1" src="assets/img/orange/icons/icon1.png" alt="">
+              <img class="top-icon1" src="assets/img/amber/icons/icon3.png" alt="">
               <p class="icon-text left-text1">mellow, man</p>
             </div>
           </div>
