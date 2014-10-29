@@ -1,8 +1,13 @@
 $(document).ready(function() {  
   console.log("main js working");
 
-// make all columns in main section equal 
+  // var windowHeight = window.innerHeight; 
+  // $(".section1-wrap").css({
+  //   "position":"relative",
+  //   "top":"'" + windowHeight + "'"
+  // });
 
+// make all columns in main section equal 
   
     function unifyHeights() {
         var maxHeight = 0;

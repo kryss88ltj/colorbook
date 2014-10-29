@@ -832,7 +832,7 @@ body {
 }
 
 .info-icon:hover {
-  background: #ff0000;
+  background: cyan;
   border-radius: 25px;
   cursor: pointer;
 }
