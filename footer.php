@@ -263,7 +263,7 @@
   <div class="creators">
       <p>SITE DESIGNED BY <a class="dan" href="http://www.Dan-Rosenberg.com">DAN ROSENBERG</a> AND <a class="christine" href="https://www.linkedin.com/pub/christine-stauffer/40/873/491">CHRISTINE STAUFFER</a></p>
       <img class="info-icon" src="assets/img/nav/info-xxl.png" alt="">
-      <p class="created">CREATED WINTER 2014</p>
+      <a class="circus" href="http://www.creativecircus.edu"><p class="created">CREATED WINTER 2014</p></a>
   </div> 
 
   <div class="main-popup">

@@ -629,11 +629,11 @@ body {
     transition: opacity 10s ease-in-out 5s !important;
   }
 
-  .dan, .christine {
+  .dan, .christine, .circus {
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
   }
-  .dan:hover, .christine:hover {
+  .dan:hover, .christine:hover, .circus:hover {
       color: #000;
       
   }
