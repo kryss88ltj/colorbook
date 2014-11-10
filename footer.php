@@ -277,7 +277,7 @@
       <div class="about-wrap">
         <h3 class="about-book">about the book</h3>
         <p class="about-para1">
-        This project first started in 2013 as a booklet for Type 2 at the creative circus. After 10 weeks of Sylvia learning, it seemed like the best way to keep the information fresh.  Later, it felt selfish to keep the book to myself, so here you go, internet. About a year later, it’s online, for free.   
+        This project first started in 2013 as a booklet for Type 2 at the <a class="circus" href="http://www.creativecircus.edu">Creative Circus</a>. After 10 weeks of Sylvia learning, it seemed like the best way to keep the information fresh.  Later, it felt selfish to keep the book to myself, so here you go, internet. About a year later, it’s online, for free.   
         </p><br>
         <p class="about-para2">
         Many of the icons featured  here are from The Noun Project, and the information comes from the gospel of Gaffney. Also, a thank you to Kinsey Travitz for keeping excellent notes and letting me borrow them. She’s also a great designer and art director and a decent friend, so go hire her. See below for a full list of attributions.    
@@ -286,7 +286,7 @@
         <h3 class="about-creators">about the creators</h3>
         <h4 class="d-rosey">Dan Rosenberg</h4>
         <p class="creators-para1">
-          I’m an art director and color-loving geek. I’m a soon-to-be or recent graduate of the Creative Circus (depending upon when you’re reading this). If you like this resource, I’d love to hear from you - drop me an email at <span>DanRosenberg7@gmail.com</span>, even just to say “Yo.” 
+          I’m an art director and color-loving geek. I’m a soon-to-be or recent graduate of the <a class="circus" href="http://www.creativecircus.edu">Creative Circus</a> (depending upon when you’re reading this). If you like this resource, I’d love to hear from you - drop me an email at <span>DanRosenberg7@gmail.com</span>, even just to say “Yo.” 
         </p>
         <h4 class="c-swizzy">Christine Suarez</h4>
         <p class="creators-para2">

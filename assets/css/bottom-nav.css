@@ -628,14 +628,21 @@ body {
     -webkit-transition: opacity 10s ease-in-out 5s !important;
     transition: opacity 10s ease-in-out 5s !important;
   }
+  
+  .circus {
+    color: red !important
+  }
 
   .dan, .christine, .circus {
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
   }
-  .dan:hover, .christine:hover, .circus:hover {
+  .dan:hover, .christine:hover {
       color: #000;
-      
+  }
+
+  .circus:hover {
+    text-shadow: 1px 1px 1px #787573;
   }
 
   @media only screen and (max-width: 1200px) {
